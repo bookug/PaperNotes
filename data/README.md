@@ -1,6 +1,6 @@
 # Paper Notes
 
-add enough tags(title, authors, conference, year...) to papers and provide a summary
+**No spaces between 'key=value' pairs. And when comma is used as separator between multiple items, spaces are also not allowed before or after the comma.**
 
 if an tag is missing, uses NULL
 

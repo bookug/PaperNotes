@@ -10,9 +10,20 @@ import copy
 # TODO: papers after a given year, or a year interval; fuzzy matching? split into words and not substring matching?
 # BETTER: compute the similarity of two strings instead of finding substr, for example, Li Zeng and Zeng Li should be the same
 
-file="note/literature.md"
+# file="note/literature.list"
+def getFiles(dir, suffix):
+    results = []
+    for root, directory, files in os.walk(dir):
+        # print root,directory,files
+        for filename in files:
+            name, suf = os.path.splitext(filename)
+            # print name,suf
+            if suf == suffix:
+                # print os.path.join(root,filename)
+                results.append(os.path.join(root, filename))
+    return results
 
-items = ["title", "author", "journal", "year", "tags", "star", "problem", "interest", "hardness", "idea", "future", "comment", "other"]
+items = ["id", "title", "author", "journal", "year", "tags", "star", "problem", "interest", "hardness", "idea", "future", "comment", "other"]
 
 class Paper(object):
     def __init__(self, content={}):
@@ -42,9 +53,9 @@ class Paper(object):
 def compare_paper(a, b):
     return len(a.content["star"]) < len(b.content["star"])
 
-def readPaperList():
-    papers = []
-    with open(file, "r") as file_object:
+def readPaperList(papers, f):
+    # papers = []
+    with open(f, "r") as file_object:
         # contents = file_object.read()
         # print contents
         # for line in file_object:
@@ -72,7 +83,8 @@ def readPaperList():
     # print "to check"
     # for p in papers:
         # p.output()
-    return papers
+    return 
+    # return papers
 
 def usage():
     print(
@@ -85,6 +97,7 @@ def usage():
         -y or --year: the publication year of paper
         -j or --journal: the conference/journal of paper
         -s or --star: the score of paper, 1~5
+        -i or --id: the unique ID of this paper
         -v or --version：shows the version of this software
         """
     )
@@ -113,6 +126,9 @@ def check(paper, limits):
                         break
                 if flag == False:
                     return False
+        elif l == 'id':
+            if v != paper.content[l]:
+                return False
         else:
             if regexMatch(v, paper.content[l]) == False:
                 return False
@@ -127,7 +143,11 @@ def starString(arg):
     return ret
 
 if __name__ == '__main__':
-    papers = readPaperList()
+    files = getFiles('data', '.list')
+    papers = []
+    for f in files:
+        # print f
+        readPaperList(papers, f)
     # for p in papers:
         # p.output()
     if len(sys.argv) == 1:
@@ -135,7 +155,7 @@ if __name__ == '__main__':
         sys.exit()
     # REFER: https://www.cnblogs.com/madsnotes/articles/5687079.html
     try:
-        opts, args = getopt.getopt(sys.argv[1:], "h:t:g:a:y:j:s:v", ["help", "title=", "tags=", "author=", "year=", "journal=", "star=", "version"])   
+        opts, args = getopt.getopt(sys.argv[1:], "h:t:g:a:y:j:s:i:v", ["help", "title=", "tags=", "author=", "year=", "journal=", "star=", "id=", "version"])   
     except getopt.GetoptError:
             print("argv error,please input")
     # print opts
@@ -158,6 +178,8 @@ if __name__ == '__main__':
         elif cmd in ("-s", "--star"):
             limits["star"] = starString(arg)
             # print limits["star"]
+        elif cmd in ("-i", "--id"):
+            limits["id"] = arg
         elif cmd in ("-v", "--version"):
             print("%s version 1.0" % sys.argv[0])
     # print limits

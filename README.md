@@ -15,6 +15,8 @@ The custom of taking notes is in [RULES](data/README.md).
 
 Please write your own notes in a separate file, for example, 'bookug' is a contributor, and he will write notes in data/bookug.list following the rules.
 
+Please do not modify the template file: 'data/template.list'.
+
 ### Usage
 
 The searching is based on substring, so the order can not be changed, like 'Li Zeng' is different from 'Zeng Li'.
