@@ -31,6 +31,7 @@ src/search.py -g "GPU" -s 4
 -y or --year: the publication year of paper
 -j or --journal: the conference/journal of paper
 -s or --star: the score of paper, 1~5
+-i or --id: the unique ID of this paper
 -v or --version：shows the version of this software
 ```
 
