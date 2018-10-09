@@ -23,6 +23,12 @@ def getFiles(dir, suffix):
                 results.append(os.path.join(root, filename))
     return results
 
+def removeWhiteSpace(strlist):
+    new_value_list = []
+    for i in strlist:
+        new_value_list.append(i.strip())
+    return new_value_list
+
 items = ["id", "title", "author", "journal", "year", "tags", "star", "problem", "interest", "hardness", "idea", "future", "comment", "other"]
 
 class Paper(object):
@@ -32,9 +38,9 @@ class Paper(object):
         if key == 'author' or key == 'tags':
             value_list = value.split(',')
             # print value_list
-            self.content[key] = value_list
+            self.content[key] = removeWhiteSpace(value_list)
         else:
-            self.content[key] = value
+            self.content[key] = value.strip()
     def output(self):
         # BETTER: set a display order for different items
         # for key in self.content:
@@ -76,8 +82,8 @@ def readPaperList(papers, f):
             curr = Paper()
         else:
             str = line.split('=')
-            key = str[0]
-            value = str[1]
+            key = str[0].strip()
+            value = str[1].strip()
             curr.add(key, value)
             # print curr.content
     # print "to check"
@@ -166,20 +172,20 @@ if __name__ == '__main__':
             print("help info")
             sys.exit()
         elif cmd in ("-y", "--year"):
-            limits["year"] = arg
+            limits["year"] = arg.strip()
         elif cmd in ("-j", "--journal"):
-            limits["journal"] = arg
+            limits["journal"] = arg.strip()
         elif cmd in ("-t", "--title"):
-            limits["title"] = arg
+            limits["title"] = arg.strip()
         elif cmd in ("-a", "--author"):
-            limits["author"] = arg.split(',')
+            limits["author"] = removeWhiteSpace(arg.split(','))
         elif cmd in ("-g", "--tags"):
-            limits["tags"] = arg.split(',')
+            limits["tags"] = removeWhiteSpace(arg.split(','))
         elif cmd in ("-s", "--star"):
-            limits["star"] = starString(arg)
+            limits["star"] = starString(arg.strip())
             # print limits["star"]
         elif cmd in ("-i", "--id"):
-            limits["id"] = arg
+            limits["id"] = arg.strip()
         elif cmd in ("-v", "--version"):
             print("%s version 1.0" % sys.argv[0])
     # print limits

@@ -56,7 +56,7 @@ interest=BFS is a basic operator in graph algorithms and its speed is very impor
 hardness=the work complexity of original methods are too high,load imbalance,irregular memory access due to graph structure,duplicates due to concurrent discovery and previously-visited nodes
 idea=based on frontier queue to reduce work complexity,expand via prefix sum,warp/block scheduling to solve load imbalance,remove duplicates(not all) based on warp or history
 future=use the ideas in other graph algorithms,good strategies to solve the load imbalance,develop new optimizations for BFS
-comment=wonderful papers and everyone working on GPU graph algorithms should read it
+comment=perfect work,wonderful papers and everyone working on GPU graph algorithms should read it
 other=this paper is hard to understand and there is another more detailed technical report,some blogs on Internet talks about its ideas in more comprehensive way and my PPT is also a good material for BFS
 ---
 id=4
