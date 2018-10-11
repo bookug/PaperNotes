@@ -1,7 +1,37 @@
 ---
-id=
+id=0
 title=
 author=
+journal=
+year=
+tags=
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=1
+title=Lessons Learned from Exploring the Backtracking Paradigm on the GPU
+author=    John Jenkins,Isha Arkatkar,John D. Owens,Alok Choudhary,Nagiza F. Samatova
+journal= European Conference on Parallel and Distributed Computing(Euro-Par)
+year=2011
+tags=Shared Memory,Connectivity Query,Memory Operation,Frequent Itemset Mining,Candidate Path,backtrack
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=2
+title= A Sparse Completely Positive Relaxation of the Modularity Maximization for Community Detection
+author=Haoyang Liu
 journal=
 year=
 tags=

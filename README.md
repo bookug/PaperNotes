@@ -51,3 +51,20 @@ Each paper is assigned a unique ID, and all IDs only grows continuously.
 Some papers may use the other ideas of other papers, and this phenomena are indicated by [id=?], for example [id=10].
 Later, you can search the corresponding paper in data/literature.list by this ID.
 
+---
+
+### Scholar
+
+We provide some scholar searching engines here:
+
+- DBLP for Computer Science
+- arXiv
+- Google Scholar
+- xueshu.baidu.com
+- https://search.crossref.org/
+- SciHub
+- http://www.vldb.org/pvldb/
+- https://www.researchgate.net
+- https://dl.acm.org/dl.cfm
+- Google and Bing
+
