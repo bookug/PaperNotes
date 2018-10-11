@@ -67,4 +67,6 @@ We provide some scholar searching engines here:
 - https://www.researchgate.net
 - https://dl.acm.org/dl.cfm
 - Google and Bing
+- https://academic.microsoft.com/
+- https://www.aminer.cn/
 
