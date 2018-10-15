@@ -99,10 +99,10 @@ star=****
 problem=how relational joins can utilize hardware features of the GPU
 interest=relational join is the most time-consuming part in query processing
 hardness=the relational join algorithms must be optimized to adapt to the features of new-generation GPU
-idea=contsructing primitives providing high-level abstractions for data-centric operations and are highly tuned to fully utilize the architectural features of graphics processors
+idea=contsructing primitives providing high-level abstractions for data-centric operations and are highly tuned to fully utilize the architectural features of graphics processors, combine quick sort(lower work complexity, when the whole amount of work is larger than cores) and bitonic sort(lower step complexity, only when placed in shared memory)
 future=evaluate the join algorithms in this paper with more complex workloads,to schedule the execution of relational query processing between CPU and GPU so that their computation power is fully exploited
-comment=the first job to apply relational join algorithms(non-indexed nested loop join, indexed nested loop join, sort-merge join, hash join) on GPGPU, and in experiments only quad-cPUs are compared
-other=the first to do something will always be remembered, even he does not so well
+comment=the first job to apply relational join algorithms(non-indexed nested loop join, indexed nested loop join, sort-merge join, hash join) on GPGPU, and in experiments only quad-CPUs are compared; in split primitive each thread maintains a local histogram, which limits the number of partitions(larger number requires multiple passes of split); better to quantitatively study the performance impact of each individual hardware feature
+other=the first to do something will always be remembered, even he does not so well; far behind the CPU vendors' tradition of giving sufficient details about the hardware specification
 ---
 id=7
 title=Direction-Optimizing Breadth-First Search
