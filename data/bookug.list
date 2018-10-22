@@ -224,3 +224,18 @@ future=
 comment=
 other=
 ---
+id=15
+title=Query Workload-based RDF Graph Fragmentation and Allocation
+author=Peng Peng, Lei Zou, Lei Chen,Dongyan Zhao
+journal= International Conference on Extending Database Technology (EDBT, CCF B in Database area)
+year=2016
+tags=RDF,Graph Fragmentation, query workload, Graph Partition
+star=***
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---

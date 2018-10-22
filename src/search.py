@@ -29,7 +29,7 @@ def removeWhiteSpace(strlist):
         new_value_list.append(i.strip())
     return new_value_list
 
-items = ["id", "title", "author", "journal", "year", "tags", "star", "problem", "interest", "hardness", "idea", "future", "comment", "other"]
+items = ["file", "id", "title", "author", "journal", "year", "tags", "star", "problem", "interest", "hardness", "idea", "future", "comment", "other"]
 
 class Paper(object):
     def __init__(self, content={}):
@@ -70,16 +70,20 @@ def readPaperList(papers, f):
     # print lines
     curr = None
     for line in lines:
+        # print line
         #lstrip or rstrip: remove Whitespace by default, like space, \r, \n, \t, \f
         # print line.rstrip()
-        line = line.rstrip()
-        if line == '---':
+        line = line.strip()
+        if line == '':
+            continue
+        elif line[0:3] == '---':
             if curr != None:
                 # curr.output()
                 # NOTICE: Python passes reference rather than value by default
                 papers.append(curr.copy())
                 curr = None
             curr = Paper()
+            curr.add('file', f)
         else:
             str = line.split('=')
             key = str[0].strip()
