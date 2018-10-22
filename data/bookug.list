@@ -210,32 +210,47 @@ comment=
 other=
 ---
 id=14
-title=Subgraph Matching: on Compression and Computation
-author=Miao Qiao, Hao Zhang, Hong Cheng
-journal=VLDB
-year=2017
-tags=Subgraph Matching,Compression
-star=****
-problem=
-interest=
-hardness=
-idea=
-future=
-comment=
-other=
----
-id=15
 title=Query Workload-based RDF Graph Fragmentation and Allocation
 author=Peng Peng, Lei Zou, Lei Chen,Dongyan Zhao
 journal= International Conference on Extending Database Technology (EDBT, CCF B in Database area)
 year=2016
-tags=RDF,Graph Fragmentation, query workload, Graph Partition
+tags=RDF,Graph Fragmentation, query workload, Graph Partition,communication cost, distributed environment, crossing match
 star=***
+problem= reduce the number of crossing matches and the communication cost during SPARQL query processing in distributed environment
+interest=distributed computing is common and the communication cost is the bottleneck
+hardness=high-degree nodes, complex model of distributed computing
+idea= mine and select some frequent access patterns to reflect the characteristics of the workload,  Vertical fragmentation is for better throughput and horizontal fragmentation is for lower latency
+future=
+comment=find out all instances of a frequent pattern as fragments,place all instances of a query in several machines to lower latency of the single query(enable parallism of this query), place all instances in one machine to improve throughput(enable parallism of multiple queries); allocate closely related fragments in one machine to lower the communication cost of dealing with decomposed query
+other=An improved version is in [id=16]; based on edge cut, may not work well on high-degree nodes
+---
+id=15
+title=Processing SPARQL queries over distributed RDF graphs
+author=Peng Peng, Lei Zou, Tamer, Lei Chen,Dongyan Zhao
+journal=VLDB Journal
+year=2016
+tags=distributed environment,RDF, SPARQL,partial evaluation and assembly, local partial match, centralized and distributed
+star=****
+problem=how to answer SPARQL queries in a distributed environment
+interest=RDF datasets with billions of tripels are common now
+hardness=how to combine the results in different machines,how to reduce the communication cost
+idea=given an arbitary partition(partition-agnostic), partial evaluation and join the results;centralized assembly is simple but the cost of the master machine will be too high, distributed assembly is complex(BSP, bulk synchronous parallel) but efficient and load balanced
+future=handling SPARQL queries over linked open data (LOD),  multiple SPARQL query optimization in the context of distributed RDF graphs
+comment=in practice specific partition for a specific kind of dataset is more efficient, though not so flexible
+other=
+---
+id=16
+title=Adaptive Distributed RDF Graph Fragmentation and Allocation based on Query Workload
+author=Peng Peng, Lei Zou, Lei Chen,Dongyan Zhao
+journal=IEEE Transactions on Knowledge and Data Engineering(TKDE)
+year=2018
+tags=Distributed RDF Database, Data Fragmentation, Data Allocation, Query Workload
+star=****
 problem=
 interest=
 hardness=
-idea=
+idea=allocate these fragments to various sites while balancing the fragments;  vertical, horizontal and mixed fragmentation
 future=
 comment=
-other=
+other=The original work is in [id=14], the enhancement is that a mixed fragmentation strategy is proposed
 ---
