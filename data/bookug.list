@@ -315,7 +315,7 @@ comment=
 other=
 ---
 id=21
-title=Experimental Evaluation of GPU Solutions to the Single Source Shortest Path Problem
+title=Experimental Evaluation of GPU Solutions to the Single Source Shortest Path Problem(SSSP)
 author=
 journal=
 year=2017
@@ -463,4 +463,109 @@ idea=
 future=
 comment=
 other=it seems there is a former version in 2017;   vf2 is also published on TPAMI, and vf3 is the evolution of VF2Plus, which is also an evolution of VF2; TPAMI is a famous journal with Impact Factor higher than 9
+---
+id=31
+title=A Distributed Multi-GPU System for Fast Graph Processing
+author=Zhihao Jia, Yongkee Kwon
+journal=PVLDB
+year=2017
+tags=multi-GPU clusters, graph processing, distributed computing
+star=****
+problem=speed up graph processing using GPU cluster
+interest=to leverage power of multi-GPUs to beat distributed or shared-memory systems
+hardness=work assignment and communication among GPUs
+idea=Lux system exploiting locality and  the aggregate memory bandwidth on GPUs, dynamic graph repartitioning strategy that enables well-balanced workload distribution with minimal overhead, a model choosing the number of nodes and GPUs for the best possible performance
+future=
+comment=not so novel but a general framework
+other=GPUs communicate via NVLink; Five algorithms are tested, PR(PageRank), CC(connected components), SSSP(single-source shortest path), BC(betweenness centrality), CF(collaborative filtering)
+---
+id=32
+title=Work-Efficient Parallel GPU Methods for Single-Source Shortest Paths
+author=Andrew A. Davidson, Sean Baxter, Michael Garland, John D. Owens
+journal=IPDPS(CCF B of high performance computing)
+year=2014
+tags=GPU computing, graph traversal, single-source shortest paths(SSSP), sparse graphs
+star=****
+problem=how to implement SSSP on GPU
+interest=SSSp is frequently encountered in real life
+hardness=dijkstra's algorithm is hard to parallize, while the work complexity of bellman-ford is too high
+idea=Workfront Sweep, Near-Far and Bucketing; to balance the tradeoff between saving work and organizational overhead
+future=dynamic method that switches between Workfront Sweep and Near-Far(begin with a Workfront Sweep method until the vertex queue becomes large enough to saturate the GPU, Now that there is sufficient parallelism, we would switch to our Near-Far Pile technique where work efficiency is more important. Finally, after most of the graph has been explored, and we return to a lack of sufficient parallelism, we would switch back again to Workfront Sweep to finish off the problem, similar to [id=36]);  lack of available parallelism on road network (low-degree graphs), combine our work-saving method with a PHAST-like pre- processing step to identify more vertices from which to start our SSSP sweeps
+comment=reduce the work complexity remarkably; works for low-degree and scale-free graphs both
+other=
+---
+id=33
+title=Δ-stepping: a parallelizable shortest path algorithm
+author=U. Meyer, P. Sanders
+journal= European Symposium on Algorithms(ESA, CCF B Conference of computer science theory)
+year=1998
+tags=parallel, delta stepping, shortest path(SSSP)
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=successful for coarse-grained parallel CPus; difficult to implement efficiently on a GPU-like machine(by [id=32]):bucket implementation requires dynamic arrays that can be quickly resized in parallel. Dynamic arrays are poorly suited to the current programming model of GPUs, and implementing a custom memory management system for dynamic arrays (utilizing heaps) would be difficult and inefficient;  fine-grained renaming and moving vertices between buckets is difficult to paral lelize, likely requiring atomics and thus losing concurrency; efficient GPU implementations require exploiting three-layer memory hierarchy(global DRAM, per-block shared memory, and per-thread registers) of GPU
+other=delta stepping, the original idea
+---
+id=34
+title=GPGPU based image segmentation livewire algorithm implementation
+author=
+journal=
+year=2007
+tags=GPGPU, image segmentation, delta-stepping, shortest path(SSSP)
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=a GPU version of delta-stepping for SSSP, see [id=33]
+---
+id=35
+title=Implementing sparse matrix-vector multiplication on throughput-oriented processors
+author= Nathan Bell, Michael Garland
+journal=International Conference for High Performance Computing, Networking, Storage, and Analysis(SC, CCF A)
+year=2009
+tags=
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=discussion of possible implementations, advantages, and disadvantages of several formats for sparse matrices
+---
+id=36
+title=Memory-scalable GPU spatial hierarchy construction
+author=
+journal=IEEE Transactions on Visualization and Computer Graphics(TVCG, CCF A Journal)
+year=2011
+tags=GPU, BFS,Memory bound, kd-tree, bounding volume hierarchy,partial BFS 
+star=****
+problem=While being able to exploit the massive parallelism on the GPU, the BFS order also consumes excessive GPU memory and threads
+interest=
+hardness=
+idea=use the partial breadth-first search (PBFS) construction order to control memory consumption while maximizing performanc; memory allocation strategies to effectively limit memory fragmentation
+future=
+comment=a novel idea to turn from BFS to DFS at some point
+other=
+---
+id=37
+title=Fast Sparse Matrix and Sparse Vector Multiplication Algorithm on the GPU
+author=Carl Yang, Yangzihao Wang, John D. Owens
+journal=IPDPS
+year=2015
+tags=GPU, SpMSpV, SpMV
+star=
+problem=
+interest=
+hardness=different from SpMV(sparse matrix, dense vector)
+idea=
+future=
+comment=
+other=
 ---
