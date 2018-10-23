@@ -163,9 +163,13 @@ if __name__ == '__main__':
     if len(sys.argv) == 1:
         usage()
         sys.exit()
+
+    # NOTICE: sort output list by star by default
+    sort_key = 'star'
     # REFER: https://www.cnblogs.com/madsnotes/articles/5687079.html
+    #TODO+DEBUG: --version is not supported now
     try:
-        opts, args = getopt.getopt(sys.argv[1:], "h:t:g:a:y:j:s:i:v", ["help", "title=", "tags=", "author=", "year=", "journal=", "star=", "id=", "version"])   
+        opts, args = getopt.getopt(sys.argv[1:], "h:v:t:g:a:y:j:s:i:o", ["help", "version","title=", "tags=", "author=", "year=", "journal=", "star=", "id=",  "order="])
     except getopt.GetoptError:
             print("argv error,please input")
     # print opts
@@ -192,6 +196,14 @@ if __name__ == '__main__':
             limits["id"] = arg.strip()
         elif cmd in ("-v", "--version"):
             print("%s version 1.0" % sys.argv[0])
+        elif cmd in ("-o", "--order"):
+            # print "order"
+            # print arg
+            # sort by a given property(key)
+            sort_key = arg.strip()
+            # BETTER: support abbreviation
+        else:
+            print("command not supported")
     # print limits
     results = []
     # print "paper num: ", len(papers)
@@ -204,7 +216,8 @@ if __name__ == '__main__':
 
     # sort on stars number, papers with higher stars should be placed on top
     # sorted_results = sorted(results, cmp=compare_paper, reverse=True)
-    sorted_results = sorted(results, key=lambda paper:len(paper.content['star']), reverse=True)
+    # print sort_key
+    sorted_results = sorted(results, key=lambda paper:len(paper.content[sort_key]), reverse=True)
     # print "sorted_results:"
     # print sorted_results
     print "---"
