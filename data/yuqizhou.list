@@ -75,11 +75,11 @@ comment= It's a statistics analyzing essay. Simple queries (one triple) are the 
 other= NoSQL is inherently a workload-based optimization for Database, adapting to various scenes; many datasets and benchmarks are used in this paper, which can be borrowed
 ---
 id=5 
-title=Turbo iso : towards ultrafast and robust subgraph isomorphism search in large graph databases
+title=Turbo iso: towards ultrafast and robust subgraph isomorphism search in large graph databases(TurboISO)
 author=Wook-Shin Han,Jinsoo Lee and Jeong-Hoon Lee
 journal=International Conference on Management of Data (ACM SIGMOD)
 year=2013
-tags=neighborhood equivalence class
+tags=neighborhood equivalence class, candidate region, TurboISO
 star=****
 problem=
 interest=
