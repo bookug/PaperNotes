@@ -254,3 +254,48 @@ future=
 comment=
 other=The original work is in [id=14], the enhancement is that a mixed fragmentation strategy is proposed
 ---
+id=17
+title=Collaborative (CPU + GPU) Algorithms for Triangle Counting and Truss Decomposition on the Minsky Architecture
+author=Ketan Date,Keven Feng
+journal=High Performance Extreme Computing Conference (HPEC)
+year=2017
+tags=CPU,GPU,Triangle Counting,Truss Decomposition
+star=***
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=various memory management on GPU
+---
+id=18
+title=Fast and Adaptive List Intersections on the GPU
+author=James Fox, Oded Green, Kasimir Gabert
+journal=HPEC
+year=2018
+tags=GPU,List Intersection
+star=***
+problem=for  many  graph  based problems  it  is  necessary  to  find  intersections  for  a  very  large number  of  lists—these  lists  tend  to  vary  greatly  in  size  and are   difficult   to   efficiently   load-balance
+interest=List intersections are ubiquitous and can be found in   wide   range   of   applications,   including   triangle   counting and  finding  the  maximal k-truss,  both  of  which  are  part  of the  HPEC  Static  Graph  Challenge
+hardness=load imbalance due to the irregular property of graph
+idea=assigns  a  different  number  of  threads  for  different intersections  in  order  to  effectively  utilize  the  resources  of  the GPU; search-based and merge-based; estimate the cost and split into sublists
+future=
+comment=less abstarct, not so novel
+other=
+---
+id=19
+title=Static Graph Challenge: Subgraph Isomorphism
+author=
+journal=HPEC workshop
+year=2018
+tags=
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=just a competition, named GraphChallenge
+other=https://graphchallenge.mit.edu/
+---
