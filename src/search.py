@@ -201,7 +201,7 @@ if __name__ == '__main__':
             # print arg
             # sort by a given property(key)
             sort_key = arg.strip()
-            # BETTER: support abbreviation
+            # BETTER+TODO: support abbreviation and reverse order
         else:
             print("command not supported")
     # print limits
