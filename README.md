@@ -69,6 +69,9 @@ We provide some scholar searching engines here:
 - Google and Bing
 - https://academic.microsoft.com/
 - https://www.aminer.cn/
+- https://xue.glgoo.org/
 
 https://blog.csdn.net/it_beecoder/article/details/78193793
+
+When failing to search the paper on Internet, then try local copy using everything software.
 
