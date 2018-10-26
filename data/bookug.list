@@ -57,7 +57,7 @@ hardness=TurboISO adopts backtrack paradigm which is hard to be parallelized
 idea=parallelism in different candidate region, the independency property of the partial subtree embedding allows that the GPU region exploration algorithm can first divide the region exploration into expanding and backtracking of partial subtree embeddings and then conquer the partial subtree embedding and generate new ones in parallel
 future=
 comment=the key of this paper is to adopts some BFS expanding strategies in the DFS framework, the shortcoming is that lots of DFS operations still exist and will limit the overall performance; if dfs work is too little, then the size of candidates will be too large for GPUto run(memory and thread limits), if dfs work is too much, then the time cost of dfs is too high, though the size of candidates for BFS is reduced
-other=backtrack paradigm is rarely used in parallel computing
+other=backtrack paradigm is rarely used in parallel computing; much faster than vf2[id=58], but hard to implement
 ---
 id=4
 title=THE ENUMERATION OF MAXIMAL CLIQUES OF LARGE GRAPHS
@@ -452,7 +452,7 @@ other=for graph database an index can be built to speed up the searching, which 
 id=30
 title=Challenging the Time Complexity of Exact Subgraph Isomorphism for Huge and Dense Graphs with VF3
 author=Carletti V
-journal=IEEE Transactions on Pattern Analysis and Machine Intelligence(TPAMI, CCF A of Artificial Intelligence)
+journal=IEEE Transactions on Pattern Analysis and Machine Intelligence(TPAMI, CCF A journal of Artificial Intelligence)
 year=2018
 tags=Graphs, graph matching, graph isomorphism, subgraph isomorphism, graphs dataset
 star=****
@@ -462,7 +462,7 @@ hardness=traditional algorithms only deals with small and sparse graphs; hard to
 idea=
 future=
 comment=
-other=it seems there is a former version in 2017;   vf2 is also published on TPAMI, and vf3 is the evolution of VF2Plus, which is also an evolution of VF2; TPAMI is a famous journal with Impact Factor higher than 9
+other=it seems there is a former version in 2017;   vf2 is also published on TPAMI, and vf3 is the evolution of VF2Plus, which is also an evolution of VF2[id=58]; TPAMI is a famous journal with Impact Factor higher than 9
 ---
 id=31
 title=A Distributed Multi-GPU System for Fast Graph Processing
@@ -867,5 +867,35 @@ hardness=
 idea=
 future=
 comment=
+other=
+---
+id=58
+title=A (Sub)Graph Isomorphism Algorithm for Matching Large Graphs (vf2)
+author=
+journal=IEEE Transactions on Pattern Analysis and Machine Intelligence(TPAMI, CCF A journal of Artificial Intelligence)
+year=2004
+tags=vf2,graph-subgraph isomorphism,induced subgraph,depth-first search,Backtrack paradigm,backtracking,large graphs, attributed relational graphs
+star=*****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=based on induced subgraph rather than embedding subgraph;the implementation is very critical; much better than [id=59]
+---
+id=59
+title=An Algorithm for Subgraph Isomorphism
+author=J. R. Ullmann
+journal=Journal of the Association for Computing Machinery(JACM, CCF A Journal)
+year=1976
+tags=graph, graph isomorphism, directed graph isomorphism, digraph isomorphism, subgraph, subgraph isomorphism, clique, clique detection, isomorphism algorithm, tree search, search tree, game tree, parallel processing, array processing, special purpose computer, logic-in-memory arrays, asynchronous sequential circuits, Boolean matrices
+star=*****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=based on Linear Algebra
 other=
 ---
