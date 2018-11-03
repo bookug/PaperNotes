@@ -70,16 +70,24 @@ We provide some scholar searching engines here:
 - https://academic.microsoft.com/
 - https://www.aminer.cn/
 - https://xue.glgoo.org/
+- https://www.scimagojr.com/
+- https://www.semanticscholar.org/
 
 https://blog.csdn.net/it_beecoder/article/details/78193793
 
 When failing to search the paper on Internet, then try local copy using everything software.
+
+
 
 ---
 
 ### Also See
 
 [papers-we-love](https://github.com/papers-we-love/papers-we-love)
+
+[Tool Collection](https://blog.csdn.net/u011918106/article/details/78289430)
+
+[Writing Tools](https://blog.csdn.net/garfielder007/article/details/51506291)
 
 ---
 

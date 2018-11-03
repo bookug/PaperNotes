@@ -56,8 +56,8 @@ interest=BFS is a basic operator in graph algorithms and its speed is very impor
 hardness=the work complexity of original methods are too high,load imbalance,irregular memory access due to graph structure,duplicates due to concurrent discovery and previously-visited nodes
 idea=based on frontier queue to reduce work complexity,expand via prefix sum,warp/block scheduling to solve load imbalance,remove duplicates(not all) based on warp or history
 future=use the ideas in other graph algorithms,good strategies to solve the load imbalance,develop new optimizations for BFS
-comment=perfect work,wonderful papers and everyone working on GPU graph algorithms should read it
-other=this paper is hard to understand and there is another more detailed technical report,some blogs on Internet talks about its ideas in more comprehensive way and my PPT is also a good material for BFS
+comment=perfect work,wonderful papers and everyone working on GPU graph algorithms should read it; any imbalance between CTAs can be limited by oversubscribing GPU cores with an abundance of CTAs and/or implementing coarse-grained tile-stealing mechanisms for CTAs to dequeue tiles at their own rate
+other=this paper is hard to understand and there is another more detailed technical report,some blogs on Internet talks about its ideas in more comprehensive way and my PPT is also a good material for BFS; a detailed paper is provided in [id=14]
 ---
 id=4
 title=ThunderSVM: A Fast SVM Library on GPUs and CPUs
@@ -208,4 +208,19 @@ idea=
 future=extended to the incremental massive graphs with frequent updates,study other graph problems like minimum vertex covers and graph coloring for massive graphs with a single commodity PC
 comment=为了验证算法的精度，需要用比较快的方法得到一个图的独立数的上界，请问如何证明附录中相应算法的正确性，以及衡量该算法得到的上界和独立数相比的误差？关于论文中贪婪算法预处理的复杂度，只是需要按度数排序而已，不可以对邻接表另外建个索引，用他们的坐标（而非整个链表）参与排序，又因为所有顶点在内存中是可以放下的，这样不是可以保证开销很低？如果能有较快的方法得到独立数非常紧的界，甚至得到精确的独立数的值，MIS的复杂度可能得到实质性的改善么？
 other=
+---
+id=14
+title=High-Performance and Scalable GPU Graph Traversal
+author=Duane Merrill
+journal=ACM Transactions on Parallel Computing(TOPC, not in the CCF list)
+year=2015
+tags=Design, Algorithms, Performance, Breadth-first search, GPU, graph algorithms, parallel algorithms, prefix sum, graph traversal, sparse graphs
+star=*****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=a concrete version of [id=3]
 ---
