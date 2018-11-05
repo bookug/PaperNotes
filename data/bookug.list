@@ -899,3 +899,33 @@ future=
 comment=based on Linear Algebra
 other=
 ---
+id=60
+title=Taming verification hardness: an efficient algorithm for testing subgraph isomorphism(QuickSI)
+author=
+journal=VLDB
+year=2008
+tags=QuickSI
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=61
+title= The transitive reduction of a directed graph
+author=
+journal=SIAM
+year=1972
+tags=
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
