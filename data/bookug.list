@@ -929,3 +929,18 @@ future=
 comment=
 other=
 ---
+id=62
+title=Efficient Subgraph Matching by Postponing Cartesian Products(CFL-Match)
+author=Fei Bi, Lijun Chang, Xuemin Lin, Lu Qin, Wenjie Zhang
+journal=SIGMOD
+year=2016
+tags=subgraph matching, subgraph isomorphism;core-forest;CFL-Match;CPI-index;core-forest-leaf decomposition
+star=****
+problem=unpromising results by Cartesian products from dissimilar vertices
+interest=
+hardness=
+idea=core-forest-leaf decomposition, CPI index to prepare candidates for joining phase, matching order based on path with the minimum growing cost
+future=k-core decomposition, extend to directed graphs with edge labels, consider parallel and distributed
+comment=
+other=
+---
