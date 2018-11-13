@@ -959,3 +959,18 @@ future=
 comment=no one beats others totally; vf3 is generally better, and better tradeoff between time and memory cost;vf2 is best at small graphs; vf3 is the disputed winner for finding the first solution; vf3 and RI confirmed to be a step forward with respect to the other algorithms for finding all solutions; it is advisable to use vf3 for most subgraph isomorphism problems
 other=associated with ICPR contest; the experimental result in vf3
 ---
+id=64
+title=Computers and Intractability: A Guide to the Theory of NP-Completeness
+author=M. R. Garey , David S. Johnson
+journal=W. H. Freeman
+year=1979
+tags=NP-hard,NPC,NP-completeness,algorithm complexity,Intractability
+star=*****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=notice that NPC is decision problems, but NP-hard is not
+other=
+---
