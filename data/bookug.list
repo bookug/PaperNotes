@@ -454,7 +454,7 @@ title=Challenging the Time Complexity of Exact Subgraph Isomorphism for Huge and
 author=Carletti V
 journal=IEEE Transactions on Pattern Analysis and Machine Intelligence(TPAMI, CCF A journal of Artificial Intelligence)
 year=2018
-tags=Graphs, graph matching, graph isomorphism, subgraph isomorphism, graphs dataset
+tags=Graphs, graph matching, graph isomorphism, subgraph isomorphism, graphs dataset,vf3
 star=****
 problem=
 interest=able to manage huge and dense graphs
@@ -462,7 +462,7 @@ hardness=traditional algorithms only deals with small and sparse graphs; hard to
 idea=
 future=
 comment=
-other=it seems there is a former version in 2017;   vf2 is also published on TPAMI, and vf3 is the evolution of VF2Plus, which is also an evolution of VF2[id=58]; TPAMI is a famous journal with Impact Factor higher than 9
+other=it seems there is a former version in 2017;   vf2 is also published on TPAMI, and vf3 is the evolution of VF2Plus, which is also an evolution of VF2[id=58]; TPAMI is a famous journal with Impact Factor higher than 9; another paper is Introducing VF3: A New Algorithm for Subgraph Isomorphism
 ---
 id=31
 title=A Distributed Multi-GPU System for Fast Graph Processing
@@ -943,4 +943,19 @@ idea=core-forest-leaf decomposition, CPI index to prepare candidates for joining
 future=k-core decomposition, extend to directed graphs with edge labels, consider parallel and distributed
 comment=
 other=
+---
+id=63
+title=Comparing performance of graph matching algorithms on huge graphs
+author=Vincenzo Carletti
+journal=Pattern Recognition Letters (PRL, CCF C Conference of AI)
+year=2018
+tags=subgraph isomorphism;subgraph matching,pattern recognition
+star=***
+problem=
+interest=
+hardness=
+idea=compare vf2, vf3, RI(these three are tree-based), LAD and PathLAD(these two are constraint programming) on all kinds of graphs
+future=
+comment=no one beats others totally; vf3 is generally better, and better tradeoff between time and memory cost;vf2 is best at small graphs; vf3 is the disputed winner for finding the first solution; vf3 and RI confirmed to be a step forward with respect to the other algorithms for finding all solutions; it is advisable to use vf3 for most subgraph isomorphism problems
+other=associated with ICPR contest; the experimental result in vf3
 ---
