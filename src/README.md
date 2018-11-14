@@ -2,5 +2,5 @@
 
 search papers based on multiple tags or notes
 
-python is chosed to implement this function
+python2 is chosed to implement this function
 

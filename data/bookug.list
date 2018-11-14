@@ -974,3 +974,18 @@ future=
 comment=notice that NPC is decision problems, but NP-hard is not
 other=
 ---
+id=65
+title=Accelerating Large Graph Algorithms on the GPU Using CUDA
+author=Pawan Harish
+journal=HiPC (CCF C Conference of high performance Computing, also called HPC)
+year=2007
+tags=gpu,cuda,bfs,breadth-first search,sssp, apsp
+star=**
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=an early but basic implementation of these algorithms on GPU
+other=
+---
