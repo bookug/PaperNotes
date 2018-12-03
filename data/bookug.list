@@ -1079,3 +1079,33 @@ future=
 comment=
 other=
 ---
+id=72
+title=Graph pattern matching: from intractable to polynomial time
+author=Wenfei Fan
+journal=VLDB
+year=2010
+tags=graph simulation
+star=****
+problem=define the graph simulation problem instead of graph matching
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=73
+title=Distributed exact subgraph matching in small diameter dynamic graphs
+author=Charith Wickramaarachchi 
+journal=Big Data
+year=2016
+tags=distributed subgraph matching, small diameter, dynamic graph
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
