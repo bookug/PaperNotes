@@ -1287,7 +1287,7 @@ hardness=
 idea=based on node and CSR structure, matrix multiplication
 future=
 comment=
-other=
+other=general triangle counting based on edge has complexity as O(|E|^1.5); naive methods will have 6 duplicates, but there are perfect strategy to eliminate all duplicates which just need a order definition and only save edges satisfying this order; use order of degree(only save edges from high degree to low degree) yield wonderful performance because high degree nodes are evenly divided and result in natural load balance
 ---
 id=86
 title=Space/Time Trade-offs in Hash Coding with Allowable Errors (Bloom Filter)
