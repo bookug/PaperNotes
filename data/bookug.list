@@ -1529,3 +1529,18 @@ future=
 comment=
 other=
 ---
+id=102
+title=Efficient Parallel Lists Intersection and Index Compression Algorithms using Graphics Processing Units
+author=Naiyong Ao, Fan Zhang, Di Wu
+journal=VLDB
+year=2011
+tags=parallel Algorithm, list Intersection, index Compression, GPU, linear regression, machine learning, binary search
+star=****
+problem=
+interest=
+hardness=
+idea=linear regression(x is the list index, y is the elements) and hash segmentation(hash into buckets, then in bucket do normal binary search) to speed up list intersection by contracting the search range; for index compression, propose a Linear Regression Compression schema which has an inherent parallel structure
+future=
+comment=
+other=in web search a sentence is divided into several keywords and each keyword returns a sorted list of document IDs, the final job is to intersect these lists; d-gap compression: in the list of document IDs, if using variable byte encoding, then using the difference between two IDs instead of the IDs themselves is better
+---
