@@ -77,6 +77,10 @@ https://blog.csdn.net/it_beecoder/article/details/78193793
 
 When failing to search the paper on Internet, then try local copy using everything software.
 
+IEEE search:  https://www.computer.org/web/search
+
+ACM search: https://dl.acm.org/
+
 
 
 ---
