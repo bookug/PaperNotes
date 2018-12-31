@@ -1604,3 +1604,33 @@ future=
 comment=
 other=CuSOLVER by Nvidia is the existing algorithm that only uses GPU
 ---
+id=107
+title=Eunomia: Scaling Concurrent Search Trees under Contention Using HTM
+author=Xin Wang
+journal=TPDS
+year=2018
+tags=Hardware Transactional Memory(HTM), Concurrent Search Tree, Opportunistic Consistency
+star=****
+problem=with the assistance of HTM, can we construct a concurrent search tree structure that delivers high and scalable performance even under high contention
+interest=hardware transactional memory (HTM) has recently been adopted to construct efficient concurrent search tree structures, such designs fail to deliver scalable performance under contention
+hardness=
+idea=First, based on the observation that most HTM conflicts happen in the leaf layer, we partition a monolithic HTM region into multiple parts and protect the atomicity of different parts using HTM respectively.  A version-based scheme is utilized to guarantee overall consistency at the boundary of different HTM regions. With this scheme, most conflicts only cause retry within the partitioned transaction pieces, instead of the entire monolithic transaction. Second, to eliminate false conflicts incurred by consecutive data layout and metadata accesses, Eunomia refactors the tree structure in a partitioned way, which dispatches concurrent requests to different segments. Third, to throttle the true conflicting requests, Eunomia adopts an efficient mechanism, which anticipates potential conflicts and avoids them accordingly. Finally, Eunomia adopts an adaptive contention control mechanism, which can detect various contention rates and achieve high performance under both high and low contention.
+future=
+comment=
+other=https://en.wikipedia.org/wiki/Transactional_memory
+---
+id=108
+title=Confluence: Speeding Up Iterative Distributed Operations by Key-Dependency-Aware Partitioning
+author=Feng Liang
+journal=TPDS
+year=2018
+tags=Spark, shuffle, key dependency, iterative distributed operation, partitioning
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
