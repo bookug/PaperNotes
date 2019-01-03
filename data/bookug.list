@@ -1754,3 +1754,18 @@ future=
 comment=utilize mobile GPUs in the same wifi to provide better display
 other=
 ---
+id=117
+title=Fast K-selection Algorithms for Graphics Processing Units
+author=TOLU ALABI
+journal=ACM Journal of Experimental Algorithmics
+year=2012
+tags=Algorithms, Design, Experimentation, Performance, Top-K, K-selection, Order Statistics, Multi-core, Graphics Processing Units, GPGPU, CUDA, radixSelect, bucketSelect, concurrent programming, parallel programming
+star=****
+problem=Finding the kth largest value in a list of n values
+interest=
+hardness=sort maybe done extra work
+idea=sort&choose, radixSelect, bucketSelect
+future=
+comment=in sequential algorithm the k-selection problem has solutions running in O(n) time
+other=https://github.com/yuxianzhi/Top-K; https://devtalk.nvidia.com/default/topic/814439/cuda-programming-and-performance/top-k-elements-selection-/
+---
