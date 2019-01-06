@@ -1933,3 +1933,33 @@ future=
 comment=
 other=
 ---
+id=129
+title=Accelerating graph isomorphism queries in a graph database using GPU
+author=
+journal=
+year=
+tags=graph mining, graph isomorphism, GPU, graph database
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=130
+title=parallel graph mining with GPUs
+author=
+journal=
+year=
+tags=Parallel Frequent Graph Mining, Graphics Processing Unit(GPU), frequent pattern, graph database
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
