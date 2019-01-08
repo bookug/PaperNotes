@@ -200,11 +200,11 @@ author=Xiaojie Lin,Rui Zhang,Zeyi Wen
 journal=Databases Theory and Applications - 25th Australasian Database Conference(ADC)
 year=2014
 tags=subgraph matching,GPU,relational join,comparison of several subgraph isomorphism algorithms
-star=
-problem=
+star=***
+problem=the join process of STwigs are very time-consuming
 interest=
 hardness=
-idea=
+idea=use hash instead of binary search to join two relation tables of STwigs; indicate a constant time though with random access
 future=
 comment=
 other=
@@ -383,7 +383,7 @@ tags=Common-Sense Reasoning, GPU, Subgraph Matching, CUDA
 star=***
 problem=transform reasoning to subgraph Isomorphism on Knowledge graph
 interest=leverage the power of GPU to do reasoning, and not from scratch but using the existing work of subgraph matching
-hardness=subgraph matching is a NP_hard problem
+hardness=subgraph matching is a NP-hard problem
 idea=edge-based subgraph Isomorphism on GPU, multi-level graph compression(finding similar nodes in Knowledge graphs and combine into one hyper-node) to place large graph on GPU
 future=
 comment=
@@ -402,7 +402,7 @@ hardness=
 idea=backward chaining
 future=
 comment=
-other=
+other=use subgraph Isomorphism algorithm like [id=12] in literature.list
 ---
 id=27
 title=privacy-preserving ranked neighbor query over encrypted graph data in the cloud
@@ -445,9 +445,9 @@ problem=performing subgraph isomorphism in a graph database using GPU
 interest=
 hardness=
 idea=
-future=
+future=for graph database an index can be built to speed up the searching, which uses the features of the data graphs
 comment=the subgraph isomorphism algorithm is GpSM in [id=12] in literature.list
-other=for graph database an index can be built to speed up the searching, which uses the features of the data graphs
+other=the same paper with [id=129]
 ---
 id=30
 title=Challenging the Time Complexity of Exact Subgraph Isomorphism for Huge and Dense Graphs with VF3
@@ -1946,7 +1946,7 @@ hardness=
 idea=
 future=
 comment=
-other=
+other=the same paper with [id=29]
 ---
 id=130
 title=parallel graph mining with GPUs
@@ -1959,6 +1959,51 @@ problem=
 interest=
 hardness=
 idea=
+future=
+comment=
+other=
+---
+id=131
+title=GpSense: A GPU-friendly method for common-sense subgraph matching in massively parallel architectures
+author=Ha-Nguyen Tran, Erik Cambria
+journal=International Conference on Intelligent Text Processing and Computational Linguistics
+year=2016
+tags=GPU, subgraph matching, common-sense, parallel computing
+star=***
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=use the subgraph matching algorithm in [id=12], like [id=25]
+---
+id=132
+title=GPU Join Processing Revisited
+author=Tim Kaldewey
+journal=Proceedings of the Eighth International Workshop on Data Management on New Hardware (DaMoN)
+year=2012
+tags=GPU, join Processing, UVA, PCI-E
+star=***
+problem=hash join: a large table(probe table) and a small table(build table)
+interest=
+hardness=
+idea=place build table in shared memory, and let GPU access CPU memory directly at PCI-E speed
+future=
+comment=utilize the new feature of GPU, but not so good practically
+other=
+---
+id=133
+title=Performance Optimization of the HPCG Benchmark on the Sunway TaihuLight Supercomputer
+author=Yulong Ao, Chao Yang
+journal=ACM Transactions on Architecture and Code Optimization
+year=2018
+tags=high-performance conjugate gradient (HPCG) benchmark, Sunway TaihuLight Supercomputer, Heterogeneous (hybrid) systems, Massively parallel algorithms, 共轭梯度法
+star=***
+problem=
+interest=
+hardness=
+idea=Block multicoloring parallelization, a block multicoloring reordering method to increase the degree of parallelism without severely degrading the convergence rate; Locality-aware layout transformation; Requirement-based data access; Concurrent gather collective; Fine-grain task overlapping
 future=
 comment=
 other=
