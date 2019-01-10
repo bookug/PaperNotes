@@ -2113,3 +2113,33 @@ future=
 comment=
 other=
 ---
+id=141
+title=Bloom Filters via d-Left Hashing and Dynamic Bit Reassignment Extended Abstract
+author=Flavio Bonomi
+journal=Forty-Fourth Annual Allerton Conf
+year=2006
+tags=bloom filters, d-left hashing, dynamic bit Reassignment, hash functions, counting bloom filter(CBF)
+star=****
+problem=
+interest=
+hardness=
+idea=dynamic bit reassignment, an approach that allows the size of the fingerprint to flexibly change with the load in each hash bucket, thereby reducing the probability of a false positive
+future=
+comment=
+other=
+---
+id=142
+title=Using Multiple Hash Functions to Improve IP Lookups
+author=Broder Andrei
+journal=Twentieth Annual Joint Conference of the IEEE Computer and Communications Societies
+year=2001
+tags=multiple hash functions, IP lookup, d-left hashing 
+star=****
+problem=High performance Internet routers require a mechanism for very efficient IP address look-ups
+interest=Some techniques used to this end, such as binary search on levels, need to construct quickly a good hash table for the appropriate IP prefixes
+hardness=
+idea=obtaining good hash tables based on using multiple hashes of each input key (which is an IP address). The methods we describe are fast, simple, scalable, parallelizable, and flexible.  In particular, in instances where the goal is to have one hash bucket fit into a cache line, using multiple hashes proves extremely suitable
+future=
+comment=
+other=the original idea of d-left hashing
+---
