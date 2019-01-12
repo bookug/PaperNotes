@@ -2263,3 +2263,18 @@ future=
 comment=
 other=
 ---
+id=151
+title=S-PowerGraph: Streaming Graph Partitioning for Natural Graphs by Vertex-Cut
+author=Cong Xie, Zhihua Zhang
+journal=arXiv
+year=2015
+tags=streaming graph partitioning, natural graphs, vertex cut
+star=**
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
