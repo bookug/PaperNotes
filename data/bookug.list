@@ -2473,3 +2473,33 @@ future=Our solution can handle graphs with a large number of nodes. OurGST-1 sol
 comment=The theory is beautiful but the experimental result is not so good; why the bound of iterration is the diameter?; why require the intersection of P1 and P2 is empty? does it influence the correctness, the efficiency? why the complexity is 3^l(for each label x, x has 3 possibilities, in P1 , in P2, or not in P1 and P2), if allowing overlapping between P1 and P2, does complexity change?
 other=steiner tree: https://blog.csdn.net/wu_tongtong/article/details/78992913
 ---
+id=165
+title=Universal classes of hash functions
+author=
+journal=Journal of computer and system sciences
+year=1979
+tags=hash functions, theorectical bound
+star=*****
+problem=
+interest=
+hardness=
+idea=an input independent average linear time Algorithm for storage and retrieval on keys
+future=
+comment=the ability to analyze the cost of storage and retrieval without worrying about the distribution of the input allows as corollaries improvements on the bounds of several Algorithms
+other=hash functions:  https://en.wikipedia.org/wiki/Hash_function
+---
+id=166
+title=A Comparative Experimental Study of Hash Functions Applied to Packet Sampling
+author=
+journal=Proc. of International Teletraffic Congress (ITC)
+year=2005
+tags=Network monitoring, Traffic measurements, Hash functions, Packet sampling
+star=***
+problem=Traffic measurements in high-speed links are challenging and risk introducing prohibitive costs in the monitoring infrastructure
+interest=Packet sampling is an established technique to make these network measurements feasible. Hash based packet sampling is a technique that, in addition, enables new applications, like trajectory sampling and One Way Delay estimation, provided that the same hash function is used in all measurement points
+hardness=Such applications require that the used hash functions have specific properties: uniformity of distribution, computation speed, and low collision probability. 
+idea=a methodology for hash function comparison and related test results, which have been contributed to the IETF PSAMP (Packet SAMPling) working group.
+future=
+comment=
+other=
+---
