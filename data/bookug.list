@@ -360,18 +360,18 @@ comment=
 other=
 ---
 id=24
-title=Accelerating Dynamic Graph Analytics on GPUs
+title=Accelerating Dynamic Graph Analytics on GPUs(GPMA)
 author=Mo Sha, Yuchen Li, Bingsheng He
 journal=Proceedings of the VLDB Endowment
 year=2017
-tags=Dynamic Graph Analytics,GPU, stream updates, Graph Stream
+tags=Dynamic Graph Analytics,GPU, stream updates, Graph Stream, GPMA
 star=****
-problem=
-interest=
-hardness=dynamic 
-idea=
+problem=in many applications such as social networks, cyber security, and fraud detection, their representative graphs evolve frequently and one has to perform a rebuild of the graph structure on GPUs to incorporate the updates
+interest=As graph analytics often involves compute-intensive operations, GPUs have been extensively used to accelerate the processing
+hardness=rebuilding the graphs(like the traditional CSR structure) becomes the bottleneck of processing high-speed graph streams
+idea=a GPU-based dynamic graph storage scheme to support existing graph algorithms easily. Furthermore, we propose parallel update algorithms to support Erikcient stream updates so that the maintained graph is immediately available for high-speed analytic processing on GPUs; the intuition is add holes to CSR, the holes can not be too large or too small ,just like the node of B-tree, split and coalesce on some specific cases; as for updates, some heuristic methods are used, in the input buffer insertions and deletions are separated, operations to the same node are separated(otherwise will cause lock), if we can decide that some insertions will cause the adjustion of substructure then we can reorganize this part first
 future=
-comment=
+comment=novel ideas and practical; how to support tc and sm on such structures?; no framework or primitive that can support all graph algorithms on GPUs well
 other=a technical report in detail can be acquired on arXiv
 ---
 id=25
@@ -2502,4 +2502,19 @@ idea=a methodology for hash function comparison and related test results, which 
 future=
 comment=
 other=
+---
+id=167
+title=Revisiting Co-Processing for Hash Joins on the Coupled CPU-GPU Architecture
+author=Jiong He, Mian Lu, Bingsheng He
+journal=VLDB
+year=2013
+tags=CoProcessing, hash join, coupled CPU-GPU Architecture(APU)
+star=****
+problem=hash joins, one of the most important join algorithms for main memory databases, on a coupled CPU-GPU architecture.(the fine-grained co-processing mechanisms on hash joins with and without partitioning.)
+interest=Query co-processing on graphics processors (GPUs) has be- come an effective means to improve the performance of main memory databases.
+hardness=the relatively low bandwidth and high latency of the PCI-e bus are usually bottleneck issues for co-processing.
+idea=(1) the coupled architecture enables fine-grained co-processing and cache reuses, which are ineffi- cient on discrete CPU-GPU architectures; (2) the cost model can automatically guide the design and tuning knobs in the design space; (3) fine-grained co-processing achieves up to 53%, 35% and 28% performance improvement over CPU- only, GPU-only and conventional CPU-GPU co-processing, respectively
+future=
+comment=the strategy of dividing work of building hash table achieves wonderful balance on cpu-gpu; for hash-join, the big table will be divided called tiling method, and each tile is handled by a single kernel instead a kernel for all
+other=coupled CPU-GPU architectures have received a lot of attention, e.g. AMD APUs with the CPU and the GPU integrated into a single chip.(coupled GPU usually less cores and lower latency than discrete GPU like Nvidia)
 ---
