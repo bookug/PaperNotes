@@ -2548,3 +2548,33 @@ future=
 comment=We show through a series of experiments that LogR compressed encodings can be created efficiently, come with provable information-theoretic bounds on their accuracy, and outperform state-of-art log summarization strategies.
 other=
 ---
+id=170
+title=Scalable Join Processing on Very Large RDF Graphs
+author=
+journal=SIGMOD
+year=2009
+tags=large RDF graph, join algorithm, query processing, Sideways Information Passing(SIP)
+star=****
+problem=
+interest=the fine-grained and schema-relaxed use of RDF often entails star- and chain-shaped join queries with many input streams from index scans.
+hardness=
+idea=develop very light-weight methods for sideways information passing between separate joins at query run-time, to provide highly ective filters on the input streams of joins; improve previously proposed algorithms for join-order optimization by more accurate selectivity estimations for very large RDF graphs.
+future=
+comment=
+other=implemented on open-source RDF-3x; We performed cold-cache experiments by dropping all file-system caches before restarting the various systems and running the queries. We repeated this procedure ten times and measured the average execution time and the standard deviation for each query (notation: meandeviation). For warm-cache experiments we ran the queries ten times without dropping the caches.
+---
+id=171
+title=Hornet: An efficient data structure for dynamic sparse graphs and matrices on GPUs
+author=
+journal=HPEC
+year=2018
+tags=hornet, hornetsnest, graph data structure, dynamic sparse graphs and matrices, GPU, CSR, B+ tree
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=improvement of CSR and support high rate updates
+other=
+---
