@@ -1,0 +1,31 @@
+---
+id=
+title=
+author=
+journal=
+year=
+tags=
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=0
+title=Triangle counting on GPU using fine-grained task distribution(TC)
+author=Lin Hu, Naiqing Guan, Lei Zou
+journal=ICDE workshop
+year=2019
+tags=GPU, triangle counting(TC), fine-grained
+star=***
+problem=Due to the irregularity of graph data, designing an efficient GPU-based graph algorithm is always a challenging task
+interest=
+hardness=Inefficient memory access and work imbalance often limit GPU-based graph computing, even though GPU provides a massively parallelism computing fashion
+idea= a fine-grained task distribution strategy for triangle counting task
+future=
+comment= good at dealing with graphs with over 100M edges, and it achieves 2x-7x faster than state-of-art methods on large graphs.
+other=oriented from a competition of CCF
+---
