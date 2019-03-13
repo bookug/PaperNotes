@@ -165,11 +165,11 @@ comment=the two-step output scheme is very useful and it originates from [id=6] 
 other=
 ---
 id=11
-title=Fast Parallel Subgraph Matching on the GPU
+title=Fast Parallel Subgraph Matching on the GPU (GunrockSM)
 author=Leyuan Wang,Yangzihao Wang,John D. Owens
 journal=High-Performance Distributed Computing(HPDC poster, CCF B conference in High Performance Computing area)
 year=2016
-tags=GPU,RDF,SPARQL,Subgraph Matching,Gunrock,filtering-and-joining
+tags=GPU,RDF,SPARQL,Subgraph Matching,Gunrock,filtering-and-joining, GunrockSM
 star=*
 problem=how to implement subgraph matching on GPU based on the Gunrock framework
 interest=Gunrock provides 4 useful and efficient operators, so we can implement in a simple way
@@ -180,11 +180,11 @@ comment=the filtering strategy is too simple,the process of collect edge candida
 other=this work can not deliver better performance than [id=12] paper, though it claims to
 ---
 id=12
-title=Fast Subgraph Matching on Large Graphs using Graphics Processors
+title=Fast Subgraph Matching on Large Graphs using Graphics Processors (GpSM)
 author=Ha-Nguyen Tran,Jung-jae Kim,Bingsheng He
 journal=International Conference on Database Systems(DASFAA, CCF B conference in Database area)
 year=2015
-tags=GPU-friendly,filtering-and-verification,Subgraph Matching,subgraph isomorphism
+tags=GPU-friendly,filtering-and-verification,Subgraph Matching,subgraph isomorphism, GpSM
 star=****
 problem=how to implement a GPU-frinedly subgraph matching algorithm
 interest=subgraph matching problem is complex and hard and frequently encounted in real life,leverage the parallelism power of GPU in graph algorithms
