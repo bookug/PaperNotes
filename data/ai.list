@@ -1,0 +1,46 @@
+---
+id=
+title=
+author=
+journal=
+year=
+tags=
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=0
+title=Learning Deep Generative Models of Graphs
+author=Yujia Li
+journal=arXiv
+year=
+tags=GNN(graph neural network), GCN(graph convolutional network), deep Generative model of graphs
+star=***
+problem=
+interest=
+hardness=
+idea=can capture both their structure and attributes. Our approach uses graph neural networks to express probabilistic dependencies among a graph’s nodes and edges, and can, in principle, learn distributions over any arbitrary graph
+future=
+comment=
+other=
+---
+id=1
+title=GraphRNN: Generating Realistic Graphs with Deep Auto-regressive Models
+author=Jiayuan You
+journal=ICML
+year=2018
+tags=graph RNN(recurrent neural network)
+star=****
+problem=
+interest=
+hardness=
+idea=a deep autoregressive model that addresses the above challenges and approximates any distribution of graphs with minimal assumptions about their structure. GraphRNN learns to generate graphs by training on a representative set of graphs and decomposes the graph generation process into a sequence of node and edge formations, conditioned on the graph structure generated so far
+future=
+comment=
+other=
+---

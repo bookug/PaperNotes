@@ -76,7 +76,7 @@ other= NoSQL is inherently a workload-based optimization for Database, adapting 
 ---
 id=5 
 title=TurboISO: towards ultrafast and robust subgraph isomorphism search in large graph databases(TurboISO)
-author=Wook-Shin Han,Jinsoo Lee and Jeong-Hoon Lee
+author=Wook-Shin Han(the teacher),Jinsoo Lee and Jeong-Hoon Lee
 journal=International Conference on Management of Data (ACM SIGMOD)
 year=2013
 tags=neighborhood equivalence class, candidate region, TurboISO
@@ -85,7 +85,7 @@ problem=
 interest=
 hardness=
 idea=
-future=
+future=only deals with similar vertices of query graph, later BoostISO handles simlars of data graph
 comment=
 other= NULL
 ---
