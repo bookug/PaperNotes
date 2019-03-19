@@ -29,3 +29,18 @@ future=
 comment= good at dealing with graphs with over 100M edges, and it achieves 2x-7x faster than state-of-art methods on large graphs.
 other=oriented from a competition of CCF
 ---
+id=1
+title=Answering subgraph queries over massive disk resident graphs
+author=Peng Peng, Lei Zou
+journal=World Wide web(3w, CCF A conference of new area)
+year=2016
+tags=subgraph matching, massive disk resident graph
+star=****
+problem=
+interest=
+hardness=
+idea=Different from existing feature-based approaches, we map all edges into a two-dimensional space R^2 and propose a bitmap structure to index R^2. 
+future=
+comment=
+other=
+---
