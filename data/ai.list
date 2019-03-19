@@ -44,3 +44,18 @@ future=
 comment=
 other=
 ---
+id=2
+title=Multi-Turn Response Selection for Chatbots with Deep Attention Matching Network
+author=xiangyang zhou, Lu Li
+journal=Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Long Papers)  (ACL)
+year=2018
+tags=response Selection, chatbot, depp Attention matching network, dialogue
+star=****
+problem=investigate matching a response with its multi-turn context using dependency information based entirely on attention.
+interest=Human generates responses relying on semantic and functional dependencies, including coreference relation, among dialogue elements and their context.
+hardness=
+idea=construct representations of text segments at different granularities solely with stacked self-attention; extract the truly matched segment pairs with attention across the context and response
+future=
+comment=
+other=
+---
