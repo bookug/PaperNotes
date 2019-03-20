@@ -3089,11 +3089,11 @@ comment=
 other=
 ---
 id=206
-title=Taming subgraph isomorphism for RDF query processing
+title=Taming subgraph isomorphism for RDF query processing  (TurboHom++)
 author=Kim Jinha, Wook-Shin Han(the teacher)
 journal=VLDB
 year=2015
-tags=RDF query processing, subgraph isomorphism, subgraph matching
+tags=RDF query processing, subgraph isomorphism, subgraph matching, TurboHom++
 star=****
 problem=
 interest=
