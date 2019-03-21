@@ -30,3 +30,9 @@ Additional contents are listed below:
 6. What is your comment on this paper?(advantages and disadvantages)(comment=)
 7. Other things if needed.(other=)
 
+---
+
+the * after an author represents the corresponding author.
+
+---
+

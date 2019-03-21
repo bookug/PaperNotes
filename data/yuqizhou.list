@@ -34,7 +34,7 @@ title=Natural language question answering over RDF: a graph data driven approach
 author=Lei Zou，Ruizhe Huang，Haixun Wang，Jeffrey Xu Yu，Wenqiang He，Dongyan Zhao
 journal=ACM SIGMOD International Conference on Management of Data
 year=2014
-tags=NLP(Natural Language Processing), RDF, QA, Graph,SPARQL
+tags=NLP(Natural Language Processing), RDF, QA, Graph,SPARQL, Subgraph matching, gstore, ganswer
 star=****
 problem=Answer a natural language problem via RDF Q/A system
 interest= We need a easy interface for users to use Q/A system, how to answer more precisely
@@ -42,7 +42,7 @@ hardness= Natural language has ambiguation
 idea= rudece NPL to subgraph matching query and then evaluate it. If passed, search the transformed SPARQL query in the database, graph structure can reserve the structure of main components of a natural sentence
 future=NULL
 comment=Subgraph matching is a NP-hard question, time complexity may become a challenge. Use subgraph matching to understand natural language is a new point, reduce the NLp problem to SPARQL query is also hard and the precision is hard to compete with Deep Learning(better at tuning)
-other=NULL
+other=an imporved version of [id=12]
 ---
 id=3 
 title=Subgraph matching: on compression and computation.
@@ -178,4 +178,19 @@ idea=
 future=
 comment=
 other=
+---
+id=12
+title=Natural language question answering over RDF data
+author=Ruizhe Huang, Lei Zou
+journal=SIGMOD poster
+year=2013
+tags=nlp, RDF, gstore, ganswer, QA, subgraph matching
+star=***
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=the poster version of [id=2]
 ---
