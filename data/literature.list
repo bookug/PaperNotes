@@ -57,7 +57,7 @@ hardness=the work complexity of original methods are too high,load imbalance,irr
 idea=based on frontier queue to reduce work complexity,expand via prefix sum,warp/block scheduling to solve load imbalance,remove duplicates(not all) based on warp or history
 future=use the ideas in other graph algorithms,good strategies to solve the load imbalance,develop new optimizations for BFS
 comment=perfect work,wonderful papers and everyone working on GPU graph algorithms should read it; any imbalance between CTAs can be limited by oversubscribing GPU cores with an abundance of CTAs and/or implementing coarse-grained tile-stealing mechanisms for CTAs to dequeue tiles at their own rate
-other=this paper is hard to understand and there is another more detailed technical report,some blogs on Internet talks about its ideas in more comprehensive way and my PPT is also a good material for BFS; a detailed paper is provided in [id=14]
+other=this paper is hard to understand and there is another more detailed technical report,some blogs on Internet talks about its ideas in more comprehensive way and my PPT is also a good material for BFS; a detailed paper is provided in [id:14]
 ---
 id=4
 title=ThunderSVM: A Fast SVM Library on GPUs and CPUs
@@ -161,7 +161,7 @@ interest=
 hardness=
 idea=
 future=
-comment=the two-step output scheme is very useful and it originates from [id=6] paper
+comment=the two-step output scheme is very useful and it originates from [id:6] paper
 other=
 ---
 id=11
@@ -177,7 +177,7 @@ hardness=how to use this operators and how to improve the performance
 idea=collect candidates for vertices and edges respectively, then enumerate all combinations of the candidates of all query edges
 future=joining order selection and reducing intermediate results
 comment=the filtering strategy is too simple,the process of collect edge candidates may be very slow due to higher work complexity causing by long neighbor lists,the number of enumeration is too large for GPU to run,the locking strategy for result ouput can be very slow if many final results exist
-other=this work can not deliver better performance than [id=12] paper, though it claims to
+other=this work can not deliver better performance than [id:12] paper, though it claims to
 ---
 id=12
 title=Fast Subgraph Matching on Large Graphs using Graphics Processors (GpSM)
@@ -189,7 +189,7 @@ star=****
 problem=how to implement a GPU-frinedly subgraph matching algorithm
 interest=subgraph matching problem is complex and hard and frequently encounted in real life,leverage the parallelism power of GPU in graph algorithms
 hardness=traditional subgraph matching algorithms are based on backtracking strategies, so hard to be run in parallel;too complicate and too many cases
-idea=use filtering-and-verification framework,two-step output scheme from [id=10],efficient GPU techniques of coalescence, warp-based and shared memory utilization, and a recursive refinement function for pruning irrelevant candidate vertices
+idea=use filtering-and-verification framework,two-step output scheme from [id:10],efficient GPU techniques of coalescence, warp-based and shared memory utilization, and a recursive refinement function for pruning irrelevant candidate vertices
 future=improve the efficiency of GpSM for large graphs, for example, by dealing with large amount of intermediate results that do not fit into the GPU memory and also by adopting buffering techniques
 comment=its strategy for very large graphs is too simple and may not work,only utilize a few of the shared memory,target at undirected graphs without edge labels;using a warp for a row, threads may be wasted if the work of a row divide by 32 and only get a small remaining,the load imbalance still exists if the work of a row is too large and should be dealed by a block(or many blocks) first; generates a large amount of irrelevant candidate vertices and edges, thus the size of intermediate table is very large
 other=the definition used here is based on embedding subgraphs rather than induced subgraphs;the paper extends GpSM for very large graphs by retrieving only relevant vertices and their adjacency lists to the GPU memory
@@ -222,7 +222,7 @@ hardness=
 idea=
 future=
 comment=
-other=a concrete version of [id=3]
+other=a concrete version of [id:3]
 ---
 id=15
 title=Trace fragment selection within method-based JVMs

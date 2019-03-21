@@ -57,7 +57,7 @@ hardness=TurboISO adopts backtrack paradigm which is hard to be parallelized
 idea=parallelism in different candidate region, the independency property of the partial subtree embedding allows that the GPU region exploration algorithm can first divide the region exploration into expanding and backtracking of partial subtree embeddings and then conquer the partial subtree embedding and generate new ones in parallel
 future=
 comment=the key of this paper is to adopts some BFS expanding strategies in the DFS framework, the shortcoming is that lots of DFS operations still exist and will limit the overall performance; if dfs work is too little, then the size of candidates will be too large for GPUto run(memory and thread limits), if dfs work is too much, then the time cost of dfs is too high, though the size of candidates for BFS is reduced
-other=backtrack paradigm is rarely used in parallel computing; much faster than vf2[id=58], but hard to implement
+other=backtrack paradigm is rarely used in parallel computing; much faster than vf2[id:58], but hard to implement
 ---
 id=4
 title=THE ENUMERATION OF MAXIMAL CLIQUES OF LARGE GRAPHS
@@ -72,7 +72,7 @@ hardness=
 idea=
 future=
 comment=
-other=the same idea as [id=5]
+other=the same idea as [id:5]
 ---
 id=5
 title=Finding All Cliques of an Undirected Graph
@@ -222,7 +222,7 @@ hardness=high-degree nodes, complex model of distributed computing
 idea= mine and select some frequent access patterns to reflect the characteristics of the workload,  Vertical fragmentation is for better throughput and horizontal fragmentation is for lower latency
 future=
 comment=find out all instances of a frequent pattern as fragments,place all instances of a query in several machines to lower latency of the single query(enable parallism of this query), place all instances in one machine to improve throughput(enable parallism of multiple queries); allocate closely related fragments in one machine to lower the communication cost of dealing with decomposed query
-other=An improved version is in [id=16]; based on edge cut, may not work well on high-degree nodes
+other=An improved version is in [id:16]; based on edge cut, may not work well on high-degree nodes
 ---
 id=15
 title=Processing SPARQL queries over distributed RDF graphs
@@ -252,7 +252,7 @@ hardness=
 idea=allocate these fragments to various sites while balancing the fragments;  vertical, horizontal and mixed fragmentation
 future=
 comment=
-other=The original work is in [id=14], the enhancement is that a mixed fragmentation strategy is proposed
+other=The original work is in [id:14], the enhancement is that a mixed fragmentation strategy is proposed
 ---
 id=17
 title=Collaborative (CPU + GPU) Algorithms for Triangle Counting and Truss Decomposition on the Minsky Architecture
@@ -282,7 +282,7 @@ hardness=load imbalance due to the irregular property of graph
 idea=assigns  a  different  number  of  threads  for  different intersections  in  order  to  effectively  utilize  the  resources  of  the GPU; search-based and merge-based; estimate the cost and split into sublists
 future=
 comment=less abstarct, not so novel; no use about shared memory; how to set the size of bin and how many threads to use for this bin; load imbalance still exists in a bin
-other=the original idea is in [id=57]
+other=the original idea is in [id:57]
 ---
 id=19
 title=Static Graph Challenge: Subgraph Isomorphism
@@ -387,7 +387,7 @@ hardness=subgraph matching is a NP-hard problem
 idea=edge-based subgraph Isomorphism on GPU, multi-level graph compression(finding similar nodes in Knowledge graphs and combine into one hyper-node) to place large graph on GPU
 future=
 comment=
-other=use subgraph Isomorphism algorithm like [id=12] in literature.list; the graph compression strategy is similar to [id=5] in yuqizhou.list
+other=use subgraph Isomorphism algorithm like [id:12] in literature.list; the graph compression strategy is similar to [id:5] in yuqizhou.list
 ---
 id=26
 title=Efficient Semantic Search over Structured Web Data: A GPU Approach
@@ -402,7 +402,7 @@ hardness=
 idea=backward chaining
 future=
 comment=
-other=use subgraph Isomorphism algorithm like [id=12] in literature.list
+other=use subgraph Isomorphism algorithm like [id:12] in literature.list
 ---
 id=27
 title=privacy-preserving ranked neighbor query over encrypted graph data in the cloud
@@ -446,8 +446,8 @@ interest=
 hardness=
 idea=
 future=for graph database an index can be built to speed up the searching, which uses the features of the data graphs
-comment=the subgraph isomorphism algorithm is GpSM in [id=12] in literature.list
-other=the same paper with [id=129]
+comment=the subgraph isomorphism algorithm is GpSM in [id:12] in literature.list
+other=the same paper with [id:129]
 ---
 id=30
 title=Challenging the Time Complexity of Exact Subgraph Isomorphism for Huge and Dense Graphs with VF3
@@ -462,7 +462,7 @@ hardness=traditional algorithms only deals with small and sparse graphs; hard to
 idea=
 future=
 comment=
-other=it seems there is a former version in 2017;   vf2 is also published on TPAMI, and vf3 is the evolution of VF2Plus, which is also an evolution of VF2[id=58]; TPAMI is a famous journal with Impact Factor higher than 9; another paper is Introducing VF3: A New Algorithm for Subgraph Isomorphism
+other=it seems there is a former version in 2017;   vf2 is also published on TPAMI, and vf3 is the evolution of VF2Plus, which is also an evolution of VF2[id:58]; TPAMI is a famous journal with Impact Factor higher than 9; another paper is Introducing VF3: A New Algorithm for Subgraph Isomorphism
 ---
 id=31
 title=A Distributed Multi-GPU System for Fast Graph Processing
@@ -490,7 +490,7 @@ problem=how to implement SSSP on GPU
 interest=SSSp is frequently encountered in real life
 hardness=dijkstra's algorithm is hard to parallize, while the work complexity of bellman-ford is too high
 idea=Workfront Sweep, Near-Far and Bucketing; to balance the tradeoff between saving work and organizational overhead
-future=dynamic method that switches between Workfront Sweep and Near-Far(begin with a Workfront Sweep method until the vertex queue becomes large enough to saturate the GPU, Now that there is sufficient parallelism, we would switch to our Near-Far Pile technique where work efficiency is more important. Finally, after most of the graph has been explored, and we return to a lack of sufficient parallelism, we would switch back again to Workfront Sweep to finish off the problem, similar to [id=36]);  lack of available parallelism on road network (low-degree graphs), combine our work-saving method with a PHAST-like pre-processing step to identify more vertices from which to start our SSSP sweeps
+future=dynamic method that switches between Workfront Sweep and Near-Far(begin with a Workfront Sweep method until the vertex queue becomes large enough to saturate the GPU, Now that there is sufficient parallelism, we would switch to our Near-Far Pile technique where work efficiency is more important. Finally, after most of the graph has been explored, and we return to a lack of sufficient parallelism, we would switch back again to Workfront Sweep to finish off the problem, similar to [id:36]);  lack of available parallelism on road network (low-degree graphs), combine our work-saving method with a PHAST-like pre-processing step to identify more vertices from which to start our SSSP sweeps
 comment=reduce the work complexity remarkably; works for low-degree and scale-free graphs both
 other=
 ---
@@ -506,7 +506,7 @@ interest=
 hardness=
 idea=
 future=
-comment=successful for coarse-grained parallel CPus; difficult to implement efficiently on a GPU-like machine(by [id=32]):bucket implementation requires dynamic arrays that can be quickly resized in parallel. Dynamic arrays are poorly suited to the current programming model of GPUs, and implementing a custom memory management system for dynamic arrays (utilizing heaps) would be difficult and inefficient;  fine-grained renaming and moving vertices between buckets is difficult to paral lelize, likely requiring atomics and thus losing concurrency; efficient GPU implementations require exploiting three-layer memory hierarchy(global DRAM, per-block shared memory, and per-thread registers) of GPU
+comment=successful for coarse-grained parallel CPus; difficult to implement efficiently on a GPU-like machine(by [id:32]):bucket implementation requires dynamic arrays that can be quickly resized in parallel. Dynamic arrays are poorly suited to the current programming model of GPUs, and implementing a custom memory management system for dynamic arrays (utilizing heaps) would be difficult and inefficient;  fine-grained renaming and moving vertices between buckets is difficult to paral lelize, likely requiring atomics and thus losing concurrency; efficient GPU implementations require exploiting three-layer memory hierarchy(global DRAM, per-block shared memory, and per-thread registers) of GPU
 other=delta stepping, the original idea
 ---
 id=34
@@ -522,7 +522,7 @@ hardness=
 idea=
 future=
 comment=
-other=a GPU version of delta-stepping for SSSP, see [id=33]
+other=a GPU version of delta-stepping for SSSP, see [id:33]
 ---
 id=35
 title=Implementing sparse matrix-vector multiplication on throughput-oriented processors
@@ -837,7 +837,7 @@ hardness=
 idea=a binary representation scheme(BSR) to encode adjacency-lists, a merge-based intersection algorithm(QFilter), the node ordering also affects the performance by influencing the compactness of BSR sets
 future=
 comment=
-other=similar idea to [id=66]
+other=similar idea to [id:66]
 ---
 id=56
 title=Randomized Algorithms Accelerated over CPU-GPU for Ultra-High Dimensional Similarity Search
@@ -882,7 +882,7 @@ hardness=
 idea=
 future=
 comment=
-other=based on induced subgraph rather than embedding subgraph;the implementation is very critical; much better than [id=59]
+other=based on induced subgraph rather than embedding subgraph;the implementation is very critical; much better than [id:59]
 ---
 id=59
 title=An Algorithm for Subgraph Isomorphism
@@ -1227,7 +1227,7 @@ hardness=if packing key and index(64 bit), then the cache miss of random access 
 idea=based on multiway mergesort, does the key encoding and record rearranging for each multiway merge stage, while the key-index approach does the encoding only at the beginning of the entire sorting operation and record rearrangement at the end
 future=
 comment=
-other=an improvement of [id=192]
+other=an improvement of [id:192]
 ---
 id=82
 title=Finding, Counting and Listing all Triangles in Large Graphs, An Experimental Study
@@ -1946,7 +1946,7 @@ hardness=
 idea=
 future=
 comment=
-other=the same paper with [id=29]
+other=the same paper with [id:29]
 ---
 id=130
 title=parallel graph mining with GPUs
@@ -1976,7 +1976,7 @@ hardness=
 idea=
 future=
 comment=
-other=use the subgraph matching algorithm in [id=12], like [id=25]
+other=use the subgraph matching algorithm in [id:12], like [id:25]
 ---
 id=132
 title=GPU Join Processing Revisited
