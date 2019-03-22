@@ -3238,3 +3238,18 @@ future=
 comment=Experiment results show that gGraph outperforms GraphChi and PowerGraph. In addition, gGraph achieves the best energy efficiency among all evaluated platforms.
 other=
 ---
+id=216
+title=A review on algorithms for maximum clique problems
+author=Qinghua Wu, jin-Kao Hao
+journal=European Journal of Operational Research
+year=2015
+tags=maximum clique, Experimental paper, review, survey
+star=***
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
