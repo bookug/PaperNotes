@@ -42,7 +42,7 @@ hardness= Natural language has ambiguation
 idea= rudece NPL to subgraph matching query and then evaluate it. If passed, search the transformed SPARQL query in the database, graph structure can reserve the structure of main components of a natural sentence
 future=NULL
 comment=Subgraph matching is a NP-hard question, time complexity may become a challenge. Use subgraph matching to understand natural language is a new point, reduce the NLp problem to SPARQL query is also hard and the precision is hard to compete with Deep Learning(better at tuning)
-other=an imporved version of [id=12]
+other=an imporved version of [id:12]
 ---
 id=3 
 title=Subgraph matching: on compression and computation.
@@ -101,7 +101,7 @@ interest=
 hardness=
 idea=
 future=
-comment=novel ideas that can be used in many subgraph isomorphism algorithms; find relations in data vertices rather than query vertices by [id=5] TurboISO
+comment=novel ideas that can be used in many subgraph isomorphism algorithms; find relations in data vertices rather than query vertices by [id:5] TurboISO
 other=also based on undirected graph without edge labels
 ---
 id=7
@@ -192,5 +192,5 @@ hardness=
 idea=
 future=
 comment=
-other=the poster version of [id=2]
+other=the poster version of [id:2]
 ---
