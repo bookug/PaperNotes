@@ -3253,3 +3253,18 @@ future=
 comment=
 other=
 ---
+id=217
+title=Finding the maximum clique in massive graphs
+author=Can Lu, Jeffrey Xu Yu(the teacher), Hao Wei, Yikai Zhang
+journal=VLDB
+year=2017
+tags=maximum clique, massive graphs, randomized graph algorithm
+star=****
+problem=algorithms designed for the maximum clique problem are expensive to deal with real-world networks
+interest=the maximum clique problem is known to have direct applications in various fields, such as community search in social networks and social media, team formation in expert networks, gene expression and motif discovery in bioinformatics and anomaly detection in complex networks, revealing the structure and function of networks
+hardness=
+idea=devise a randomized algorithm for the maximum clique problem. Different from previous algorithms that search from each vertex one after another, our approach RMC, for the randomized maximum clique problem, employs a binary search while maintaining a lower bound and upper bound of w(G)
+future=
+comment=
+other=homepage   http://www.se.cuhk.edu.hk/research/information.html#4 ;   diverse relaxations of clique are mentioned in this paper: quasi-clique, k-core, k-edge-connectivity, dense subgraph.
+---

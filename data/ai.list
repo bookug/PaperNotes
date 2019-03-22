@@ -179,3 +179,33 @@ future=
 comment=通用逼近属性并不是激活函数的具体选择，而是多层前馈结构本身，该结构使神经网络具有通用逼近器的性质。
 other=
 ---
+id=10
+title=Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots (IMN)
+author=
+journal=arxiv
+year=2019
+tags=IMN, Retrieval-Based Chatbots, Multi-Turn Response selection, Interactive matching network
+star=**
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=11
+title=Learning Matching Models with Weak Supervision for Response Selection in Retrieval-based Chatbots
+author=Yu Wu, Wei wu
+journal=ACL
+year=2018
+tags=negative sampling, generative model, weak Supervision, response Selection, Retrieval-based chatbots
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
