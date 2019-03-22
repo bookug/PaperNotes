@@ -30,7 +30,7 @@ comment=A detailed paper. VS*-tree is its main contribution, but too costly in p
 other= NULL
 ---
 id=2
-title=Natural language question answering over RDF: a graph data driven approach
+title=Natural language question answering over RDF: a graph data driven approach (ganswer)
 author=Lei Zou，Ruizhe Huang，Haixun Wang，Jeffrey Xu Yu，Wenqiang He，Dongyan Zhao
 journal=ACM SIGMOD International Conference on Management of Data
 year=2014
@@ -180,7 +180,7 @@ comment=
 other=
 ---
 id=12
-title=Natural language question answering over RDF data
+title=Natural language question answering over RDF data (ganswer demo)
 author=Ruizhe Huang, Lei Zou
 journal=SIGMOD poster
 year=2013
