@@ -29,3 +29,33 @@ future=
 comment=
 other=
 ---
+id=1
+title=foundations of data science
+author=Avrim Blum, John Edward Hopcroft (award of Turing Award), Ravindran Kannan
+journal=
+year=2018
+tags=data science, foundation theory
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=homepage http://www.cs.cornell.edu/jeh/  ;  also the teacher of pku Turing class, https://cfcs.pku.edu.cn/index.htm 北京大学前沿计算研究中心
+---
+id=2
+title=Knowledge and Common Knowledge in a Distributed Environment
+author=Joseph Y. Halpern, Yoram Moses
+journal=ACM Symposium on Principles of Distributed Computing (PODC, CCF B conference of architecture/distributed computing area)
+year=1984
+tags=Common knowledge, distributed computing
+star=***
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
