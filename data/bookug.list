@@ -3313,3 +3313,18 @@ future=
 comment=We evaluate our approach against the state-of-the-art techniques and show that our work improves both the quality and the efficiency of entity summarization
 other=Linking Open Data(LOD)
 ---
+id=221
+title=NetLSD: Hearing the Shape of a Graph
+author=Anton Tsitsulin
+journal=SIGKDD
+year=2018
+tags=NetLSD, graph property, graph comparison, graph similarity, Laplacian spectrum
+star=****
+problem=Comparison among graphs is ubiquitous in graph analytics
+interest=it is a hard task in terms of the expressiveness of the employed similarity measure and the efficiency of its computation
+hardness=Ideally, graph comparison should be invariant to the order of nodes and the sizes of compared graphs, adaptive to the scale of graph patterns, and scalable. Unfortunately, these properties have not been addressed together. Graph comparisons still rely on direct approaches, graph kernels, or representation-based methods, which are all inefficient and impractical for large graph collections.
+idea=NetLSD (Network Laplacian Spectral Descriptor), a permutation- and size-invariant, scale-adaptive, and scalably computable graph representation method that allows for straightforward comparisons. NetLSD hears the shape of a graph by extracting a compact signature that inherits the formal properties of the Laplacian spectrum, specifically its heat or wave kernel
+future=
+comment=NetLSD is the first expressive graph representation that allows for efficient comparisons of large graphs
+other=
+---
