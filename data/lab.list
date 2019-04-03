@@ -74,3 +74,18 @@ future=
 comment=
 other=
 ---
+id=4
+title=ProbeSim: Scalable Single-Source and Top-k SimRank Computations on Dynamic Graphs
+author=Yu Liu, Bolong Zheng, Zhewei Wei(corresponding author), Jiaheng Lu
+journal=VLDB
+year=2018
+tags=ProbeSim, single-source and top-k SimRank, dynamic graphs
+star=****
+problem=single-source and Top-k SimRank
+interest=Single-source and top-k SimRank queries are two important types of similarity search in graphs with numerous applications in web mining, social network analysis, spam detection, etc
+hardness=A plethora of techniques have been proposed for these two types of queries, but very few can efficiently support similarity search over large dynamic graphs, due to either significant preprocessing time or large space overheads.
+idea=ProbeSim, an index-free algorithm for single-source and top-k SimRank queries that provides a nontrivial theoretical guarantee in the absolute error of query results.  ProbeSim estimates SimRank similarities without precomputing any indexing structures, and thus can naturally support real-time SimRank queries on dynamic graphs. Besides the theoretical guarantee, ProbeSim also offers satisfying practical efficiency and effectiveness due to non-trivial optimizations
+future=
+comment=
+other=
+---

@@ -3388,3 +3388,18 @@ future=
 comment=
 other=
 ---
+id=226
+title=Relaxed Operator Fusion for In-Memory Databases: Making Compilation, Vectorization, and Prefetching Work Together At Last
+author=Prashanth Menon, Todd C. Mowry, Andrew Pavlo
+journal=VLDB
+year=2017
+tags=relaxed Operator fusion, in-memory databases, Compilation-Vectorization-Prefetching work together, just-in-time compilation(JIT), relational database, query optimization, SIMD Vectorization, tactful materialization, inter-tuple parallelism
+star=****
+problem=Because disk accesses are no longer the principle bottleneck in such systems, the focus in designing query execution engines has shifted to optimizing CPU performance.
+interest=In-memory database management systems (DBMSs) are a key component of modern on-line analytic processing (OLAP) applications, since they provide low-latency access to large volumes of data
+hardness=The state-of-the-art in query compilation is to fuse operators together in a query plan to minimize materialization overhead by passing tuples efficiently between operators
+idea=Our empirical analysis shows, however, that more tactful materialization yields better performance.  We present a query processing model called “relaxed operator fusion” that allows the DBMS to introduce staging points in the query plan where intermediate results are temporarily materialized.  This allows the DBMS to take advantage of inter-tuple parallelism inherent in the plan using a combination of prefetching and SIMD vectorization to support faster query execution on data sets that exceed the size of CPU-level caches
+future=
+comment=Recent systems have revived an older technique of using just-in-time (JIT) compilation to execute queries as native code instead of interpreting a plan
+other=
+---
