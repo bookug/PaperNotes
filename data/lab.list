@@ -44,3 +44,33 @@ future=
 comment=
 other=
 ---
+id=2
+title=Processing SPARQL Queries Over Linked Data—A Distributed Graph-based Approach
+author=Peng Peng
+journal=VLDB journal
+year=2016
+tags=partial evaluation, Distributed computing, sparql query, RDF system, big data, graph algorithm
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=3
+title=Accelerating Partial Evaluation in Distributed SPARQL Query Evaluation
+author=Peng Peng, Lei Zou
+journal=ICDE
+year=2019
+tags=partial evaluation, Distributed computing, sparql query, RDF system, big data, graph algorithm
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
