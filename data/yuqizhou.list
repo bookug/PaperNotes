@@ -159,7 +159,7 @@ star=****
 problem=
 interest=
 hardness=
-idea=Decompose query graphs into several wedges and find their candidates separately, finally join on a distributed memory cloud
+idea=designed for billion-node graphs, no indices due to compacity; Decompose query graphs into several wedges and find their candidates separately, finally join on a distributed memory cloud; STwig, two-level trees, also a star, large intermediate results for each small substructure
 future=
 comment=distributed memory cloud means that local computing is much more important, and the key is to reduce communication cost; memory is enough in this platform to store the huge candidates and intermediate results
 other=powered by Microsoft Asia Research(MSRA), https://www.microsoft.com/en-us/research/publication/a-distributed-graph-engine-for-web-scale-rdf-data/?from=http%3A%2F%2Fresearch.microsoft.com%2Fapps%2Fpubs%2Fdefault.aspx%3Fid%3D183717
