@@ -1,0 +1,48 @@
+This file is used to collect useful phrases in English Papers.
+
+---
+
+develop
+
+hence
+
+thus
+
+afterwards
+
+technique
+
+mechanism
+
+turn more challenging
+
+conform to the constraints of both ...
+
+conform to X constraints 
+
+For simplicity, when the context is clear, we always use “match” to mean “timeconstrained match”.
+
+to first check the structure constraint followed by a check of
+
+For the sake of presentation, we assume that
+
+Without loss of generality, we assume that
+
+let X be the result produced by ...
+
+Assuming that ...
+
+Finding the most appropriate cost function is a major research issue in itself and outside the scope of this paper.
+
+To the best of our knowledge
+
+The proliferation of high throughput, dynamic graphstructured data raises challenges for traditional graph data management techniques.
+
+we verify answers from SJ-tree posteriorly with the timing order constraints.
+
+Thus, we propose a simple yet effective heuristic rule.
+
+
+
+
+
