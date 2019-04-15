@@ -2,6 +2,31 @@ This file is used to collect useful phrases in English Papers.
 
 ---
 
+
+
+
+to address the problems caused by
+
+auxiliary 
+
+robust
+
+prioritize
+
+These approaches achieved impressive speedups over the direct-enumeration algorithms such as VF2.
+
+reveal
+
+brevity
+
+improving the filtering precision is justified only when the verification phase is the bottleneck of the query.
+
+representatives
+
+exhaustively
+
+methodology
+
 develop
 
 hence

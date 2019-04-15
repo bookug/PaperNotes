@@ -116,8 +116,8 @@ interest=
 hardness=
 idea=
 future=
-comment=propose novel query language like GraphQL; also discuss how to optimize the subgraph isomorphism
-other=
+comment=propose novel query language; also discuss how to optimize the subgraph isomorphism
+other=the first to propose filtering-and-verification framework
 ---
 id=8
 title=Multi-Query Optimization for Subgraph Isomorphism Search
