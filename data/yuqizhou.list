@@ -150,11 +150,11 @@ comment=
 other=
 ---
 id=10
-title=Efficient Subgraph Matching on Billion Node Graphs(STwig, Trinity)
+title=Efficient Subgraph Matching on Billion Node Graphs(STwig, Trinity, STW)
 author=Zhao Sun, Hongzhi Wang, Haixun Wang, Bin Shao, Jianzhong Li
 journal=PVLDB
 year=2012
-tags=Subgraph isomorphism,Subgraph Matching,billion node,large graph,distributed memory cloud computing,STwig,Trinity
+tags=Subgraph isomorphism,Subgraph Matching,billion node,large graph,distributed memory cloud computing,STwig,Trinity, STW
 star=****
 problem=
 interest=
