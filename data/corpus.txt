@@ -2,7 +2,21 @@ This file is used to collect useful phrases in English Papers.
 
 ---
 
+conceive
 
+Section 2 formulates the problem, and an overview of the proposed framework follows in Section 3.
+
+fully-fledged system
+
+to our best knowledge
+
+strike a balance
+
+aforementioned
+
+type-aware transformation
+
+tailored optimization techniques
 
 For ease of explanation
 

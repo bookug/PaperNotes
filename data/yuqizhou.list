@@ -27,7 +27,7 @@ hardness=query processing & wildcard queries & scalability & Subgraph matching i
 idea=graph-based approach,translate a SPARQL query to a query graph. VS*-tree(like B+ tree, good for disk storage), searching strategy like DFS 
 future=not mentioned
 comment=A detailed paper. VS*-tree is its main contribution, but too costly in practice and its filtering efficiency may be not good due to or operation(too many 1s in the top level nodes)
-other= NULL
+other= use coding idea in [id:326] of bookug.list; tags each vertex with a signature and matches signatures of data vertices and query vertices one by one using the VS*-tree index
 ---
 id=2
 title=Natural language question answering over RDF: a graph data driven approach (ganswer)
@@ -195,11 +195,11 @@ comment=
 other=the poster version of [id:2]
 ---
 id=13
-title=A Distributed Graph Engine for Web Scale RDF Data
+title=A Distributed Graph Engine for Web Scale RDF Data (Trinity.RDF)
 author=Kai Zeng, Jiacheng Yang, Haixun Wang, Bin Shao
 journal=PVLDB
 year=2013
-tags=Distributed graph engine, web scale RDF data, Trinity system, RDF system
+tags=Distributed graph engine, web scale RDF data, Trinity system, RDF system (Trinity.RDF)
 star=****
 problem=
 interest=
@@ -207,7 +207,7 @@ hardness=
 idea=
 future=
 comment=
-other=improvement of [id:10]
+other=improvement of [id:10] and built on top of system [id:17] to support RDF processing(subgraph homomorphism)
 ---
 id=14
 title=R-MAT: A Recursive Model for Graph Mining
@@ -253,4 +253,19 @@ idea=
 future=
 comment=
 other=
+---
+id=17
+title=Trinity: a distributed graph engine on a memory cloud
+author=Bin Shao, Haixun Wang, Yatao Li
+journal=SIGMOD
+year=2013
+tags=Trinity system, distributed computing, graph engine, memory cloud
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=developed as [id:10]
 ---
