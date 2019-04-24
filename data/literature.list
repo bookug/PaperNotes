@@ -192,7 +192,7 @@ hardness=traditional subgraph matching algorithms are based on backtracking stra
 idea=use filtering-and-verification framework,two-step output scheme from [id:10],efficient GPU techniques of coalescence, warp-based and shared memory utilization, and a recursive refinement function for pruning irrelevant candidate vertices
 future=improve the efficiency of GpSM for large graphs, for example, by dealing with large amount of intermediate results that do not fit into the GPU memory and also by adopting buffering techniques
 comment=its strategy for very large graphs is too simple and may not work,only utilize a few of the shared memory,target at undirected graphs without edge labels;using a warp for a row, threads may be wasted if the work of a row divide by 32 and only get a small remaining,the load imbalance still exists if the work of a row is too large and should be dealed by a block(or many blocks) first; generates a large amount of irrelevant candidate vertices and edges, thus the size of intermediate table is very large
-other=the definition used here is based on embedding subgraphs rather than induced subgraphs;the paper extends GpSM for very large graphs by retrieving only relevant vertices and their adjacency lists to the GPU memory
+other=the definition used here is based on embedding subgraphs rather than induced subgraphs;the paper extends GpSM for very large graphs by retrieving only relevant vertices and their adjacency lists to the GPU memory; uses pruning recursively degree-based pruning technique in [id:346] of bookug.list
 ---
 id=13
 title=Towards Maximum Independent Sets on Massive Graphs
