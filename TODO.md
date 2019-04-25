@@ -8,6 +8,8 @@ conf/*
 
 add functions for automatic parsing and adding tags.. after we have typed the critical sentences.
 
+similar search, auto correction
+
 ---
 
 # PAPER
