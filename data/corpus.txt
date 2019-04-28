@@ -2,6 +2,19 @@ This file is used to collect useful phrases in English Papers.
 
 ---
 
+aiming to alleviate the computational burden while preserving a good performance
+
+
+Graphs are ubiquitous nowadays and have a wide range of applications in bioinformatics, chemistry, recommender systems, social network study, program static analysis, etc. Among these, one of the fundamental problems is to retrieve a set of similar graphs from a database given a user query.
+
+semi-artificial line drawings
+
+The A* search algorithm is characterized by a heuristic function
+
+In this paper, we address the issue of efficient edit distance computation in a different way
+
+consider for simplicity
+
 conceive
 
 Section 2 formulates the problem, and an overview of the proposed framework follows in Section 3.
@@ -9,6 +22,8 @@ Section 2 formulates the problem, and an overview of the proposed framework foll
 fully-fledged system
 
 to our best knowledge
+
+putting all these together
 
 strike a balance
 

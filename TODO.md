@@ -10,6 +10,8 @@ add functions for automatic parsing and adding tags.. after we have typed the cr
 
 similar search, auto correction
 
+use database for read/write and reasoning?
+
 ---
 
 # PAPER
