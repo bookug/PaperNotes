@@ -2,6 +2,14 @@ This file is used to collect useful phrases in English Papers.
 
 ---
 
+is annotated with +
+
+while the rest of the lines are retained as is
+
+An embedded DSL exists as a library in the host language (Scala in our case), leading to seamless integration.
+
+Additional details can be found in our technical report [70].  (on arXiv)
+
 aiming to alleviate the computational burden while preserving a good performance
 
 
