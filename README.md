@@ -35,6 +35,12 @@ src/search.py -g "GPU" -s 4
 -v or --version：shows the version of this software
 ```
 
+To see the number of all papers:
+
+```
+src/search.py -s 1|grep "id =>" |wc -l
+```
+
 ### Literature
 
 The note of all papers are placed in data/literature.list, where each paper has a unique ID and only append operation are allowed for this file.

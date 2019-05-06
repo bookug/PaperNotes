@@ -2,6 +2,15 @@ This file is used to collect useful phrases in English Papers.
 
 ---
 
+meet all criteria
+
+it suffices to show 
+
+with the advent of GPU
+
+to underline the efficiency of the
+proposed solution
+
 use a hash function to probe this position
 
 achieve substantial speedup 
