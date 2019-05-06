@@ -2,6 +2,14 @@ This file is used to collect useful phrases in English Papers.
 
 ---
 
+use a hash function to probe this position
+
+achieve substantial speedup 
+
+employ the power of massive parallelism
+
+We present in this paper several improvements for computing shortest path maps using OpenGL shaders. 
+
 is annotated with +
 
 while the rest of the lines are retained as is

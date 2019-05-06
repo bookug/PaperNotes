@@ -6028,3 +6028,18 @@ future=
 comment=
 other=
 ---
+id=402
+title=hash collision analysis
+author=
+journal=
+year=
+tags=hash collision analysis, probability, one-to-one hash, upper bound of expectation
+star=****
+problem=
+interest=
+hardness=
+idea=https://math.dartmouth.edu/archive/m19w03/public_html/Section6-5.pdf  ;    http://www.cs.fsu.edu/~lacher/courses/COP4531/notes/hashanalysis.pdf  
+future=
+comment=
+other=the upper bound is the bound of expectation, in the worst case, all items are hashed into one bucket
+---
