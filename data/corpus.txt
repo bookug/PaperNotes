@@ -2,6 +2,20 @@ This file is used to collect useful phrases in English Papers.
 
 ---
 
+We are passionate about performance.
+
+advantageous
+
+trigger the switch of direction
+
+how the techniques harmonize when applied jointly
+
+its structure is interesting in its own right.
+
+alternatively    
+
+serve a dual purpose
+
 meet all criteria
 
 it suffices to show 
@@ -88,7 +102,45 @@ hence
 
 thus
 
+hence
+
+ an abundance of related work
+
+ counter-example
+
+ be determined on diverse criteria
+
+ is enriched with
+
+ end-nodes
+
+the worst-case memory usage is prohibitive.
+
+the poor performance is an artifact of a discrepancy between the GPU programming model and the underlying GPU architecture
+
+exposes the traits of underlying GPU architectures to users
+
 afterwards
+
+low-end GPU devices
+
+sensibly reduce the search space
+
+to understand the correlation between performance and graph characteristics as well as advantages and limitations of the proposed approach
+
+graph motif discovery
+
+For the sake of clarity and without loss of generality
+
+obviates the need for the substantial work to verify the topology constraint
+
+lead to significant performance gains
+
+As graphs continue to grow, external memory graph processing systems serve as a promising alternative to inmemory solutions for low cost and high scalability.
+
+use the terms node and vertex interchangeably
+
+tackle the bottleneck
 
 technique
 
