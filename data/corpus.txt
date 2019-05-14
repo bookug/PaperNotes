@@ -4,6 +4,14 @@ This file is used to collect useful phrases in English Papers.
 
 We are passionate about performance.
 
+in ordre to facilitate easy exposition
+
+the so-called xxx
+
+exhibit less potential for parallelizations
+
+streamline some processes
+
 advantageous
 
 trigger the switch of direction
@@ -64,9 +72,57 @@ to our best knowledge
 
 putting all these together
 
-strike a balance
+strike a balance  between
+
+This makes it algorithm agnostic and thus applicable to a broader set of algorithms.
+
+center around using the edge weights
+
+considering the properties of GPU architecture
+
+optimization tactics
+
+exhibit a highly irregular structure
+
+mitigate all these diculties
+
+a comparable worst-case result
+
+address these deficits
+
+despite intensive research during the last decades
+
+Evaluating the performance of shortest-paths algorithms on the basis of real-world data is both desirable and problematic
+
+depicts the relation between parallel models of computation
+
+in a nutshell
+
+While this is interesting in its own right it also stresses the advantages of our new algorithms.
+
+such inputs are quite atypical
+
+dist(s,v), abbreviated dist(v)
+
+deduce that a tentative distance of a node is final
+
+Large yields may be advantageous in several ways
+
+Even more obviously
 
 aforementioned
+
+indispensible
+
+deviates significantly from
+
+is refilled with
+
+despite
+
+in spite of
+
+a striking example
 
 type-aware transformation
 
@@ -118,6 +174,8 @@ the worst-case memory usage is prohibitive.
 
 the poor performance is an artifact of a discrepancy between the GPU programming model and the underlying GPU architecture
 
+the huge space cost marks it inefficient
+
 exposes the traits of underlying GPU architectures to users
 
 afterwards
@@ -142,9 +200,12 @@ use the terms node and vertex interchangeably
 
 tackle the bottleneck
 
-technique
+has good scalability with graph size scaling to hundreds of millions of vertices and edges, which are 100 times than the data graph size used in the state-of-the-art work.
 
-mechanism
+technique, mechanism, methodology
+
+our proposed accelerative solution
+
 
 turn more challenging
 

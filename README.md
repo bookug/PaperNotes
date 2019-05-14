@@ -88,6 +88,10 @@ IEEE search:  https://www.computer.org/web/search
 ACM search: https://dl.acm.org/
 
 
+For latest works, try to start from papers citing a good paper in Google Scholar.
+
+To enter a new subdivision field, try to start from several classical phd dissertations, which usually give detailed background.
+
 
 ---
 

@@ -12,6 +12,8 @@ similar search, auto correction
 
 use database for read/write and reasoning?
 
+U.Meyer is the same as Ulrich Meyer
+
 ---
 
 # PAPER

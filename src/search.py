@@ -8,7 +8,7 @@ import copy
 
 # BETTER: construct indices for tags to speed up searching
 # TODO: papers after a given year, or a year interval; fuzzy matching? split into words and not substring matching?
-# BETTER: compute the similarity of two strings instead of finding substr, for example, Li Zeng and Zeng Li should be the same
+# BETTER: compute the similarity of two strings instead of finding substr, for example, San Zhang and Zhang San should be the same
 
 # file="note/literature.list"
 def getFiles(dir, suffix):
