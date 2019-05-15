@@ -235,6 +235,8 @@ we verify answers from SJ-tree posteriorly with the timing order constraints.
 
 Thus, we propose a simple yet effective heuristic rule.
 
+dummy instructions
+
 
 
 
