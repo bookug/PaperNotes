@@ -2,6 +2,8 @@ This file is used to collect useful phrases in English Papers.
 
 ---
 
+exposes the traits of underlying GPU architectures to users
+
 We are passionate about performance.
 
 in ordre to facilitate easy exposition
@@ -83,6 +85,10 @@ considering the properties of GPU architecture
 optimization tactics
 
 exhibit a highly irregular structure
+
+exhibit up to 9x speedup over previous algorithms
+
+nevertheless=however
 
 mitigate all these diculties
 
@@ -236,6 +242,8 @@ we verify answers from SJ-tree posteriorly with the timing order constraints.
 Thus, we propose a simple yet effective heuristic rule.
 
 dummy instructions
+
+an artifact of a discrepancy between the GPU programming model and the underlying GPU architecture
 
 
 
