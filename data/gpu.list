@@ -1019,3 +1019,18 @@ future=
 comment= The implementation is evaluated on Titan with various graphs including synthetic Recursive Matrix (R-MAT) and small-world network graphs as well as real-world graphs from Facebook, Twitter, LiveJournal, and the road maps of California and Texas.
 other=
 ---
+id=67
+title=Overcoming Limitations of GPGPU-Computing in Scientific Applications 
+author=Connor Kenyon
+journal=arXiv
+year=2019
+tags=GPGPU, Scientific Applications, hpc, Limitations
+star=***
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
