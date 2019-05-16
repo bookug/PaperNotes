@@ -539,3 +539,18 @@ future=
 comment=
 other=
 ---
+id=36
+title= Parallelism in random access memories
+author= S. Fortune
+journal=The theory of Computing, ACM
+year=1978
+tags=Parallelism, random access memory(RAM), parallel random access machine(PRAM model), shared memory, arbitrary CRCW (concurrent read concurrent write) PRAM
+star=***
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=https://baike.baidu.com/item/PRAM%E6%A8%A1%E5%9E%8B/1012201?fr=aladdin
+---

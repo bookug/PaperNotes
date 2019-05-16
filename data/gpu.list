@@ -1034,3 +1034,33 @@ future=
 comment=
 other=
 ---
+id=68
+title=High-probability parallel transitive closure algorithms
+author=J.D.Ullman, M.Yannakakis
+journal=SIAM J. Comput.
+year=1991
+tags=high probability, parallel, transitive closure, BFS, auxiliary data structure
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=69
+title=A randomized parallel algorithm for single-source shortest paths
+author=P.N. Klein, S. Subramanian
+journal=J. Algorithms
+year=1997
+tags=randomized, parallel, SSSP, weighted graph
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=extension of [id:68] from BFS to SSSP
+---

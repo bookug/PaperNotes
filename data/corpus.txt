@@ -98,7 +98,34 @@ prevailing wisdom
 
 they are at the epicenter of the renewed interest in graph processing
 
+note the distinction between ...
+
+this idea is hardly covered in the literature
+
+address the deficit described above by providing xxx
+
+with high probability (whp)
+
+    maintains eligible nodes with tentative distances in an array of buckets each of which represents a distance range of size theta
+
+We thank in particular xxx formanyfruitful discussions and suggestions.
+
+is valuable to highlight the main ideas of a parallel algorithm without tedious details caused by a particular architecture
+
+theoretical justification for the actually observed performance is largely missing.
+
+in between
+
+In the following we will provide an outline of previous and related work. Then we will give an overview of our new algorithms, interpret the theoretical results, and sketch the organization of the article.
+
 a comparable worst-case result
+
+nonfinal distance value
+
+emanate from some special nodes
+
+The football contest is competition that always nudges dark horses into the top tier. 
+
 
 address these deficits
 
