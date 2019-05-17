@@ -140,6 +140,16 @@ see significant speedups (20–60x) when compared against a serial implementatio
 
 address these deficits
 
+dense graphs that are more amenable for parallel SSSP computation
+
+we are aware of one previous work
+
+a three-pronged approach
+
+Efficient GPU implementations require exploiting the GPU’s three-layer memory hierarchy (global DRAM, per-block shared memory, and per-thread registers), but such a memory hierarchy is absent from the traditional deltastepping formulation.
+
+These two classic algorithms span a parallel vs. efficiency spectrum. Neither is ideal: Dijkstra exposes no parallelism across vertices, while Bellman-Ford is expensive.
+
 despite intensive research during the last decades
 
 Evaluating the performance of shortest-paths algorithms on the basis of real-world data is both desirable and problematic

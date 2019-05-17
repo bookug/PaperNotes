@@ -14,6 +14,8 @@ use database for read/write and reasoning?
 
 U.Meyer is the same as Ulrich Meyer
 
+rules: SSSP is the subclass of shortets path.   how about reasoning? we just need to write a single tag
+
 ---
 
 # PAPER
