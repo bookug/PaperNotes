@@ -769,7 +769,7 @@ title=Single-source shortest-paths on arbitrary directed graphs in linear averag
 author=U. Meyer
 journal=Proc. 12th Ann. Symp. on Discrete Algorithms (ACM-SIAM)
 year=2001
-tags=shortest path, SSSP, arbitary directed graph, linear average-case time, average linear-time
+tags=shortest path, SSSP, arbitary directed graph, linear average-case time, average linear-time, random edge weights, adaptive bucket-splitting
 star=****
 problem=
 interest=
@@ -777,7 +777,7 @@ hardness=
 idea=
 future=
 comment=
-other=
+other=extension of [id:33] of bookug.list, how the Δ-stepping idea can be augmented by adaptive bucket-splitting, thus yielding the first sequential SSSP algorithm with provably linear average-case time for arbitrary directed graphs with random edge weights.
 ---
 id=51
 title= Buckets strike back: Improved parallel shortest paths

@@ -126,6 +126,17 @@ emanate from some special nodes
 
 The football contest is competition that always nudges dark horses into the top tier. 
 
+the performance may deteriorate on scale-free graphs.
+
+load balance is used to prevent a single processor from being overloaded.
+
+ We now proceed to the next item on the agenda
+
+this idea can be augmented to deal with random weights.
+
+achieving rates up to 14x higher on low-degree graphs
+
+see significant speedups (20–60x) when compared against a serial implementation on graphs with adequately high degree
 
 address these deficits
 
