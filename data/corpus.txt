@@ -146,7 +146,11 @@ we are aware of one previous work
 
 a three-pronged approach
 
+Due to its ability to handle pathological cases
+
 Efficient GPU implementations require exploiting the GPU’s three-layer memory hierarchy (global DRAM, per-block shared memory, and per-thread registers), but such a memory hierarchy is absent from the traditional deltastepping formulation.
+
+This method most closely resembles delta stepping.
 
 These two classic algorithms span a parallel vs. efficiency spectrum. Neither is ideal: Dijkstra exposes no parallelism across vertices, while Bellman-Ford is expensive.
 
