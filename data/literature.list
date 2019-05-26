@@ -734,3 +734,18 @@ future=
 comment=
 other=
 ---
+id=49
+title=Bit-vector algorithms for binary constraint satisfaction and subgraph isomorphism
+author=Julian R. Ullmann
+journal=ACM journal of experimental algorithmics (JEA)
+year=2010
+tags=constraint programming, subgraph isomorphism, bit-vector, binary constraint satisfaction
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=[id:59] of bookug.list is a tree-search approach, while this paper is a constraint programming approach, the graph indexing approach is [id:5] of yuqizhou.list ;   The three classical approaches of subgraph isomorphism is compared in [id:30] of bookug.list
+---
