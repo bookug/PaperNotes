@@ -3596,7 +3596,7 @@ hardness=
 idea=
 future=
 comment=
-other=also see [id:240]
+other=also see [id:240], http://lamport.azurewebsites.net/pubs/pubs.html#lamport-paxos
 ---
 id=240
 title=Paxos Made simple  (a brief introduction)

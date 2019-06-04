@@ -2,6 +2,12 @@ This file is used to collect useful phrases in English Papers.
 
 ---
 
+unless otherwise specified
+
+When the context is not ambiguous 
+
+when the context is clear
+
 exposes the traits of underlying GPU architectures to users
 
 We are passionate about performance.

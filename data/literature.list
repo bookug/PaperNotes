@@ -17,7 +17,7 @@ other=
 id=1
 title=Redesign of the gStore system
 author=Li Zeng,Lei Zou
-journal=Frontiers Comput. Sci.(FCS)
+journal=Frontiers Comput. Sci.(FCS, CCF C Conference of Interdisciplinary area)
 year=2018
 tags=Database System,Graph Algorithm,Subgraph Matching,RDF Management,SPARQL Query
 star=**
@@ -27,7 +27,7 @@ hardness=the complexity of subgraph matching enumeration is NP-hard
 idea=consider the shape of queries and new join algorithm based on filtering-and-verification framework
 future=accelerate the system using new hardware like GPU, SSD, and FPGA
 comment=it should be published in a better platform
-other=FCS is not in the CCF list
+other=
 ---
 id=2
 title=Scalable Breadth-First Search on a GPU Cluster
