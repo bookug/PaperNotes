@@ -1229,3 +1229,18 @@ future=
 comment=
 other=
 ---
+id=81
+title=Fast sparse matrix-vector multiplication on gpus for graph applications
+author=A. Ashari
+journal=SC
+year=2014
+tags=CSR definition, compressed sparse row, sparse matrix-vector multiplication, GPU, graph application
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---

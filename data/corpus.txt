@@ -8,6 +8,12 @@ When the context is not ambiguous
 
 when the context is clear
 
+hang together
+
+it is too dense
+
+now we have a paper
+
 exposes the traits of underlying GPU architectures to users
 
 We are passionate about performance.
