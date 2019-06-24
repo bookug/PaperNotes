@@ -494,3 +494,18 @@ future=
 comment=
 other=
 ---
+id=31
+title=ScalableGCN
+author=
+journal=
+year=2019
+tags=alibaba, scalable GCN, mini-batch GCN model, accelerative computing
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=https://github.com/alibaba/euler/wiki/ScalableGCN
+---

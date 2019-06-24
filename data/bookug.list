@@ -1350,9 +1350,9 @@ comment=
 other=
 ---
 id=90
-title=Transparent GPU Memory Management for DNNs
+title=Transparent GPU Memory Management for DNNs   (demo)
 author=Jungho Park
-journal=PPoPP(demo)
+journal=PPoPP(demo, two pages)
 year=2018
 tags=GPU memory management, DNN, machine learning
 star=****
