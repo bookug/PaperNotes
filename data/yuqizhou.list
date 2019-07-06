@@ -509,3 +509,18 @@ future=
 comment=
 other=
 ---
+id=34
+title=GTgraph: A synthetic graph generator suite
+author=D. A. Davis, Y. Hu
+journal=the 9th DIMACS Implementation Challenge
+year=2006
+tags=GTgraph, synthetic graph generator, dataset
+star=***
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---

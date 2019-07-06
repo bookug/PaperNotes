@@ -38,7 +38,11 @@ src/search.py -g "GPU" -s 4
 To see the number of all papers:
 
 ```
-src/search.py -s 1|grep "id =>" |wc -l
+src/search.py -s 0|grep "id =>" |wc -l
+```
+or
+```
+src/search.py -g ""|grep "id =>" |wc -l
 ```
 
 ### Literature

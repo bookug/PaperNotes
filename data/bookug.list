@@ -6296,7 +6296,7 @@ hardness=
 idea=
 future=
 comment=
-other=include the best implementation of Dijkstra's algorithm for SSSP(based on relaxed heap [id:420]), O(vlgv+e); this paper has citation on DBLP
+other=include the best implementation of Dijkstra's algorithm for SSSP(based on relaxed heap [id:420]), O(vlgv+e); this paper has citation on DBLP; also contain Bellman-Ford implementation, based on queue
 ---
 id=420
 title=Relaxed Heaps: An Alternative to Fibonacci Heaps with Applications to Parallel Computation
