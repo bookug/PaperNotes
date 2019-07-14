@@ -1830,11 +1830,11 @@ comment=
 other=
 ---
 id=122
-title=A Hybrid B+-tree as Solution for In-Memory Indexing on CPU-GPU Heterogeneous Computing Platforms
+title=A Hybrid B+-tree as Solution for In-Memory Indexing on CPU-GPU Heterogeneous Computing Platforms (HB+Tree)
 author=Amirhesam Shahvarani
 journal=SIGMOD
 year=2016
-tags=Heterogeneous Computing, Indexing, In-memory Database, B+-tree, CPU-GPU
+tags=Heterogeneous Computing, Indexing, In-memory Database, B+-tree, CPU-GPU, HB+Tree
 star=****
 problem=An in-memory indexing tree is a critical component of many databases
 interest=Modern many-core processors, such as GPUs, are offering tremendous amounts of computing power making them an attractive choice for accelerating indexing
@@ -2906,7 +2906,7 @@ hardness=the high degree of parallelism is guaranteed at the cost of low work ef
 idea=different optimizations to the implementation, which are oriented both to the algorithm (edge classification and complete duplicate removal using 64-bit atomic operations) and to the architecture (memory coalesce, dynamic virtual warp, and dynamic parallelism); the appropriate size of dynamic virtual warps is re-computed in each iteration.
 future=An OpenCL implementation of the proposed solution is currently under study. The challenge is to observe how much the performance of the OpenCL and CUDA implementations differ since they provide different low-level instructions as well as the opportunity of implementing different hardwareoriented techniques.
 comment=This article presented H-BF, a parallel implementation of the Bellman-Ford algorithm for Kepler GPU architectures; Outperform Davidson's work [id:32]. Reached state-of-art performance.     The article presented an analysis of the impact of the proposed optimization strategies over different graph characteristics to understand how they impact on the H-BF work efficiency.
-other=The code:   http://profs.sci.univr.it/%7Ebombieri/H-BF/index.html       ;      Warp shuffle instructions are another new feature of Kepler used in this work. They implement very efficient communication among threads within a warp. With shuffle instructions, threads within a warp can directly access to other thread registers by skipping shared memory accesses.  Thread communication via warp shuffle allows the amount of shared memory required for blocks to be reduced with consequent general improvements of performance.
+other=based on BFS-4K ([id:20] of gpu.list)  ;  The code:   http://profs.sci.univr.it/%7Ebombieri/H-BF/index.html       ;      Warp shuffle instructions are another new feature of Kepler used in this work. They implement very efficient communication among threads within a warp. With shuffle instructions, threads within a warp can directly access to other thread registers by skipping shared memory accesses.  Thread communication via warp shuffle allows the amount of shared memory required for blocks to be reduced with consequent general improvements of performance;
 ---
 id=194
 title=Corolla: GPU-Accelerated FPGA Routing Based on Subgraph Dynamic Expansion

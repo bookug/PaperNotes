@@ -2,6 +2,22 @@ This file is used to collect useful phrases in English Papers.
 
 ---
 
+CTA (Cooperative Thread Array)
+
+one remedy fits all
+
+judiciously alternates among these designs at runtime to arrive at the best performance
+
+taken together
+
+revamp
+
+unveil
+
+an array of efforts
+
+has surged to be
+
 unless otherwise specified
 
 When the context is not ambiguous 
