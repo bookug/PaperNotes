@@ -14,6 +14,12 @@ revamp
 
 unveil
 
+the most noteworthy part
+
+strided memory access
+
+coalesced memory access
+
 an array of efforts
 
 has surged to be
