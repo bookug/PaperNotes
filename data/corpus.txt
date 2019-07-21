@@ -10,6 +10,12 @@ judiciously alternates among these designs at runtime to arrive at the best perf
 
 taken together
 
+self-descriptive
+
+it is worth noting that
+
+drastic increase
+
 revamp
 
 unveil

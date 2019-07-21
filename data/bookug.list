@@ -926,8 +926,8 @@ interest=
 hardness=
 idea=
 future=
-comment=
-other=
+comment=the complexity of transitive reduction is O(n^3) for a graph of n vertices.
+other=used by BoostISO, [id:6] of yuqizhou.list
 ---
 id=62
 title=Efficient Subgraph Matching by Postponing Cartesian Products (CFL-Match)
