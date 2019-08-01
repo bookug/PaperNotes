@@ -1274,3 +1274,18 @@ future=
 comment=V100
 other=https://devblogs.nvidia.com/parallelforall/inside-volta
 ---
+id=84
+title=GPUstore Harnessing GPU Computing for Storage Systems in the OS Kernel
+author=Weibin Sun, Robert Ricci  (University of Utah)
+journal=SYSTOR (CCF C Conference of architecture area)
+year=2012
+tags=GPUstore, GPU computing, storage system, OS kernel, Linux kernel, I/O request, computationally expensive component
+star=***
+problem=Many storage systems include computationally expensive components. Examples include encryption for confidentiality, checksums for integrity, and error correcting codes for reliability. As storage systems become larger, faster, and serve more clients, the demands placed on their computational components increase and they can become performance bottlenecks.
+interest=Many of these computational tasks are inherently parallel: they can be run independently for different blocks, files, or I/O requests. This makes them a good fit for GPUs, a class of processor designed specifically for high degrees of parallelism: consumer-grade GPUs have hundreds of cores and are capable of running hundreds of thousands of concurrent threads.
+hardness=However, because the software frameworks built for GPUs have been designed primarily for the longrunning, data-intensive workloads seen in graphics or highperformance computing, they are not well-suited to the needs of storage systems.
+idea=GPUstore, a framework for integrating GPU computing into storage systems. GPUstore is designed to match the programming models already used these systems. We have prototyped GPUstore in the Linux kernel and demonstrate its use in three storage subsystems: file-level encryption, block-level encryption, and RAID 6 data recovery.
+future=
+comment=Comparing our GPU-accelerated drivers with the mature CPU-based implementations in the Linux kernel, we show performance improvements of up to an order of magnitude.
+other=https://github.com/wbsun/kgpu
+---
