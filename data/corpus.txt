@@ -16,6 +16,10 @@ it is worth noting that
 
 drastic increase
 
+auto-indexing service
+
+industrial-strength
+
 revamp
 
 unveil
