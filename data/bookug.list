@@ -4616,7 +4616,7 @@ hardness=
 idea=worst-case optimal join algorithm called Generic Join
 future=
 comment=
-other=
+other=same as [id:68]
 ---
 id=308
 title=Graphflow: An Active Graph Database

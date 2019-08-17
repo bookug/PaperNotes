@@ -4,6 +4,16 @@ This file is used to collect useful phrases in English Papers.
 
 CTA (Cooperative Thread Array)
 
+w.r.t.
+
+a.k.a.
+
+hereafter
+
+is oblivious to
+
+commensurate with
+
 one remedy fits all
 
 judiciously alternates among these designs at runtime to arrive at the best performance
