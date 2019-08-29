@@ -1377,7 +1377,7 @@ hardness=
 idea=
 future=
 comment=
-other=
+other=COO, CSR, CSC, BSR (Block Compressed Sparse Row Format)
 ---
 id=92
 title=FlashR: Parallelize and Scale R for Machine Learning using SSDs
