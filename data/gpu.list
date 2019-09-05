@@ -1424,3 +1424,33 @@ future=
 comment=For breadth-first search (BFS), we achieve a 1.26x speedup over state-of-the-art sparsematrix dense-vector (SpMV) implementations. The algorithm seems generalizeable for single-source shortest path (SSSP) and sparse-matrix sparse-matrix multiplication, and other core graph primitives such as maximal independent set and bipartite matching.
 other=also see [id:37] of bookug.list
 ---
+id=94
+title= DistME: A Fast and Elastic Distributed Matrix Computation Engine using GPUs 
+author=Donghyoung Han
+journal=sigmod
+year=2019
+tags=DistME, Distributed matrix Computation engine, GPU
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=95
+title=GPU-based Graph Traversal on Compressed Graphs
+author=Mo Sha (National University of Singapore)
+journal=sigmod
+year=2019
+tags=GPU, graph Traversal, Compressed graph
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
