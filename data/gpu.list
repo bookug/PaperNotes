@@ -1454,3 +1454,18 @@ future=
 comment=
 other=
 ---
+id=96
+title=Fast BFS-Based Triangle Counting on GPUs
+author=Leyuan Wang, John D. Owens
+journal=arXiv
+year=2019
+tags=BFS-based triangle Counting (TC), GPU, subgraph matching
+star=****
+problem=In this paper, we propose a novel method to compute triangle counting on GPUs.
+interest=Unlike previous formulations of graph matching, our approach is BFS-based by traversing the graph in an all-source-BFS manner and thus can be mapped onto GPUs in a massively parallel fashion.
+hardness=
+idea=Our implementation uses the Gunrock programming model and we evaluate our implementation in runtime and memory consumption compared with previous state-of-the-art work.We sustain a peak traversed-edges-per-second (TEPS) rate of nearly 10 GTEPS. Our algorithm is the most scalable and parallel among all existing GPU implementations and also outperforms all existing CPU distributed implementations.
+future=
+comment=This work specifically focuses on leveraging our implementation on the triangle counting problem for the Subgraph Isomorphism Graph Challenge 2019, demonstrating a geometric mean speedup over the 2018 champion of 3.84.
+other=
+---
