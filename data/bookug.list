@@ -2373,7 +2373,7 @@ title=dynamic programming on Graphs with Bounded Treewidth
 author=Hans L. Bodlaender
 journal=International Colloquium on Automata, Languages, and Programming
 year=1988
-tags=dynamic programming, graphs with bounded Treewidth, partial k-trees, graph decision problems, restrictions of NP-complete problems, polynomial time algorithms, local condition compositions, C-LCC, C-ECC
+tags=dynamic programming, graphs with bounded Treewidth, bounded degree, partial k-trees, graph decision problems, restrictions of NP-complete problems, polynomial time algorithms, local condition compositions, C-LCC, C-ECC
 star=*****
 problem=the complexity of graph decision problems, restricted to the class of graphs with treewidth<=k.
 interest=
@@ -2381,7 +2381,7 @@ hardness=
 idea=
 future=
 comment=for several NP-complete problems, and subclasses of the graphs with bounded treewidth, polynomial algorithms have been obtained.
-other=
+other=the decision problem of subgraph matching is solvable in polynomial time for data graphs with bounded tree-width and degree.
 ---
 id=159
 title=A Complete Anytime Algorithm for Treewidth
@@ -2435,7 +2435,7 @@ journal=Journal of Graph Algorithms and Applications
 year=1999
 tags=Subgraph Isomorphism, Planar graphs
 star=
-problem=solve the subgraph isomorphism problem in planar graphs in linear time, for any pattern of constant size.
+problem=solve the subgraph isomorphism problem in planar graphs(both q and g are planar) in linear time, for any pattern of constant size.
 interest=
 hardness=
 idea=partitioning the planar graph into pieces of small tree-width, and applying dynamic programming within each piece.
