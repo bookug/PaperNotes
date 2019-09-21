@@ -296,7 +296,7 @@ interest=
 hardness=
 idea=
 future=
-comment=
+comment=this paper also report the percentage of solved query graphs in a query set.
 other=
 ---
 id=20
@@ -2636,5 +2636,35 @@ hardness=
 idea=
 future=
 comment=
+other=
+---
+id=176
+title=SQBC: An efficient subgraph matching method over large and dense graphs
+author=W. Zheng, L. Zou, X. Lian, H. Zhang, W. Wang, D. Zhao
+journal=Information Sciences
+year=2014
+tags=SQBC, subgraph matching, large and dense graph, type-aware transformation
+star=***
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=177
+title=Evograph: An effective and efficient graph upscaling method for preserving graph properties
+author=H. Park
+journal=SIGKDD
+year=2018
+tags=EvoGraph, graph upscaling method, preserving graph properties
+star=****
+problem=
+interest=
+hardness=
+idea=increase the size of some graph (both vertices and edges), ensuring that the properties are preserved.
+future=
+comment=This can be used for scalability test, generate synthetic graphs, etc.
 other=
 ---

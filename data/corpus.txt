@@ -8,6 +8,8 @@ w.r.t.
 
 a.k.a.
 
+run marginally slower than
+
 hereafter
 
 is oblivious to
