@@ -1469,3 +1469,18 @@ future=
 comment=This work specifically focuses on leveraging our implementation on the triangle counting problem for the Subgraph Isomorphism Graph Challenge 2019, demonstrating a geometric mean speedup over the 2018 champion of 3.84.
 other=
 ---
+id=97
+title=Realtime Top-k Personalized PageRank over Large Graphs on GPUs
+author=Jieming Shi
+journal=vldb
+year=2020
+tags=Realtime, top-k, Personalized PageRank, large graph, GPU
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
