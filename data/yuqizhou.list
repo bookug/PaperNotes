@@ -2758,3 +2758,33 @@ future=
 comment=
 other=
 ---
+id=184
+title=Overlapping Community Detection via Constrained PARAFAC: A Divide and Conquer Approach
+author=Fatemeh Sheikholeslami
+journal=ICDM (CCF B Conference of data mining)
+year=2017
+tags=data mining, Overlapping Community Detection, Constrained PARAFAC, divided and conquer
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=185
+title=Community Detection Based on Structure and Content: A Content Propagation Perspective
+author=Liyuan Liu
+journal=ICDM
+year=2015
+tags=Community detection, Structure and Content, content Propagation Perspective
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
