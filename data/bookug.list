@@ -7148,8 +7148,8 @@ star=****
 problem=use structure index to query RDF data whose schema is incomplete or not available
 interest=
 hardness=
-idea=
+idea=we leverage it for a structure-oriented approach to RDF data partitioning and query processing. Based on information captured by the structure index, similarly structured data elements are physically grouped and stored contiguously on disk. At querying time, the index is used for "structure-level" processing to identify the groups of data that match the query structure. Structure-level processing is then combined with standard "data-level" operations that involve retrieval and join procedures executed against the data.
 future=
-comment=
+comment= In the experiment, our solution provides several times faster performance than a state-of-the-art technique for data partitioning and query processing, and compares favorably with full-fledged RDF stores.
 other=
 ---
