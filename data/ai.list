@@ -584,3 +584,33 @@ future=
 comment=
 other=
 ---
+id=37
+title=GraphSAINT: Graph Sampling Based Inductive Learning Method 
+author=
+journal=ICLR  openreview
+year=2020
+tags=GCN, AI, graph mining, GraphSAINT, graph Sampling, Inductive Learning method, GraphSAGE
+star=***
+problem=这篇文章的思路非常新颖，它解决的问题是，本来我们训练GCN，为了方便和效率起见，我们一般是采样每个顶点的固定大小邻域 (Hamilton et al 2017 GraphSAGE)，这样每个顶点的邻居都是规则的，复杂度可控的。虽然还有很多采样方法 (Huang et al 2018, Chen et al 2018 FastGCN, Li et al 2019 GCN-LASE)，但是根本上还是对每个顶点采样其邻居。这就导致一个问题，就是我们不能采样特别深的GCN，因为一旦深就指数爆炸了，比如说每个节点采样20个邻居，两层就是400个，四层就是160000个（但是GCN不是一旦超过4层就会过度平滑导致完全失去作用吗？有印象是这么说的，求指正）。
+interest=
+hardness=
+idea=本文要解决的就是这个问题，它从根本上改变了采样方式。它不再在原图上采样邻居，而是从原图上采样一个子图下来，在这个子图上做局部的、完全展开的GCN。这样做的好处是，不仅我们解决了邻居采样的指数化问题，而且我们可以对采下来的子图进行直接的并行化，就大大的改进了效率。当然，采样子图肯定不是随便采的，直观来说，影响大的节点肯定倾向于要被保留下来，但这就引入了采样的bias。为了解决这个问题，本文作者采用了改进的聚合，在聚合中引入被采样的概率，使得整体的卷积层计算还是无偏的。
+future=
+comment=实验结果看起来很牛逼，但我没有想通为什么它能吊锤GCN和GraphSAGE那么多，在此抛砖引玉等一个解释吧。曹恭泽 的解释，GCN相当于full gradient descent，没有batch泛化好。GraphSAGE采样batch方差大，收敛性不好。我觉得有道理。这篇文章改变了我们一直以来做GCN的采样思路，也非常有新意。
+other=https://openreview.net/forum?id=BJe8pkHFwS
+---
+id=38
+title=Demystifying Graph Neural Network Via Graph Filter Assessment  (Adaptive Filter Graph Neural Network (AFGNN))
+author=
+journal=ICLR  openreview
+year=2020
+tags=GCN, AI, graph mining, graph Neural Network, graph Filter Assessment, Adaptive Filter Graph Neural Network (AFGNN), task-specific filter
+star=***
+problem=
+interest=
+hardness=
+idea=这篇文章从LDA（线性判别分析）借鉴了灵感，通过刻画不同类别的图节点是否能够通过卷积核变化后线性可分，来评价图卷积核的好坏。此外，作者还探究了最优图卷积核与原图性质的关系，我觉得让我眼前一亮的是，作者发现图卷积核的好坏核图度数的power law系数有关。这是一个很有趣的性质，我猜测是因为不同power law系数的图会有不一样的结构特征（比如有不一样的graphlet分布，聚集系数etc）。
+future=
+comment=
+other=https://openreview.net/forum?id=r1erNxBtwr
+---
