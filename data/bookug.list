@@ -7170,16 +7170,16 @@ other=https://github.com/googlebaba/KDD2019-MEIRec        https://mp.weixin.qq.c
 ---
 id=478
 title=Bitcoin: A Peer-to-Peer Electronic Cash System
-author=Satoshi Nakamoto 
+author=Satoshi Nakamoto   (中本聪)
 journal=
 year=2008
 tags=Bitcoin, Peer-to-Peer (P2P), Electronic cash system, Blockchain, double-spending, 比特币白皮书 (bitcoin white paper), hash-based, proof-of-work
-star=****
+star=*****
 problem=A  purely   peer-to-peer   version   of   electronic   cash   would   allow   onlinepayments   to   be   sent   directly   from   one   party   to   another   without   going   through   afinancial institution. 
 interest=
 hardness=Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending.
 idea=We propose a solution to the double-spending problem using a peer-to-peer network.  The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. 
 future=
 comment=As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.
-other=https://bitcoin.org/bitcoin.pdf
+other=https://bitcoin.org/bitcoin.pdf    https://www.jianshu.com/p/6b67c87777ce
 ---
