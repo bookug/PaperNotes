@@ -7153,3 +7153,33 @@ future=
 comment= In the experiment, our solution provides several times faster performance than a state-of-the-art technique for data partitioning and query processing, and compares favorably with full-fledged RDF stores.
 other=
 ---
+id=477
+title=Metapath-guided Heterogeneous Graph Neural Network for Intent Recommendation 
+author=Shaohua Fan (Beijing University of Posts and Telecommunications)
+journal=SIGKDD
+year=2019
+tags=Graph neural network (GNN), Metapath-guided Heterogeneous, Intent Recommendation, Metapath-guided Embedding method for Intent Recommendation（MEIRec）
+star=****
+problem=本文研究了电商场景下的一种新型推荐服务：意图推荐。不同于传统的商品推荐，意图推荐希望在用户打开 APP 并没有任何输入的情况下来预测用户的意图
+interest=
+hardness=现在工业界针对意图推荐的解决方案主要是基于特征工程的算法来挖掘属性信息。这样就导致推荐场景里的丰富的交互信息没有充分挖掘
+idea=针对上述问题，本文将意图推荐场景建模为异质图并设计了一种 Metapath-guided Embedding method for Intent Recommendation（MEIRec）来进行用户意图推荐。  MEIRec 的核心思想是：设计一个异质图神经网络来学习 user 和 query 的表示。
+future=
+comment=本文首先研究了一个很重要且富有挑战的的问题：意图推荐。针对意图推荐的场景特点，作者首先建立了大规模异质图并设计了相应的异质图神经网络来进行意图推荐。大量充分的实验结果也证明了 MEIRec 的有效性。 过去一年，基于图神经网络的推荐算法在各大顶会层出不穷。在实际工业应用时，数据交互更为复杂。因此，基于异质图神经网络的推荐有更好的使用价值。
+other=https://github.com/googlebaba/KDD2019-MEIRec        https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247500588&idx=2&sn=81cadf691a31c9caba094748b6642f18&chksm=96ea1caca19d95ba96c4059c5c06105e4fb652a7e0c2f332eb9648f380ad0dd277bc1cecc60d&mpshare=1&scene=1&srcid=&sharer_sharetime=1572712675177&sharer_shareid=fde7a6b959e1e246d8c1b59ef3145103&key=69f28381a3e17e7070a15cbd4f455fdf4dd6ade7a15ff1f2de9b6c829235ce930d5efa3d7b687831255b6a52bae53cce133c33a044883ab4a8a4e0656b39d2ad4e0218b5b689225047d8c7c2baa9ebdf&ascene=1&uin=MzQzNjUxNjM0NA%3D%3D&devicetype=Windows+10&version=62070152&lang=zh_CN&pass_ticket=34Ba4%2FWKqs1plTfi8obSk5Fv2E60pamEurduThZ%2BQimWDyB5yFGUy0yY0%2B3S1yWi
+---
+id=478
+title=Bitcoin: A Peer-to-Peer Electronic Cash System
+author=Satoshi Nakamoto 
+journal=
+year=2008
+tags=Bitcoin, Peer-to-Peer (P2P), Electronic cash system, Blockchain, double-spending, 比特币白皮书 (bitcoin white paper), hash-based, proof-of-work
+star=****
+problem=A  purely   peer-to-peer   version   of   electronic   cash   would   allow   onlinepayments   to   be   sent   directly   from   one   party   to   another   without   going   through   afinancial institution. 
+interest=
+hardness=Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending.
+idea=We propose a solution to the double-spending problem using a peer-to-peer network.  The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed, but proof that it came from the largest pool of CPU power. 
+future=
+comment=As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.
+other=https://bitcoin.org/bitcoin.pdf
+---
