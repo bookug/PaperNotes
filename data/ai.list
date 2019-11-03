@@ -614,3 +614,18 @@ future=
 comment=
 other=https://openreview.net/forum?id=r1erNxBtwr
 ---
+id=39
+title=Learning What and Where to Transfer
+author=Yunhun Jang, Hankook Lee, Sung Ju Hwang, Jinwoo Shin
+journal=ICML
+year=2019
+tags=machine Learning, meta-networks, Transfer learning, heterogeneous network
+star=****
+problem=使用 meta-networks 在异构网络之间完成更加准确有效的知识迁移，即在目标模型和源模型之间，哪些层对的哪些特征进行多大程度的知识迁移。通过实验论证了知识从大网络迁移到小网络，从而增强小网络的学习表现的可行性，诚如作者所言：我们的工作将为异构或/和多个网络架构和任务之间的复杂转移学习任务提供一个新的视角。
+interest=
+hardness=
+idea=我们的目标是学习将有用的知识从源网络转移到目标网络，而不需要手动关联层或选择特性。为此,我们提出一个元学习方法（使用元神经网络参数 [公式] 来学习目标模型的参数 [公式] ），学习哪些知识的源网络传输层的目标网络。在本文中，我们主要关注卷积神经网络之间的转移学习，但是我们的方法是通用的，也适用于其他类型的深度神经网络。
+future=
+comment=
+other=https://github.com/alinlab/L2T-ww   https://zhuanlan.zhihu.com/p/84926780
+---
