@@ -12,6 +12,8 @@ cf.
 
 give rise to
 
+the performance improvement of xxx and that of yyy over the naive implementation are 2.0x and 9.0x respectively.
+
 counterexample
 
 there is a dichotomy between 
