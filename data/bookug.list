@@ -7183,3 +7183,18 @@ future=
 comment=As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone.
 other=https://bitcoin.org/bitcoin.pdf    https://www.jianshu.com/p/6b67c87777ce
 ---
+id=479
+title=THIRTY YEARS OF GRAPH MATCHING IN PATTERN RECOGNITION
+author=D. CONTE
+journal=International Journal of Pattern Recognition and Artificial Intelligence  (IJPRAI, CCF C Journal of AI area)
+year=2004
+tags=survey, graph matching, Monomorphism, pattern Recognition, Subgraph isomorphism, induced subgraph, homomorphism, definition, variant, algorithm
+star=***
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
