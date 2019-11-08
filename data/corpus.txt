@@ -10,6 +10,12 @@ a.k.a.
 
 cf.
 
+attainable throughput
+
+CNN is first inspired by research in neuroscience
+
+After over twenty years of evolution, CNN has been gaining more and more distinction in research elds, such as ...
+
 give rise to
 
 the performance improvement of xxx and that of yyy over the naive implementation are 2.0x and 9.0x respectively.
