@@ -7198,3 +7198,18 @@ future=
 comment=
 other=
 ---
+id=480
+title=Weaver: a high-performance, transactional graph database based on refinable timestamps 
+author= Ayush Dubey, Greg D. Hill, Robert Escriva, Emin Gün Sirer
+journal=VLDB
+year=2016
+tags=Weaver, vector clock, high performance, transaction, graph database, refinable timestamp, distributed protocol, lock, parallel, ACID, consistency, read-write conflict, multi-version Concurrency control (MVCC), weak consistency, strong consistency, serialization, Serializability, scalability, graph traversal, distributed computing, data mining
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=https://github.com/thinkaurelius/titan/
+---
