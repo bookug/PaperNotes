@@ -629,3 +629,18 @@ future=
 comment=
 other=https://github.com/alinlab/L2T-ww   https://zhuanlan.zhihu.com/p/84926780
 ---
+id=40
+title=What does it mean to understand a neural network 
+author= Timothy P. Lillicrap, Konrad P. Kording
+journal=arXiv
+year=2019
+tags=machine learning, neural network, mathematics, artificial intelligence, conjecture, analogy, brain, neuroscience
+star=***
+problem=We can dene a neural network that can learn to recognize objects in less than 100 lines of code. However, after training, it is characterized by millions of weights that contain the knowledge about many object types across visual scenes.
+interest=
+hardness=Such networks are thus dramatically easier to understand in terms of the code that makes them than the resulting properties, such as tuning or connections.
+idea=In analogy, we conjecture that rules for development and learning in brains may be far easier to understand than their resulting properties. The analogy suggests that neuroscience would benefit from a focus on learning and development.
+future=
+comment=
+other=
+---
