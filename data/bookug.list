@@ -7213,3 +7213,18 @@ future=
 comment=
 other=https://github.com/thinkaurelius/titan/
 ---
+id=481
+title=TAO: Facebook's distributed data store for the social graph 
+author= Nathan Bronson, Zach Amsden, George Cabrera, Prasad Chakka, Peter Dimov
+journal=USENIX ATC
+year=2013
+tags=TAO, Facebook, distributed data store, social graph, social network, data model, API, workload, petabyte, database
+star=****
+problem=We introduce a simple data model and API tailored for serving the social graph, and TAO, an implementation of this model. 
+interest=
+hardness=
+idea=TAO is a geographically distributed data store that provides efficient and timely access to the social graph for Facebook's demanding workload using a fixed set of queries. It is deployed at Facebook, replacing memcache for many data types that fit its model. 
+future=
+comment=The system runs on thousands of machines, is widely distributed, and provides access to many petabytes of data. TAO can process a billion reads and millions of writes each second.
+other=
+---
