@@ -6164,7 +6164,7 @@ comment=hard to implement, large cost of preprocessing and space
 other=
 ---
 id=411
-title=Similarity Search in Sets and Categorical Data Using the Signature Tree  (S-Treej)
+title=Similarity Search in Sets and Categorical Data Using the Signature Tree  (S-Tree)
 author=Nikos Mamoulis
 journal=ICDE
 year=2003
