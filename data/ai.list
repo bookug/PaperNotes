@@ -644,3 +644,48 @@ future=
 comment=
 other=
 ---
+id=41
+title=Neural Machine Reading Comprehension: Methods and Trends 
+author= Shanshan Liu, Xin Zhang, Sheng Zhang, Hui Wang, Weiming Zhang
+journal=applied science
+year=2019
+tags=survey, NLP, neural machine reading Comprehension, method, trend
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=https://www.zhihu.com/question/355125622
+---
+id=42
+title=Imbalance Problems in Object Detection: A Review
+author=
+journal=arXiv
+year=2019
+tags=survey, computer vision, object detection, Imbalance problem, review, pattern recognition
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=43
+title=Recent Advances in Deep Learning for Object Detection
+author= Xiongwei Wu, Doyen Sahoo, Steven C. H. Hoi
+journal=arXiv
+year=2019
+tags=survey, computer vision, object detection, Sampling, pattern recognition, deep learning, recent advances, trend, feature learning, CNN, contextual image classification
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=https://www.zhihu.com/question/355566860/answer/894352980?utm_source=wechat_session&utm_medium=social&utm_oi=909929360004366336
+---
