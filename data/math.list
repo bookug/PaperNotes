@@ -29,3 +29,33 @@ future=
 comment=
 other=the author of "You and Your research";   AN OPERATIONAL UNIFICATION OF FINITE DIFFERENCE METHODS FOR THE NUMERICAL INTEGRATION OF ORDINARY DIFFERENTIAL EQUATIONS
 ---
+id=1
+title=Eigenvalues: the Rosetta Stone for Neutrino Oscillations in Matter
+author=Peter B. Denton, Stephen J. Parke, Xining Zhang (3 physicists)
+journal=arXiv
+year=2019
+tags=Eigenvalues, matrix, Rosetta Stone, Neutrino Oscillations, Matter, Physics, mathematics
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=The proof is provided in [id:2]
+---
+id=2
+title=Eigenvectors from Eigenvalues
+author=Peter B. Denton, Stephen J. Parke, Terence Tao, Xining Zhang
+journal=arXiv
+year=2019
+tags=Eigenvalues, matrix, mathematics, compute Eigenvectors from Eigenvalues
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=这种新方法的理论很漂亮，但不一定比传统方法实用
+other=数学家陶哲轩提供了证明 [id:1]    
+---
