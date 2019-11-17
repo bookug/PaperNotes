@@ -689,3 +689,18 @@ future=
 comment=
 other=https://www.zhihu.com/question/355566860/answer/894352980?utm_source=wechat_session&utm_medium=social&utm_oi=909929360004366336
 ---
+id=44
+title=A Survey of Deep Learning Techniques for Autonomous Driving
+author=Sorin Grigorescu, Bogdan Trasnea, Tiberiu Cocias, Gigel Macesanu
+journal=arXiv
+year=2019
+tags=deep Learning, survey, Techniques, Autonomous driving, self-driving vehicle technology, AI-based, CNN, RNN, deep reinforcement learning paradigm (DRL), driving scene perception, path planning, behavior arbitration, motion control algorithms,  modular perception-planning-action pipeline, End2End system, safety
+star=***
+problem=The objective of this paper is to survey the current state-of-the-art on deep learning technologies used in autonomous driving. 
+interest=The last decade witnessed increasingly rapid progress in self-driving vehicle technology, mainly backed up by advances in the area of deep learning and artificial intelligence. 
+hardness=
+idea=We start by presenting AI-based self-driving architectures, convolutional and recurrent neural networks, as well as the deep reinforcement learning paradigm. These methodologies form a base for the surveyed driving scene perception, path planning, behavior arbitration and motion control algorithms. We investigate both the modular perception-planning-action pipeline, where each module is built using deep learning methods, as well as End2End systems, which directly map sensory information to steering commands. Additionally, we tackle current challenges encountered in designing AI architectures for autonomous driving, such as their safety, training data sources and computational hardware. 
+future=
+comment=The comparison presented in this survey helps to gain insight into the strengths and limitations of deep learning and AI approaches for autonomous driving and assist with design choices 
+other=https://zhuanlan.zhihu.com/p/87416772?utm_source=wechat_session&utm_medium=social&utm_oi=909929360004366336&from=singlemessage
+---
