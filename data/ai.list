@@ -704,3 +704,18 @@ future=
 comment=The comparison presented in this survey helps to gain insight into the strengths and limitations of deep learning and AI approaches for autonomous driving and assist with design choices 
 other=https://zhuanlan.zhihu.com/p/87416772?utm_source=wechat_session&utm_medium=social&utm_oi=909929360004366336&from=singlemessage
 ---
+id=45
+title=Machine Learning-Based Bandwidth Prediction for Low-Latency H2M Applications
+author= Lihua Ruan, Maluge Pubuduni Imali Dias, Elaine Wong
+journal=IEEE Internet of Things Journal
+year=2019
+tags=wireless access point, network packet, machine learning, Bandwidth Prediction, Low-Latency H2M Applications, dynamic Bandwidth allocation, computer network, access network, channel allocation schemes, signal processing, artificial intelligence, Human-to-machine (H2M) communications
+star=***
+problem=Human-to-machine (H2M) communications in emerging tactile-haptic applications are characterized by stringent low-latency transmission. 
+interest=To achieve low-latency transmissions over existing optical and wireless access networks, this paper proposes a machine learning-based predictive dynamic bandwidth allocation (DBA) algorithm, termed MLP-DBA, to address the uplink bandwidth contention and latency bottleneck of such networks. 
+hardness=
+idea=The proposed algorithm utilizes an artificial neural network (ANN) at the central office (CO) to predict H2M packet bursts arriving at each optical network unit wireless access point (ONU-AP), thereby enabling the uplink bandwidth demand of each ONU-AP to be estimated. As such, arriving packet bursts at the ONU-APs can be allocated bandwidth for tranmission by the CO without having to wait to transmit in the following transmission cycles. 
+future=
+comment=Extensive simulations show that the ANN-based prediction of H2M packet bursts achieves >90% accuracy, significantly improving bandwidth demand estimation over existing prediction algorithms. MLP-DBA also makes adaptive bandwidth allocation decisions by classifying each ONU-AP according to its estimated bandwidth, with results showing reduced uplink latency and packet drop ratio as compared to conventional predictive DBA algorithms.
+other=
+---
