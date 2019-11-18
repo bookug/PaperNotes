@@ -719,3 +719,18 @@ future=
 comment=Extensive simulations show that the ANN-based prediction of H2M packet bursts achieves >90% accuracy, significantly improving bandwidth demand estimation over existing prediction algorithms. MLP-DBA also makes adaptive bandwidth allocation decisions by classifying each ONU-AP according to its estimated bandwidth, with results showing reduced uplink latency and packet drop ratio as compared to conventional predictive DBA algorithms.
 other=
 ---
+id=46
+title=How Powerful are Graph Neural Networks
+author= Jure Leskovec, et al.
+journal=ICLR
+year=2019
+tags=Graph Neural Network (GNN), survey, theory, unstructured data, graph model, graph Isomorphism network (GIN), Casual Inference, deep learning, applications, advancements in graph Neural network, GraphSAGE, discriminative power of GNNs
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=提出了基于WL图同构测试的理论框架，为众多的GNN框架给出了精彩的理论分析，并提出了一个简单但强大的图网络框架 GIN（Graph Isomorphism Networks），同时验证了GIN在图分类任务上的卓越性能。这篇文章认为图神经网络在因果推理方面有巨大的潜力，有望成为 AI 的下一个拐点。
+other=https://mp.weixin.qq.com/s/OdJ65bv3so7ffJtA7fN19w
+---
