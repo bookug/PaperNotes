@@ -1,0 +1,31 @@
+---
+id=
+title=
+author=
+journal=
+year=
+tags=
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=0
+title=SLING: A Near-Optimal Index Structure for SimRank
+author=Boyu Tian, Xiaokui Xiao
+journal=SIGMOD
+year=2016
+tags=SimRank via Local Updates and Sampling (SLING), Near-Optimal index Structure, SimRank score, theorectical bound, similarity measure, provable accuracy guarantees, computation complexity, analysis of existing methods
+star=****
+problem=SimRank is a similarity measure for graph nodes that has numerous applications in practice.
+interest=Scalable SimRank computation has been the subject of extensive research for more than a decade, and yet, none of the existing solutions can efficiently derive SimRank scores on large graphs with provable accuracy guarantees.
+hardness=the state-of-the-art solution requires up to a few seconds to compute a SimRank score in million-node graphs, and does not offer any worst-case assurance in terms of the query error.
+idea=This paper presents SLING, an efficient index structure for SimRank computation. SLING guarantees that each SimRank score returned has at most ε additive error, and it answers any singlepair and single-source SimRank queries in O(1/ε) and O(n/ε) time, respectively. These time complexities are near-optimal, and are significantly better than the asymptotic bounds of the most recent approach.
+future=
+comment=
+other=
+---
