@@ -209,3 +209,18 @@ future=
 comment=
 other=
 ---
+id=13
+title=An Efficient Schema Matching Approach Using Previous Mapping Result Set 
+author= Hongjie Fan, Junfei Liu, Wenfeng Luo, Kejun Deng
+journal=DASFAA
+year=2016
+tags=Schema Matching, Previous Mapping Result set (PMRS), XML schema, star schema, Parsing, database, data mining, computer science
+star=***
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
