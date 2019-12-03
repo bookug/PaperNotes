@@ -20,6 +20,8 @@ rules: SSSP is the subclass of shortets path.   how about reasoning? we just nee
 
 # PAPER
 
+software: auto downloader?
+
 http://sigmod2019.org/sigmod_research_papers_list
 
 http://sigmod2019.org/pods_research_papers
@@ -35,4 +37,12 @@ Volume 13, Oct-...    2019 to db.list
 download icde paper in 
 
 https://conferences.computer.org/icde/2019/#!/search
+
+---
+
+# citation manager
+
+web crawler...
+
+---
 
