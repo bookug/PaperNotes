@@ -44,3 +44,18 @@ future=
 comment=We show for the target workloads, 2:1 to 100:1 read to write ratio, that ZooKeeper can handle tens to hundreds of thousands of transactions per second. This performance allows ZooKeeper to be used extensively by client applications
 other=ZooKeeper is based on Paxos, but more.  Paxos 可能导致活锁，一种特殊的饥饿     https://blog.csdn.net/b0Q8cpra539haFS7/article/details/83422461
 ---
+id=3
+title=Theoretically Efficient Parallel Graph Algorithms Can Be Fast and Scalable
+author= Laxman Dhulipala, Guy E. Blelloch, Julian Shun
+journal=ACM Symposium on Parallelism in Algorithms and Architectures   (SPAA, CCF B Conference of Architecture area)
+year=2018
+tags=Theoretical analysis, parallel graph Algorithms, fast, Scalable, Terabyte, shared memory, scalability, parallel computing, multi-core processor, Hyperlink, distributed memory, computer science, auxiliary memory, external memory
+star=***
+problem=There has been significant recent interest in parallel graph processing due to the need to quickly analyze the large graphs available today. Many graph codes have been designed for distributed memory or external memory. 
+interest=However, today even the largest publicly-available real-world graph (the Hyperlink Web graph with over 3.5 billion vertices and 128 billion edges) can fit in the memory of a single commodity multicore server. Nevertheless, most experimental work in the literature report results on much smaller graphs, and the ones for the Hyperlink graph use distributed or external memory.
+hardness=it is natural to ask whether we can efficiently solve a broad class of graph problems on this graph in memory. 
+idea=theoretically-efficient parallel graph algorithms can scale to the largest publicly-available graphs using a single machine with a terabyte of RAM, processing them in minutes. We give implementations of theoretically-efficient parallel algorithms for 13 important graph problems. We also present the optimizations and techniques that we used in our implementations, which were crucial in enabling us to process these large graphs quickly.
+future=
+comment=We show that the running times of our implementations outperform existing state-of-the-art implementations on the largest real-world graphs. For many of the problems that we consider, this is the first time they have been solved on graphs at this scale. We provide a publicly-available benchmark suite containing our implementations.
+other=code is in    https://github.com/ldhulipala/gbbs
+---
