@@ -59,3 +59,18 @@ future=
 comment=这种新方法的理论很漂亮，但不一定比传统方法实用
 other=数学家陶哲轩提供了证明 [id:1]    
 ---
+id=3
+title=Small gaps of GOE
+author= Renjie Feng, Gang Tian, Dongyi Wei (Peking University)
+journal=世界顶级数学期刊Geometric and Functional Analysis（GAFA）
+year=2019
+tags=mathematics, small gap, GOE, random matrix, 经典高斯正交系综（GOE）的小间距问题, GUE
+star=****
+problem=
+interest=
+hardness=
+idea=他们解决了随机矩阵中经典高斯正交系综（GOE）的小间距问题，证明了GOE的小间距在极限意义下渐进于泊松分布并得到了小间距的渐进分布函数。间距分布问题是随机矩阵研究中最重要的问题之一，之前的结果主要集中在高斯酉系综（GUE），而GOE鲜有结果。这是因为GUE本身具有行列式点过程这样的特殊结构，但是GOE不是，因而产生新的本质性困难，需要引进新技术。在本篇论文中，他们利用冯仁杰和韦东奕之前的一个工作，克服了这个本质性困难，并发展出一套研究点过程小间距问题的一般性方法。论文成果已被证明具有普适性，是随机矩阵研究领域的重要进展。
+future=
+comment=
+other=
+---
