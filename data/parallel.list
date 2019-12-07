@@ -17,7 +17,7 @@ other=
 id=1
 title=The life and times of a zookeeper 
 author= Flavio P. Junqueira, Benjamin C. Reed  (Yahoo!)
-journal= ACM Symposium on Principles of Distributed Computing (PODC, CCF B conference of Architecture)
+journal= ACM Symposium on Principles of Distributed Computing (PODC, the highest conference of distributed computing, CCF B conference of Architecture)
 year=2009
 tags=zookeeper, single point of failure, server, real-time computing, Distributed computing, CAP theory, Paxos protocol
 star=****
@@ -27,7 +27,7 @@ hardness=
 idea=
 future=
 comment=
-other=also published on 2009 ACM Symposium on Parallel Algorithms and Architectures 
+other=also published on 2009 ACM Symposium on Parallel Algorithms and Architectures ;    PODC 影响力论文奖 是分布式计算领域最高的荣誉，它认可的是经过时间考验的重要成就, 2002 年，Dijkstra 去世，这一年的 PODC 奖颁给了他，获奖论文是他 1974 年关于自稳定系统的论文。为了纪念他，PODC 决定从 2003 年把这个奖项改名为 Dijkstra 奖
 ---
 id=2
 title=ZooKeeper: wait-free coordination for internet-scale systems 
