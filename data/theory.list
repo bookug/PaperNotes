@@ -719,3 +719,18 @@ future=
 comment=
 other=
 ---
+id=47
+title=A Cost / Speed / Reliability Trade-off to Erasing
+author=Manoj Gopalkrishnan
+journal=arXiv
+year=2016
+tags=computer science, systems and control, cost, speed, reliability, Trade-off, bit erasure, Thermodynamic Computing, energy, erasing a bit, KL-control
+star=****
+problem= KL-control treatment of the fundamental problem of erasing a bit
+interest=
+hardness=
+idea=
+future=
+comment=
+other=to model the energy consumption and optimize for it     https://blogs.scientificamerican.com/observations/why-do-computers-use-so-much-energy/        The wiki is  in      https://centre.santafe.edu/thermocomp/Santa_Fe_Institute_Collaboration_Platform:Thermodynamics_of_Computation_Wiki
+---
