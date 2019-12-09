@@ -839,3 +839,18 @@ future=
 comment=
 other=
 ---
+id=54
+title=DeepPrivacy：A Generative Adversarial Network for Face Anonymization
+author= kon Hukkels, Rudolf Mester, Frank LindsethH
+journal=International Symposium on Visual Computing    
+year=2019
+tags=DeepPrivacy, Generative Adversarial Network  (GAN), face Anonymization, pattern recognition, deep Learning, AI, Architecture
+star=***
+problem=We propose a novel architecture which is able to automatically anonymize faces in images while retaining the original data distribution.
+interest=
+hardness=
+idea=
+future=
+comment=
+other=https://mp.weixin.qq.com/s/oJvOX_uISzrxkLR8wwjAwQ
+---
