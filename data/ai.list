@@ -854,3 +854,18 @@ future=
 comment=
 other=https://mp.weixin.qq.com/s/oJvOX_uISzrxkLR8wwjAwQ
 ---
+id=55
+title=Introducing SLAMBench, a performance and accuracy benchmarking methodology for SLAM
+author=Luigi Nardi, et al.
+journal=IEEE Intl. Conf. on Robotics and Automation (ICRA, CCF B conference of AI area)
+year=2015
+tags=SLAMBench, SLAM, performance, accuracy, benchmarking (computing), software framework, simulation, robotics, robot, simultaneous localization and mapping, multi-core processor, massively parallel, cuda
+star=***
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=https://github.com/IntelligentSoftwareSystems/SLAMBooster
+---
