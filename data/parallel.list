@@ -59,3 +59,18 @@ future=
 comment=We show that the running times of our implementations outperform existing state-of-the-art implementations on the largest real-world graphs. For many of the problems that we consider, this is the first time they have been solved on graphs at this scale. We provide a publicly-available benchmark suite containing our implementations.
 other=code is in    https://github.com/ldhulipala/gbbs
 ---
+id=4
+title=A Survey on Graph Processing Accelerators: Challenges and Opportunities
+author= Chuang-Yi Gui, Long Zheng, Bingsheng He, et al.
+journal=Journal of Computer Science and Technology
+year=2019
+tags=survey, graph Processing accelerator, Challenges, Opportunities for the future research, runtime scheduling, distributed computing, preprocessor, efficient energy use, data structure, computer engineering, parallel graph computation, graph layout reorganization, graph ordering, graph partitioning, index-aware ordering, degree-aware ordering, conflict-aware ordering, hardware acceleration, FPGA, ASIC, PIM, HMC, ReRAM
+star=***
+problem=we conduct a systematical survey regarding the design and implementation of graph processing accelerators
+interest=
+hardness=
+idea=review the relevant techniques in three core components toward a graph processing accelerator: preprocessing, parallel graph computation, and runtime scheduling. We also examine the benchmarks and results in existing studies for evaluating a graph processing accelerator. Interestingly, we find that there is not an absolute winner for all three aspects in graph acceleration due to the diverse characteristics of graph processing and the complexity of hardware configurations.
+future=
+comment=
+other=
+---
