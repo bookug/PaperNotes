@@ -14,6 +14,8 @@ attainable throughput
 
 CNN is first inspired by research in neuroscience
 
+represents a groundbreaking technology innovation
+
 After over twenty years of evolution, CNN has been gaining more and more distinction in research elds, such as ...
 
 give rise to
