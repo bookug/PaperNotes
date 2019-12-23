@@ -871,7 +871,7 @@ other=
 ---
 id=58
 title=A (Sub)Graph Isomorphism Algorithm for Matching Large Graphs (vf2)
-author=
+author=Luigi P. Cordella, Pasquale Foggia, Carlo Sansone, Mario Vento
 journal=IEEE Transactions on Pattern Analysis and Machine Intelligence(TPAMI, CCF A journal of Artificial Intelligence)
 year=2004
 tags=vf2,graph-subgraph isomorphism,induced subgraph,depth-first search,Backtrack paradigm,backtracking,large graphs, attributed relational graphs
