@@ -869,3 +869,18 @@ future=
 comment=
 other=https://github.com/IntelligentSoftwareSystems/SLAMBooster
 ---
+id=56
+title=SOGNet: Scene Overlap Graph Network for Panoptic Segmentation
+author= Yibo Yang, Hongyang Li, Xia Li, Qijie Zhao, Jianlong Wu, Zhouchen Lin
+journal=AAAI
+year=2020
+tags=SOGNet, scene Overlap graph network, Panoptic Segmentation, pattern recognition, panopticon, scene graph, logical matrix, ground truth, graph embedding, differentiable function
+star=****
+problem=The panoptic segmentation task requires a unified result from semantic and instance segmentation outputs that may contain overlaps. 
+interest=
+hardness= current studies widely ignore modeling overlaps
+idea=model overlap relations among instances and resolve them for panoptic segmentation. Inspired by scene graph representation, we formulate the overlapping problem as a simplified case, named scene overlap graph. 
+future=
+comment=
+other=
+---
