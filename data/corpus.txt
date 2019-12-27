@@ -2,6 +2,8 @@ This file is used to collect useful phrases in English Papers.
 
 ---
 
+is the heart of
+
 CTA (Cooperative Thread Array)
 
 w.r.t.

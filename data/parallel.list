@@ -74,3 +74,18 @@ future=
 comment=
 other=
 ---
+id=5
+title=A Proof of Correctness for Egalitarian Paxos
+author=Iulian Moraru, David G. Andersen, Michael Kaminsky
+journal=sosp
+year=2013
+tags=EPaxos, distributed protocol, Egalitarian Paxos, proof of Correctness, theory, distributed consensus algorithm, availability, uniform load balancing across all replicas, optimal commit latency in the wide-area when tolerating one and two failures
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=https://dsrg.pdos.csail.mit.edu/2014/01/10/epaxos/
+---

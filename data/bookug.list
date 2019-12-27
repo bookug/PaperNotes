@@ -7378,3 +7378,33 @@ future=
 comment=Our experiments on Intel's Optane DIMMs show that DPTree reduces PM writes by a factor of 1.7x-3x compare to state-of-the-art counterparts.  Besides, DPTree has a competitive or better read performance and scales well in multi-core environment.
 other=
 ---
+id=492
+title=The Space Complexity of Approximating the Frequency Moments
+author=Noga Alon, Yossi Matias, Mario Szegedy
+journal=stoc  1996,  Journal of computer and system sciences 1999
+year=1996, 1999
+tags=stream processing, space Complexity, Approximating the Frequency moments, theory
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=493
+title=A Theoretician's Guide to the Experimental Analysis of Algorithms
+author=David S. Johnson
+journal=Data Structures, Near Neighbor Searches, and Methodology
+year=1999
+tags=Theoretician, guide, Methodology,  Experimental analysis, empirical study, survey, algorithms
+star=****
+problem=an informal discussion of issues that arise when one attempts to analyze algorithms experimentally
+interest=It is based on lessons learned by the author over the course of more than a decade of experimentation, survey paper writing, refereeing, and lively discussions with other experimentalists. Although written from the perspective of a theoretical computer scientist, it is intended to be of use to researchers from all elds who want to study algorithms experimentally.
+hardness=
+idea=It has two goals: rst, to provide a useful guide to new experimentalists about how such work can best be performed and written up, and second, to challenge current researchers to think about whether their own work might be improved from a scientic point of view.
+future=
+comment=With the latter purpose in mind, the author hopes that at least a few of his recommendations will be considered controversial
+other=
+---
