@@ -2,6 +2,16 @@ This file is used to collect useful phrases in English Papers.
 
 ---
 
+well-nigh impossible
+
+elaborate
+
+is fraught with pitfalls
+
+The presentation will be organized in terms of ten basic (and overlapping) principles that I believe should govern the writing of experimental papers
+
+for ease of reference
+
 is the heart of
 
 CTA (Cooperative Thread Array)
