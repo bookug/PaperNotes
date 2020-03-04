@@ -224,3 +224,18 @@ future=
 comment=
 other=
 ---
+id=14
+title=VF2++—An improved subgraph isomorphism algorithm
+author= Alpár Jüttner, Péter Madarasi
+journal=Discrete Applied Mathematics 
+year=2018
+tags=vf2++, vf2plus, subgraph isomorphism, Discrete Mathematics, combinatorics
+star=***
+problem=This paper presents a largely improved version of the VF2 algorithm for the Subgraph Isomorphism Problem. 
+interest=The improvements are twofold. Firstly, it is based on a new approach for determining the matching order of the nodes, and secondly, more efficient — nevertheless easier to compute — cutting rules are proposed. They together reduce the search space significantly.
+hardness=
+idea= In addition to the usual Subgraph Isomorphism Problem, the paper also presents specialized algorithms for the Induced Subgraph Isomorphism and for the Graph Isomorphism Problems.
+future=
+comment=The results show major and consistent running time improvements over the other known methods. 
+other= The C++ implementations of the algorithms are available open-source as part of the LEMON graph and network optimization library.
+---
