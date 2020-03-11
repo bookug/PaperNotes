@@ -1754,3 +1754,33 @@ future=
 comment=
 other=
 ---
+id=116
+title=A study of Persistent Threads style GPU programming for GPGPU workloads
+author= Kshitij Gupta, Jeff A. Stuart, John D. Owens
+journal=Parallel Computing
+year=2016
+tags=GPU Persistent thread, analysis of GPGPU workload
+star=***
+problem=characterize and analyze an increasingly popular style of programming for the GPU called Persistent Threads (PT).
+interest=We present a concise formal definition for this programming style, and discuss the difference between the traditional GPU programming style (nonPT) and PT, why PT is attractive for some high-performance usage scenarios, and when using PT may or may not be appropriate. 
+hardness=
+idea=We identify limitations of the nonPT style and identify four primary use cases it could be useful in addressing—CPU-GPU synchronization, load balancing/irregular parallelism, producer-consumer locality, and global synchronization. Through micro-kernel benchmarks we show the PT approach can achieve up to an order-of-magnitude speedup over nonPT kernels, but can also result in performance loss in many cases.
+future=
+comment=We conclude by discussing the hardware and software fundamentals that will influence the development of Persistent Threads as a programming style in future systems.
+other=https://limin2015.github.io/blog/2018/01/cuda-persistent-thread.html
+---
+id=117
+title= Persistent RNNs: stashing recurrent weights on-chip 
+author= Gregory Diamos, Shubho Sengupta, Bryan Catanzaro, Mike Chrzanowski
+journal=International Conference on Machine Learning (ICML)
+year=2016
+tags=GPU Persistent thread, Persistent RNN, recurrent weight, on-chip
+star=****
+problem=introduces a new technique for mapping Deep Recurrent Neural Networks (RNN) efficiently onto GPUs
+interest=We show how it is possible to achieve substantially higher computational throughput at low mini-batch sizes than direct implementations of RNNs based on matrix multiplications. 
+hardness=
+idea= The key to our approach is the use of persistent computational kernels that exploit the GPU's inverted memory hierarchy to reuse network weights over multiple timesteps.
+future=
+comment=Our initial implementation sustains 2.8 TFLOP/s at a mini-batch size of 4 on an NVIDIA TitanX GPU. This provides a 16× reduction in activation memory footprint, enables model training with 12× more parameters on the same hardware, allows us to strongly scale RNN training to 128 GPUs, and allows us to efficiently explore end-to-end speech recognition models with over 100 layers.
+other= also refer to [id:116]
+---
