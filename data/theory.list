@@ -794,3 +794,18 @@ future=
 comment=
 other=
 ---
+id=52
+title=Power laws, Pareto distributions and Zipf’s law
+author=M. E. J. Newman
+journal=arxiv
+year=2006
+tags=power law, Pareto distribution, Zipf's law, compute formula
+star=****
+problem=how to compute the alpha of power-law distribution
+interest=When the probability of measuring a particular value of some quantity varies inversely as a power of that value, the quantity is said to follow a power law, also known variously as Zipf’s law or the Pareto distribution.
+hardness=
+idea=
+future=
+comment=many real-life graphs follow power-law distribution, but not strictly. (often, the beginning part is not ok and should be removed when computing alpha)
+other=
+---
