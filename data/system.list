@@ -1,0 +1,16 @@
+---
+id=0
+title= NanoLog: A Nanosecond Scale Logging System
+author=Stephen Yang, Seo Jin Park, John Ousterhout (Stanford University)
+journal=USENIX ATC
+year=2018
+tags=Nanolog, Logging system, high-performance, lock-free, low latency, high throughput
+star=****
+problem=NanoLog is a nanosecond scale logging system that is 1-2 orders of magnitude faster than existing logging systems such as Log4j2, spdlog, Boost log or Event Tracing for Windows. 
+interest=The system achieves a throughput up to 80 million log messages per second for simple messages and has a typical log invocation overhead of 8 nanoseconds in microbenchmarks and 18 nanoseconds in applications, despite exposing a traditional printf-like API. 
+hardness=
+idea=NanoLog achieves this low latency and high throughput by shifting work out of the runtime hot path and into the compilation and post-execution phases of the application. More specifically, it slims down user log messages at compile-time by extracting static log components, outputs the log in a compacted, binary format at runtime, and utilizes an offline process to re-inflate the compacted logs. Additionally, log analytic applications can directly consume the compacted log and see a performance improvement of over 8x due to I/O savings. 
+future=
+comment=
+other=https://zhuanlan.zhihu.com/p/136208506?utm_source=wechat_session&utm_medium=social&utm_oi=909929360004366336
+---
