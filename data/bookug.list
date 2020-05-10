@@ -7423,3 +7423,18 @@ future=
 comment=
 other=
 ---
+id=495
+title=Efficient Team Formation in Social Networks based on Constrained Pattern Graph
+author=Yue Kou, Derong Shen, Quinn Snell, Dong Li, Tiezheng Nie, Ge Yu, Shuai Ma
+journal=ICDE
+year=2020
+tags=team Formation, social Networks, Constrained pattern graph (CPG), communication cost index (CCI), node matching, incremental maintenance
+star=****
+problem=Finding   a   team   that   is   both   competent   in   performing  the  task  and  compatible  in  working  together  has  been  extensively  studie
+interest=In  order  to  solve  this  problem,  we  present  an  efficient  team  formation  method  based  on  Constrained  Pattern  Graph  (called  CPG). 
+hardness= However,  most  methods  for  team  formation  tend  to  rely  on  a  set  of  skills  only.  
+idea=our   method   takes   into   account   both   structure  constraints  and  communication  constraints  on  team  members, which can better meet the requirements of users. First, a CPG  preprocessing  method  is  proposed  to  normalize  a  CPG  and represent it as a CoreCPG in order to establish the basis for efficient matching. Second, a Communication Cost Index (called CCI)  is  constructed  to  speed  up  the  matching  between  a  CPG  and its corresponding social network. Third, a CCI-based node matching algorithm is proposed to minimize the total number of intermediate    results.    Moreover,    a    set    of    incremental    maintenance  strategies  for  the  changes  of  social  networks  are  proposed.
+future=
+comment=
+other=
+---
