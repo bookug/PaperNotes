@@ -1,0 +1,46 @@
+---
+id=
+title=
+author=
+journal=
+year=
+tags=
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=0
+title=DSSLP: A Distributed Framework for Semi-supervised Link Prediction
+author=Dalong Zhang, et al.
+journal=arXiv, Accepted by BigData as Industry paper
+year=2020
+tags=DSSLP, industry, Distributed Framework, Semi-supervised, link Prediction
+star=***
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=1
+title=AGL: A Scalable System for Industrialpurpose Graph Machine Learning
+author=Dalong Zhang, Xin Huang, et al.
+journal=arXiv,  VLDB
+year=2020
+tags=
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
