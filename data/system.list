@@ -1,4 +1,19 @@
 ---
+id=
+title=
+author=
+journal=
+year=
+tags=
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
 id=0
 title= NanoLog: A Nanosecond Scale Logging System
 author=Stephen Yang, Seo Jin Park, John Ousterhout (Stanford University)
@@ -13,4 +28,19 @@ idea=NanoLog achieves this low latency and high throughput by shifting work out 
 future=
 comment=
 other=https://zhuanlan.zhihu.com/p/136208506?utm_source=wechat_session&utm_medium=social&utm_oi=909929360004366336
+---
+id=1
+title=A Generic Communication Scheduler for Distributed DNN Training Acceleration
+author=Yanghua Peng, Yibo Zhu, Yangrui Chen, Yixin Bao, Bairen Yi, Chang Lan, Chuan Wu, Chuanxiong Guo
+journal=SOSP (CCF conference of Software Engineering)
+year=2019
+tags=Communication Scheduler, Distributed DNN training, BytePS system, new AllReduce method, improved Parameter Server, data parallelism, model parallelism, bandwidth server,  pipeline design of ReduceScatter and AllGather
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=https://github.com/bytedance/byteps   https://www.zhihu.com/question/331936923   分布式训练的方案和效率对比 https://zhuanlan.zhihu.com/p/50116885    清华大学发布的自研深度学习框架-计图(Jittor)   https://www.zhihu.com/question/380993685/answer/1093243952    
 ---

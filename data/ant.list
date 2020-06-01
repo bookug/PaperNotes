@@ -74,3 +74,18 @@ future=
 comment=
 other=
 ---
+id=4
+title=SpellGCN: Incorporating Phonological and Visual Similarities into Language Models for Chinese Spelling Check
+author=Xingyi Cheng, Weidi Xu, Kunlong Chen, Shaohua Jiang, Feng Wang, Taifeng Wang, Wei Chu, Yuan Qi
+journal=arXiv
+year=2020
+tags=spellgcn, NLP, graph, 多模态 (multimodal), Phonological Similarity, visual Similarity, language model, Chinese spelling check (CSC)
+star=****
+problem=
+interest=
+hardness=
+idea=not only from context, but also from 错误拼写的发音(拼音输入法)和字形(手写，五笔输入法等). 对每个汉字构造两张图：发音图(相似发音存在边，weight)和字形图(相似字形)
+future=
+comment=much better than BERT. graph is used for improving word embedding here.
+other=In graph (user-user), how about inegrating multimodal data (image, voice, etc.) as user feature, to improve graph tasks?
+---
