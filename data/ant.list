@@ -89,3 +89,33 @@ future=
 comment=much better than BERT. graph is used for improving word embedding here.
 other=In graph (user-user), how about inegrating multimodal data (image, voice, etc.) as user feature, to improve graph tasks?
 ---
+id=5
+title=Deep Interaction Processes for Time-Evolving Graphs 
+author=xiaofu chang, jianfeng wen, xuqin liu, yanming fang, le song, yuan qi
+journal=ICLR
+year=2020
+tags=deep temporal point process, multiple time resolutions, dynamic continuous time-evolving graph, anti-fraud detection, DNN, LSTM, k-hops
+star=****
+problem=We present a principled deep neural approach that models continuous time-evolving graphs at multiple time resolutions based on a temporal point processframework.
+interest=Time-evolving graphs are ubiquitous such as online transactions on an e-commerce platform and user interactions on social networks. 
+hardness=While neural approaches have been proposed for graph modeling, most of them focus on static graphs. 
+idea=a principled deep neural approach that models continuous time-evolving graphs at multiple time resolutions based on a temporal point process framework.  To model the dependency between latent dynamic representations of each node, we define a mixture of temporal cascades in which a node's neural representation depends on not only this node's previous representations but also the previous representations of related nodes that have interacted with this node. We generalize LSTM on this temporal cascade mixture and introduce novel time gates to model time intervals between interactions.
+future=
+comment=
+other=基于历史来预测将来的行为，但是这可能存在问题。比如最近买了洗衣机，那么一年内应该是不会买洗衣机的。
+---
+id=6
+title=KunPeng: Parameter Server based Distributed Learning Systems and Its Applications in Alibaba and Ant Financial
+author=Jun Zhou, ..., Yuan Qi
+journal=SIGKDD
+year=2017
+tags=KunPeng, Parameter Server, Distributed Learning system, Alibaba, Ant Financial
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---

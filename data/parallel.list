@@ -89,3 +89,18 @@ future=
 comment=
 other=https://dsrg.pdos.csail.mit.edu/2014/01/10/epaxos/
 ---
+id=6
+title=eflops: algorithm and system co-design for a high performance distributed training platform
+author=Jianbo Dong, et al. (Alibaba)
+journal=HPCA
+year=2020
+tags=EFLOPS, algorithm, system, distributed training, DNN, topology-aware all-reduce algorithm, new network topology (BiGraph)
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=https://www.icloudnews.net/a/20200303/28394.html
+---

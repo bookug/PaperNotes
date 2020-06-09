@@ -878,9 +878,24 @@ tags=SOGNet, scene Overlap graph network, Panoptic Segmentation, pattern recogni
 star=****
 problem=The panoptic segmentation task requires a unified result from semantic and instance segmentation outputs that may contain overlaps. 
 interest=
-hardness= current studies widely ignore modeling overlaps
+hardness=current studies widely ignore modeling overlaps
 idea=model overlap relations among instances and resolve them for panoptic segmentation. Inspired by scene graph representation, we formulate the overlapping problem as a simplified case, named scene overlap graph. 
 future=
 comment=
 other=
+---
+id=57
+title=differentiable Visual Computing
+author=Tzu-Mao Li
+journal=PhD thesis, doctoral, siggraph
+year=2019
+tags=differentiable, visual computing, computer graphics, best phd thesis of SigGraph
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=https://tech.sina.com.cn/roll/2020-06-05/doc-iirczymk5400018.shtml
 ---
