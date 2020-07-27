@@ -239,3 +239,18 @@ future=
 comment=The results show major and consistent running time improvements over the other known methods. 
 other= The C++ implementations of the algorithms are available open-source as part of the LEMON graph and network optimization library.
 ---
+id=15
+title=In-Memory Subgraph Matching: An In-depth Study
+author=Shixuan Sun, Qiong Luo
+journal=SIGMOD
+year=2020
+tags=in-memory Subgraph Matching, survey, experimental study, graph, comparison and analysis
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=the code is in https://github.com/RapidsAtHKUST/SubgraphMatching
+---
