@@ -1874,3 +1874,33 @@ future=
 comment=
 other=
 ---
+id=124
+title=GPU-Accelerated Subgraph Enumeration on Partitioned Graphs
+author=Wentian Guo, Yuchen Li, Mo Sha, Bingsheng He
+journal=sigmod
+year=2020
+tags=gpu, global memory,  subgraph match, subgraph Enumeration, graph partition, large graph
+star=****
+problem=Subgraph enumeration is important for many applications such as network motif discovery and community detection.
+interest=
+hardness=Recent works utilize graphics processing units (GPUs) to parallelize subgraph enumeration, but they can only handle graphs that fit into the GPU memory.
+idea=divides the graph into partitions, each of which fits into the GPU memory. The GPU processes one partition at a time and searches the matched subgraphs of a given pattern (i.e., instances) within the partition as in the small graph. The key challenge is on enumerating the instances across different partitions, because this search would enumerate considerably redundant subgraphs and cause the expensive data transfer cost via the PCI-e bus.  a novel shared execution approach to eliminate the redundant subgraph searches and correctly generate all the instances across different partitions.
+future=
+comment=
+other=
+---
+id=125
+title=Scaph: Scalable GPU-Accelerated Graph Processing with Value-Driven Differential Scheduling
+author=long zheng (huazhong University of science and Technology)
+journal=USENIX ATC
+year=2020
+tags=scaph, gpu, graph Processing, value-driven Differential Scheduling, heterogeneous Architecture, scale-up, high-value subgraph, low-value subgraph
+star=****
+problem=building graph systems on GPU-accelerated heterogeneous platforms to achieve scaleup graph processing for large graphs that cannot fit into GPU memory
+interest=
+hardness=For active subgraphs to be processed on GPU at an iteration, the prior work always streams each in its entirety to GPU, even though only the neighboring information for its active vertices will ever be used.
+idea=Scaph boosts performance significantly by reducing the amount of such redundant data transferred, thereby improving the effective utilization of the host-GPU bandwidth drastically. The key novelty of Scaph is to classify adaptively at each iteration whether a subgraph is a high-value subgraph (if it is likely to be traversed extensively in the current and future iterations) or a low-value subgraph (otherwise). Scaph then schedules a sub-graph for graph processing on GPU using two graph processing engines, one for high-value subgraphs, which will be streamed to GPU entirely and iterated over repeatedly, one for low-value subgraphs, for which only the neighboring information needed for its active vertices is transferred.
+future=
+comment=Evaluation on real-world and synthesized large-scale graphs shows that Scaph outperforms the state-of-the-art, Totem (4.12), Graphie (8.93), and Garaph (3.71), on average.
+other=PPT is available online.
+---
