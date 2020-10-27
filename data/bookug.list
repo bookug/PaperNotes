@@ -7450,6 +7450,6 @@ interest=
 hardness=
 idea=
 future=
-comment=
-other=
+comment=only works well for binary tree; utilize the idle pointers in binary tree; O(n) time but larger constant
+other=https://leetcode-cn.com/submissions/detail/119092915/
 ---
