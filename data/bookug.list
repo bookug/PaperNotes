@@ -7438,3 +7438,18 @@ future=
 comment=
 other=
 ---
+id=496
+title=Traversing Binary Trees Simply and Cheaply (Morris Traversal)
+author=J. M. Morris
+journal= Inf. Process. Lett.
+year=1979
+tags=Morris Traversal, binary tree, constant space
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
