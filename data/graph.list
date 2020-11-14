@@ -1,0 +1,31 @@
+---
+id=
+title=
+author=
+journal=
+year=
+tags=
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=0
+title=GridGraph: Large-Scale Graph Processing on a Single Machine Using 2-Level Hierarchical Partitioning
+author=Xiaowei Zhu, Wentao Han, and Wenguang Chen (Tsinghua University)
+journal=ATC
+year=2015
+tags=GridGraph, graph processing, graph computing, single machine, 2-level Hierarchical Partitioning, graph Partition, dual sliding windows, on-the-fly vertex updates
+star=****
+problem=a system for processing large-scale graphs on a single machine
+interest=
+hardness=
+idea=GridGraph breaks graphs into 1D-partitioned vertex chunks and 2D-partitioned edge blocks using a first fine-grained level partitioning in preprocessing. A second coarsegrained level partitioning is applied in runtime. Through a novel dual sliding windows method, GridGraph can stream the edges and apply on-the-fly vertex updates, thus reduce the I/O amount required for computation.  The partitioning of edges also enable selective scheduling so that some of the blocks can be skipped to reduce unnecessary I/O. This is very effective when the active vertex set shrinks with convergence.
+future=
+comment=Our evaluation results show that GridGraph scales seamlessly with memory capacity and disk bandwidth, and outperforms state-of-the-art out-of-core systems, including GraphChi and X-Stream. Furthermore, we show that the performance of GridGraph is even competitive with distributed systems, and it also provides significant cost efficiency in cloud environment.
+other=https://github.com/thu-pacman/GridGraph  ;  this system has been sold to Alibaba ; the history of graph computing   https://zhuanlan.zhihu.com/p/80455017
+---
