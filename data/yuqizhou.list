@@ -472,12 +472,12 @@ year=2016
 tags=Gemini, computation-centric, distributed graph processing system
 star=****
 problem=
-interest=
+interest=已有的分布式图计算系统会损失如此多性能的原因，主要可以归结于两方面： 过于重视通信和负载均衡带来的影响；忽略了分布式场景下计算部分的影响。
 hardness=
-idea=
+idea=Gemini抛弃了传统分布式图计算系统以图划分质量为优化方向的观念，提出了以计算为中⼼的设计原则： 尽可能地避免分布式引入的开销；尽可能地提升计算部分的效率。
 future=
 comment=
-other=The Bolatu graph processing system (developed by Tencent) is based on this paper.
+other=The Plato graph processing system (developed by Tencent) is based on this paper; https://zhuanlan.zhihu.com/p/83202666
 ---
 id=32
 title=Probabilistic automata for computing with words
