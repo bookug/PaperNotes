@@ -22,8 +22,8 @@ Please do not modify the template file: 'data/template.list'.
 The searching is based on substring, so the order can not be changed, like 'Li Zeng' is different from 'Zeng Li'.
 
 ```
-src/search.py -j "Frontier" -a "Lei Zou,Li Zeng"
-src/search.py -g "GPU" -s 4
+./search -j "Frontier" -a "Lei Zou,Li Zeng"
+./search -g "GPU" -s 4
 -h or --help: shows the manual info
 -g or --tags: the tags of paper, multiple tags divided by comma
 -a or --author: the authors of paper, multiple authors divided by comma
@@ -38,11 +38,11 @@ src/search.py -g "GPU" -s 4
 To see the number of all papers:
 
 ```
-src/search.py -s 0|grep "id =>" |wc -l
+./search -s 0|grep "id =>" |wc -l
 ```
 or
 ```
-src/search.py -g ""|grep "id =>" |wc -l
+./search -g ""|grep "id =>" |wc -l
 ```
 
 ### Literature
@@ -53,7 +53,7 @@ If the file is too big to open, you can write your notes in another file(for exa
 cat add.list >> data/literature.list
 ```
 
-You can search in this file directly, or search via src/search.py
+You can search in this file directly, or search via ./search
 However, this file can be very big, thus sometimes using vim to open it and search is not a good choice.
 Instead, you can try stream editor like 'grep', 'sed' or 'awk'.
 
