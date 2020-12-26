@@ -1,0 +1,31 @@
+---
+id=
+title=
+author=
+journal=
+year=
+tags=
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=0
+title=Parity Logging with Reserved Space: Towards Efficient Updates and Recovery in Erasure-coded Clustered Storage
+author=Jeremy C. W. Chan, Qian Ding
+journal=FAST
+year=2014
+tags=parity logging, optimization of LSM tree, Reserved space, update, recovery, Clustered storage
+star=****
+problem=
+interest=
+hardness=updates are expensive, Recovery/degraded reads are expensive
+idea=
+future=
+comment=
+other=code is in http://ansrlab.cse.cuhk.edu.hk/software/codfs/
+---
