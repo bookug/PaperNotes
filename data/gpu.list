@@ -1875,11 +1875,11 @@ comment=
 other=
 ---
 id=124
-title=GPU-Accelerated Subgraph Enumeration on Partitioned Graphs
+title=GPU-Accelerated Subgraph Enumeration on Partitioned Graphs (PBE)
 author=Wentian Guo, Yuchen Li, Mo Sha, Bingsheng He
 journal=sigmod
 year=2020
-tags=gpu, global memory,  subgraph match, subgraph Enumeration, graph partition, large graph
+tags=gpu, global memory,  subgraph match, subgraph Enumeration, graph partition, large graph, PBE
 star=****
 problem=Subgraph enumeration is important for many applications such as network motif discovery and community detection.
 interest=

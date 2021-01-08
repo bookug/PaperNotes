@@ -29,3 +29,18 @@ future=
 comment=Our evaluation results show that GridGraph scales seamlessly with memory capacity and disk bandwidth, and outperforms state-of-the-art out-of-core systems, including GraphChi and X-Stream. Furthermore, we show that the performance of GridGraph is even competitive with distributed systems, and it also provides significant cost efficiency in cloud environment.
 other=https://github.com/thu-pacman/GridGraph  ;  this system has been sold to Alibaba ; the history of graph computing   https://zhuanlan.zhihu.com/p/80455017
 ---
+id=1
+title=Analysis and Optimization of the memory hierarchy for graph processing Workloads
+author=Abanti Basak
+journal=HPCA
+year=2019
+tags=graph performance model, memory hierarchy, graph processing workload
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---

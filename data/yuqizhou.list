@@ -49,13 +49,13 @@ title=Subgraph matching: on compression and computation.
 author=Miao Qiao, Hao Zhang and Hong Cheng
 journal= Proceedings of the Vldb Endowment(CCF A of database area)
 year=2017
-tags=VCBC(vertex-cover based compression), CBF, helve, Crystal and clique , C(x,y), subgraph matching, compression, computation, output results, minimum vertex Cover (MVC), vertex-cover based compression (VCBC), Crystal-Based computation Framework (CBF), output crisis, compression of materialization of final results
+tags=external memory, VCBC(vertex-cover based compression), CBF, helve, Crystal and clique , C(x,y), subgraph matching, compression, computation, output results, minimum vertex Cover (MVC), vertex-cover based compression (VCBC), Crystal-Based computation Framework (CBF), output crisis, compression of materialization of final results
 star=****
 problem=when the system has to materialize the subgraph isomorphism results as a preprocessing/intermediate/final result or an index (I), the cost of the exporting dominates the overall cost. 1) Is there an ideal compression of I? 2) Will the compression of I reversely boost the computation of I?
 interest=various appliactions such as biology ,social science ,et al.
 hardness=It is NP hard & target graph may not fit into the memory & output crisis
-idea=the intuition is that some vertices can be compressed as they are not needed in future computation. The vertices that do not belong to the minimum vertex cover (MVC)   ;   using output compression（vector-cover based）, Crystal-based Computation Framework to reduce the cost of subgraph matching. Combine both to 'Core-Crysstal Decomposition'& introduce CBF to external momory and parallel platforms
-future=explore the compression technique on directed or labeled grapgs
+idea=如何压缩中间表。选中查询图的一个顶点覆盖作为核心。非核心点之间没有边。核心是无法压缩的，但对于核心的每一个匹配，非核心部分是可以压缩的。本来会作为卡氏积结果存在中间表，实际上可以压缩成一维，大大减小存储空间。需要时再恢复。The vertices that do not belong to the minimum vertex cover (MVC)   ;   using output compression（vector-cover based）, Crystal-based Computation Framework to reduce the cost of subgraph matching. Combine both to 'Core-Crysstal Decomposition'& introduce CBF to external momory and parallel platforms
+future=explore the compression technique on directed or labeled graphs
 comment=a minimun vertex cover is still preferred & the definition of 'helve' cannot be found outside   ;      Output compression is vertical to input compression techniques ([id:1] of db.list) which focus on downsizing the size of the target graph in a subgraph matching.
 other= NULL
 ---
