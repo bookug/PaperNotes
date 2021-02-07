@@ -1351,7 +1351,7 @@ other=also see [id:37] of bookug.list
 ---
 id=89
 title=graph coloring on the GPU
-author=Muhammad Osama, Minh Truong, Carl Yang
+author=Muhammad Osama, Minh Truong, Carl Yang, John D. Owens
 journal=IPDPSW
 year=2019
 tags=graph coloring, GPU

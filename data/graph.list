@@ -44,3 +44,33 @@ future=
 comment=
 other=
 ---
+id=2
+title=The Future is Big Graphs! A Community View on Graph Processing Systems
+author=sherif sakr, et al
+journal=arXiv, CACM
+year=2020
+tags=vision, graph processing, computer systems, data management, Community view
+star=****
+problem=What needs to happen in the next decade for big graph processing to continue to succeed?
+interest=
+hardness=The diversity of models and systems led initially to the fragmentation of the market and a lack of clear direction for the community
+idea=
+future=
+comment=
+other=
+---
+id=3
+title=Exploring HPC and Big Data Convergence: A Graph Processing Study on Intel Knights Landing
+author=Alexandru Uta
+journal=IEEE International Conference on Cluster Computing (CLUSTER, CCF B conference of architecture)
+year=2018
+tags=hpc, big data, Convergence, graph Processing, intel Knights Landing (KNL), Hardware-Platform-Algorithm-Dataset (HPAD) Law
+star=****
+problem=investigate the convergence of big data and HPC infrastructure for one of the most challenging application domains, the highly irregular graph processing
+interest=an understand-first approach, and conducted the first performance study of graph processing (a representative big-data workload)on big-data software platforms running on HPC infrastructure based on KNL (which can run graph processing workloads out-of-the-box). In other words, we investigate KNL as a hardware platform to achieve HPC-big data convergence.
+hardness=The current approaches seem build-first, and raise the daunting challenge of solving portability for a broad domain.
+idea=the closer the platform is to the hardware, and the less general is its programming model, the better its performance is.   each type of platform interacts differently with the KNL hardware, and requires different types of tuning.
+future=
+comment=
+other=
+---
