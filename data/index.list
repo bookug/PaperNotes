@@ -29,3 +29,18 @@ future=
 comment=
 other=code is in http://ansrlab.cse.cuhk.edu.hk/software/codfs/
 ---
+id=1
+title=The Adaptive Radix Tree: ARTful Indexing for Main-Memory Databases
+author=Viktor Leis, Alfons Kemper, Thomas Neumann
+journal=ICDE
+year=2013
+tags=Adaptive radix tree, trie, indexing, main-memory, database
+star=****
+problem=如何在实际的数据库系统中应用Radix Tree作为索引
+interest=其核心的思想是如何减少空间的浪费
+hardness=因为常用方法往往造成空间上的浪费，所以Radix Tree并没有广泛应用在DBMS中
+idea=每次新生成节点的时候，都是Node4类型，也就是最小的。插入数据的时候，如果发现放不下了，就要扩充节点容量变成比当前大一级的节点。
+future=
+comment=
+other=https://blog.csdn.net/matrixyy/article/details/70182527   ;    https://blog.csdn.net/Androidlushangderen/article/details/91660880?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control
+---
