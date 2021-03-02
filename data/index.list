@@ -42,5 +42,5 @@ hardness=因为常用方法往往造成空间上的浪费，所以Radix Tree并�
 idea=每次新生成节点的时候，都是Node4类型，也就是最小的。插入数据的时候，如果发现放不下了，就要扩充节点容量变成比当前大一级的节点。
 future=
 comment=
-other=https://blog.csdn.net/matrixyy/article/details/70182527   ;    https://blog.csdn.net/Androidlushangderen/article/details/91660880?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control
+other=this essay messes Radix tree and Trie:  https://blog.csdn.net/matrixyy/article/details/70182527   ;    https://blog.csdn.net/Androidlushangderen/article/details/91660880?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control
 ---
