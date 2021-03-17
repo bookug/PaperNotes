@@ -104,3 +104,18 @@ future=
 comment=
 other=the first pagerank paper of Google, not published. ;   Chinese transaction  https://blog.csdn.net/hjjscofield/article/details/62206042
 ---
+id=6
+title=FAST: FPGA-based Subgraph Matching on Massive Graphs
+author=Xin Jin, Zhengyi Yang, Xuemin Lin, Shiyu Yang, Lu Qin, You Peng
+journal=arXiv
+year=2021
+tags=FAST,FPGA, subgraph matching, massive graph, single machine, CPU-FPGA co-designed framework
+star=****
+problem=Subgraph matching is a basic operation widely used in many applications. 
+interest=In this paper, we aim at scaling up subgraph matching on a single machine using FPGAs. 
+hardness=due to its NP-hardness and the explosive growth of graph data, it is challenging to compute subgraph matching, especially in large graphs. 
+idea=we propose a CPU-FPGA co-designed framework. On the CPU side, we first develop a novel auxiliary data structure called candidate search tree (CST) which serves as a complete search space of subgraph matching. CST can be partitioned and fully loaded into FPGAs' on-chip memory. Then, a workload estimation technique is proposed to balance the load between the CPU and FPGA. On the FPGA side, we design and implement the first FPGA-based subgraph matching algorithm, called FAST. To take full advantage of the pipeline mechanism on FPGAs, task parallelism optimization and task generator separation strategy are proposed for FAST, achieving massive parallelism. Moreover, we carefully develop a BRAM-only matching process to fully utilize FPGA's on-chip memory, which avoids the expensive intermediate data transfer between FPGA's BRAM and DRAM. 
+future=
+comment=Comprehensive experiments show that FAST achieves up to 462.0x and 150.0x speedup compared with the state-of-the-art algorithm DAF and CECI, respectively. In addition, FAST is the only algorithm that can handle the billion-scale graph using one machine in our experiments. 
+other=
+---
