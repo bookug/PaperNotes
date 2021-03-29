@@ -119,3 +119,18 @@ future=
 comment=Comprehensive experiments show that FAST achieves up to 462.0x and 150.0x speedup compared with the state-of-the-art algorithm DAF and CECI, respectively. In addition, FAST is the only algorithm that can handle the billion-scale graph using one machine in our experiments. 
 other=
 ---
+id=7
+title=Aggregation Support for Modern Graph Analytics in TigerGraph
+author=Alin Deutsch, Yu Xu, Mingxi Wu, Victor E. Lee
+journal=sigmod
+year=2020
+tags=graph query language standard (GQL), examples of GSQL, TigerGraph, graph Analytics, Aggregation, expressive power, evaluation complexity,graph database, single-pass Treeway Aggregation, recommender query, pagerank query, pattern-based declarativity, accumulator-based Aggregation, shortest path (APSP)
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
