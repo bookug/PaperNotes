@@ -44,3 +44,33 @@ future=
 comment=
 other=this essay messes Radix tree and Trie:  https://blog.csdn.net/matrixyy/article/details/70182527   ;    https://blog.csdn.net/Androidlushangderen/article/details/91660880?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control
 ---
+id=2
+title=LB+-Trees: Optimizing Persistent Index Performance on 3DXPoint Memory
+author=Jihang Liu, Shimin Chen, Lujun Wang
+journal=VLDB
+year=2020
+tags=LB+-Tree, Persistent index, 3DXPoint Memory
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=https://zhuanlan.zhihu.com/p/359723970   ;   https://segmentfault.com/a/1190000027074145
+---
+id=3
+title=Leaper: A Learned Prefetcher for Cache Invalidation in LSM-tree based 
+author=Lei Yang
+journal=VLDB
+year=2020
+tags=Leaper, learned Prefetcher, machine learning, cache Invalidation, LSM-tree, X-engine
+star=****
+problem=Frequency-based cache replacement policies that work wellon page-based database storage engines are no longer suffi-cient for the emerging LSM-tree (Log-Structure Merge-tree)based storage engines
+interest= Due to the append-only and copy-on-write techniques applied to accelerate writes, the state-of-the-art LSM-tree adopts mutable record blocks and issuesfrequent background operations (i.e., compaction, flush) toreorganize records in possibly every block. 
+hardness= As a side-effect,such operations invalidate the corresponding entries in thecache for each involved record, causing sudden drops on thecache hit rates and spikes on access latency.
+idea=Leaper, a machine learn-ing method to predict hot records in an LSM-tree storageengine and prefetch them into the cache without being dis-turbed by background operations.
+future=
+comment=
+other=cooperated with Alibaba
+---
