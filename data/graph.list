@@ -134,3 +134,18 @@ future=
 comment=
 other=
 ---
+id=8
+title=RapidMatch: A Holistic Approach to Subgraph Query Processing
+author=Shixuan Sun, Xibo Sun, Yulin Che, Prof. Qiong Luo, and Prof. Bingsheng He 
+journal=VLDB
+year=2021
+tags=RapidMatch, Subgraph matching, Subgraph query Processing
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=https://github.com/RapidsAtHKUST/RapidMatch
+---
