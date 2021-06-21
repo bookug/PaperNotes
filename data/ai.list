@@ -929,3 +929,18 @@ future=
 comment=
 other=
 ---
+id=60
+title=AgileGAN: Stylizing Portraits by Inversion-Consistent Transfer Learning
+author=Guoxian Song, Linjie Luo, Jing Liu, Wan-Chun Ma, Chunpong Lai, Chuanxia Zheng, Tat-Jen Cham
+journal=SigGraph
+year=2021
+tags=AgileGAN, AI, dnn, transfer learning, Portrait generation, stylization, image-to-image translation, styleGAN
+star=****
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=https://github.com/GuoxianSong/AgileGAN    ;     https://blog.csdn.net/zandaoguang/article/details/117887570   ;  https://www.chuanxiaz.com/publication/agilegan/
+---
