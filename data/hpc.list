@@ -1,0 +1,31 @@
+---
+id=
+title=
+author=
+journal=
+year=
+tags=
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=0
+title=Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations
+author=Tillet, Philippe and Kung, Hsiang-Tsung and Cox, David
+journal=Proceedings of the 3rd ACM SIGPLAN International Workshop on Machine Learning and Programming Languages
+year=2019
+tags=Triton, Programming language, Compiler, tiled neural network, cuda, gpu, parallel computing, LLVM-based Intermediate representation, performance and portability
+star=****
+problem=The validation and deployment of novel research ideas in the field of Deep Learning is often limited by the availability of efficient compute kernels for certain basic primitives.
+interest= the development of new programming abstractions forspecifyingcustomDeepLearningworkloadsataminimal performance cost has become crucial.
+hardness= In particular, operations that cannot leverage existing vendor libraries (e.g., cuBLAS, cuDNN) are at risk of facing poor deviceutilizationunlesscustomimplementationsarewritten by experts – usually at the expense of portability. 
+idea=presentTriton,alanguageandcompilercenteredaround the concept of tile, i.e., statically shaped multi-dimensional sub-arrays. Our approach revolves around (1) a C-based lan- guage and an LLVM-based intermediate representation (IR) for expressing tensor programs in terms of operations on parametric tile variables and (2) a set of novel tile-level opti- mization passes for compiling these programs into efficient GPU code.
+future=
+comment= We demonstrate how Triton can be used to build portable implementations of matrix multiplication and con- volution kernels on par with hand-tuned vendor libraries (cuBLAS / cuDNN), or for efficiently implementing recent research ideas such as shift convolutions.
+other=
+---
