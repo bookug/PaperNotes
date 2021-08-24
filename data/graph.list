@@ -149,3 +149,18 @@ future=
 comment=
 other=https://github.com/RapidsAtHKUST/RapidMatch
 ---
+id=9
+title=Fitting Power Law Distributions to Data 
+author=Willy Lai
+journal=UC Berkeley Statistics
+year=2016
+tags=power law distribution, estimation, graph structure
+star=****
+problem=how to estimate the xmin and alpha in power-law distribution
+interest=
+hardness=
+idea=
+future=
+comment=also count the error value; xmin is not the minimum degree, but a bias in the formula.
+other=https://github.com/ntamas/plfit
+---
