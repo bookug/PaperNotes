@@ -45,8 +45,8 @@ class Paper(object):
         # BETTER: set a display order for different items
         # for key in self.content:
         for key in items:
-            print key, "=>", self.content[key]
-        print "---"
+            print(key, "=>", self.content[key])
+        print("---")
     def test(self, num=1):
         return num * 2
     def copy(self):
@@ -148,7 +148,7 @@ def starString(arg):
     num = int(arg)
     ret = ""
     for i in range(num):
-        ret = ret + '\*';
+        ret = ret + r'\*';
     # print ret
     return ret
 
@@ -220,7 +220,7 @@ if __name__ == '__main__':
     sorted_results = sorted(results, key=lambda paper:len(paper.content[sort_key]), reverse=True)
     # print "sorted_results:"
     # print sorted_results
-    print "---"
+    print("---")
     for r in sorted_results:
         r.output()
 
