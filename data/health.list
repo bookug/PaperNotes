@@ -1,0 +1,46 @@
+---
+id=
+title=
+author=
+journal=
+year=
+tags=
+star=
+problem=
+interest=
+hardness=
+idea=
+future=
+comment=
+other=
+---
+id=0
+title=AUTOMATIC DEPRESSION DETECTION: AN EMOTIONAL AUDIO-TEXTUAL CORPUS AND A GRU/BILSTM-BASED MODEL
+author=Ying Shen, Huiyu Yang, Lin Lin
+journal=ICASSP
+year=2022
+tags=World Health Organization (WHO), automatic Depression detection, Multi-modal fusion, EATD-Corpus, mental state, EMOTIONAL audio-textual corpus, GRU model, BILSTM model, mental health, hospital, physician, psychologist, self-assessment, privacy, diagnostic accuracy, clinical interview, speech characteristic, linguistic content,  public Chinese Depression dataset, preset question, deep learning, multimedia, SDS questionnaire
+star=***
+problem=Depression is a global mental health problem, the worst case of which can lead to suicide.
+interest=An automatic depression detection sys-tem provides great help in facilitating depression self-assessment and improving diagnostic accuracy
+hardness=
+idea=we propose a novel depression detection approach utilizing speech characteristics and linguistic contents from participants’ interviews. In addition, we establish an Emotional Audio-Textual Depression Corpus(EATD-Corpus) which contains audios and extracted transcripts of responses from depressed and non-depressed volunteers
+future=
+comment=EATD-Corpus is the first and only public depression dataset that contains audio and text data in Chinese. Evaluated on two depression datasets, the proposed method achieves the state-of-the-art performances. The outperforming results demonstrate the effectiveness and generalization ability
+other=https://github.com/speechandlanguageprocessing/ICASSP2022-Depression   ;   https://www.who.int/health-topics/depression#tab=tab_1
+---
+id=1
+title=FUSING MULTI-LEVEL FEATURES FROM AUDIO AND CONTEXTUAL SENTENCE EMBEDDING FROM TEXT FOR INTERVIEW-BASED DEPRESSION DETECTION
+author=Junqi Xue
+journal=ICASSP
+year=2024
+tags=World Health Organization (WHO), automatic Depression detection, Multi-modal fusion, mental state, EMOTIONAL audio-textual corpus, mental health, hospital, physician, psychologist, self-assessment, privacy, diagnostic accuracy, clinical interview, speech characteristic, linguistic content, multi-level audio feature, text sentence embedding, channel attention, audio representation, pre-trained BERT, independence and correlation between different modalities
+star=***
+problem=Automatic depression detection based on audio and text represen-tations from participants’ interviews has attracted widespread at-tention
+interest=an effective multi-modal fusion approach to leverage the independence among audio and text representations is still lacking
+hardness=most of previous researches only used one type of feature of one single modality for depression detection, so that the rich information of audio and text from interviews has not been fully utilized
+idea=we propose a multi-modal fusion depression detection model based on the interaction of multi-level audio features and text sentence embedding. Specifically, we first extract Low-Level Descriptors (LLDs), mel-spectrogram fea-tures, and wav2vec features from the audio. Then we design a Multi-level Audio Features Interaction Module (MAFIM) to fuse these three levels of features for a comprehensive audio representation. For interview text, we use pre-trained BERT to extract sentence-level embedding. Further, to effectively fuse audio and text represen-tations, we design a Channel Attention-based Multi-modal Fusion Module (CAMFM) by taking into account the independence and correlation between two different modalities
+future=
+comment=Our proposed model shows better performance on two datasets, DAIC-WOZ and EATD-Corpus, than existing methods, so it has a high potential to be applied for interview-based depression detection in practice
+other=
+---
